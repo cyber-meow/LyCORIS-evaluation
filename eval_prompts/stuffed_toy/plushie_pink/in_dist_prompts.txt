@@ -1,0 +1,10 @@
+dits stuffed toy, indoors, looking at viewer, desk, facing front, straight on
+dits stuffed toy, indoors, monitor, from side, window, blurry background, building outside
+dits stuffed toy, standing, low angle, window, blurry background, building outside, sunlight
+dits stuffed toy, indoors, monitor, from side, window, louver
+dits stuffed toy, indoors, from above, desk, duck
+dits stuffed toy, indoors, sitting, keyboard, notebook, book, desk
+dits stuffed toy, from above, box, puzzles
+dits stuffed toy, looking at viewer, sitting, sofa, facing front, straight on
+dits stuffed toy, indoors, looking at viewer, standing, from above, floor
+dits stuffed toy, sitting on box, table

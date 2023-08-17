@@ -1,0 +1,10 @@
+blob anime boy, school uniform, running, cherry blossoms, street, sunset 
+blob anime boy, kimono, lying, tatami, curtains
+blob anime boy, military uniform, standing, ruins, flower, cloudy sky, bird
+blob anime boy, dress, dancing, indoors, chandelier, mirror, candle
+blob anime boy, robe, seiza, torii, pond, fog, ripples
+blob anime boy, casual, reading, rooftop, cityscape, starry sky
+blob anime boy, sportswear, jumping, beach, waves, sunlight, seagull
+blob anime boy, traditional clothes, playing, festival, lantern, fireworks
+blob anime boy, coat, walking, snow, bridge, lamppost, river
+blob anime boy, jacket, singing, hair ornament, stage, spotlight, audience

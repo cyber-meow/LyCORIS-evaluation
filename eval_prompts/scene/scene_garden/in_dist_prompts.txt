@@ -1,0 +1,7 @@
+omd scene, passage
+omd scene, oblique angle, fence
+omd scene, oblique angle, fence
+omd scene, oblique angle, fence
+omd scene, oblique angle, passage
+omd scene, distant view, passage, fence
+omd scene, front view, fence

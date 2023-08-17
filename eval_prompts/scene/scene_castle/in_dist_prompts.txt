@@ -1,0 +1,5 @@
+adl scene, front view, sunny, blue sky, people, cloud, grassland
+adl scene, from above, sky, cloud, field, grassland, nature, shadow, tree
+adl scene, front view, sunny, blue sky, people, cloud
+adl scene, front view, day, blue sky, close shot
+adl scene, front view, cloudy, sky, people, grassland, bare tree

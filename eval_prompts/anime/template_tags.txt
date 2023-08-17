@@ -1,0 +1,10 @@
+{}, school uniform, running, cherry blossoms, street, sunset 
+{}, kimono, lying, tatami, curtains
+{}, military uniform, standing, ruins, flower, cloudy sky, bird
+{}, dress, dancing, indoors, chandelier, mirror, candle
+{}, robe, seiza, torii, pond, fog, ripples
+{}, casual, reading, rooftop, cityscape, starry sky
+{}, sportswear, jumping, beach, waves, sunlight, seagull
+{}, traditional clothes, playing, festival, lantern, fireworks
+{}, coat, walking, snow, bridge, lamppost, river
+{}, jacket, singing, hair ornament, stage, spotlight, audience

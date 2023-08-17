@@ -1,0 +1,5 @@
+shld scene, oblique angle
+shld scene, front view, bare tree
+shld scene, front view, bare tree, close shot
+shld scene, oblique angle
+shld scene, oblique angle, bare tree
