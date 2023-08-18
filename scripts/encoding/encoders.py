@@ -4,11 +4,8 @@ import open_clip
 import torch
 import torch.nn as nn
 import torchvision.models as models
-import torchvision.transforms as TF
 
-
-def _convert_to_rgb(image):
-    return image.convert('RGB')
+from transform import image_transform
 
 
 class Encoder(object):
@@ -24,28 +21,17 @@ class Encoder(object):
 
         accept_rectangle = self.get_accept_rectangle()
 
-        if accept_rectangle and resize_mode != 'resize':
-            print(f"Warning, {resize_mode} is used while"
-                  + " the model can accept rectangle input")
-
-        if resize_mode == 'resize':
-            if accept_rectangle:
-                resize = TF.Resize(image_size,
-                                   interpolation=TF.InterpolationMode.BICUBIC)
+        if accept_rectangle:
+            if resize_mode != 'resize':
+                print(f"Warning, {resize_mode} is used while" +
+                      " the model can accept rectangle input")
             else:
-                resize = TF.Resize((image_size, image_size),
-                                   interpolation=TF.InterpolationMode.BICUBIC)
-            normalize = TF.Normalize(mean=image_mean, std=image_std)
-            self.transform = TF.Compose(
-                [resize, _convert_to_rgb, TF.ToTensor(), normalize])
-        else:
-            use_padding = resize_mode == 'padding'
-            self.transform = open_clip.image_transform(
-                image_size=image_size,
-                is_train=False,
-                mean=image_mean,
-                std=image_std,
-                resize_longest_max=use_padding)
+                resize_mode = 'resize_rectangle'
+
+        self.transform = image_transform(image_size=image_size,
+                                         mean=image_mean,
+                                         std=image_std,
+                                         resize_mode=resize_mode)
 
     def setup_model(self):
         raise NotImplementedError

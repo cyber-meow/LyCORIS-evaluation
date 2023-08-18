@@ -114,8 +114,10 @@ def compute_diversity_scores(features, n_max, n_eval_samples):
 
 def concatenate_and_resample(features_dicts,
                              n_cache_max=None,
-                             proportions=None):
+                             proportions=None,
+                             debug=False):
     concatenated_features_dict = {}
+    num_features = 0
 
     # Initial concatenation
     for features_dict in features_dicts:
@@ -124,6 +126,7 @@ def concatenate_and_resample(features_dicts,
                 concatenated_features_dict[key] = [value]
             else:
                 concatenated_features_dict[key].append(value)
+        num_features += len(value)
 
     # Convert lists to tensors
     for key in concatenated_features_dict:
@@ -131,16 +134,24 @@ def concatenate_and_resample(features_dicts,
             concatenated_features_dict[key])
 
     # If n_cache_max is provided, resample based on proportions
-    if n_cache_max:
+    if n_cache_max and n_cache_max < num_features:
         expanded_weights = []
+        if debug:
+            print(len(proportions))
+            print(len(features_dicts))
         for proportion, features_dict in zip(proportions, features_dicts):
             n_features = len(next(iter(features_dict.values())))
             per_feature_weight = proportion / n_features
             expanded_weights.extend([per_feature_weight] * n_features)
         expanded_weights = expanded_weights / np.sum(expanded_weights)
+        if debug:
+            print(len(expanded_weights))
 
         for key in concatenated_features_dict:
             feature_matrix = concatenated_features_dict[key]
+            if debug:
+                print(key)
+                print(feature_matrix.shape)
             sample_indices = np.random.choice(len(feature_matrix),
                                               size=n_cache_max,
                                               replace=False,
@@ -217,7 +228,8 @@ def dfs_diversity(folder_path,
                   n_eval_samples,
                   existing_df,
                   results,
-                  pbar=None):
+                  pbar=None,
+                  debug=False):
     """
     Depth-first search for folder traversal and computing diversity scores.
 
@@ -243,32 +255,42 @@ def dfs_diversity(folder_path,
             sub_features, n_images = dfs_diversity(item_path, root_dir, n_min,
                                                    n_max, n_cache_max,
                                                    n_eval_samples, existing_df,
-                                                   results, pbar)
+                                                   results, pbar, debug)
             features_from_subdirs.append(sub_features)
             proportions.append(n_images)
-        else:
-            n_images = 0
+            total_images += n_images
+            if debug:
+                print(total_images)
 
-        # If we are at a directory with an image-feature.npz file
-        if 'image-features.npz' in os.listdir(folder_path):
-            file_path = os.path.join(folder_path, 'image-features.npz')
-            file_features = load_npz_as_torch(file_path, n_cache_max)
-            n_images += len(next(iter(file_features.values())))
-            features_from_subdirs.append(file_features)
+            # If we exceed n_cache_max, we perform resampling
+            if n_cache_max is not None and total_images > n_cache_max:
+                features_from_subdirs = concatenate_and_resample(
+                    features_from_subdirs,
+                    n_cache_max,
+                    proportions,
+                    debug=debug)
+                features_from_subdirs = [features_from_subdirs]
+                proportions = [total_images]
 
-        proportions.append(n_images)
-        total_images += n_images
+    # If we are at a directory with an image-feature.npz file
+    if 'image-features.npz' in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, 'image-features.npz')
+        file_features = load_npz_as_torch(file_path, n_cache_max)
+        num_features = len(next(iter(file_features.values())))
+        # Need this for return
+        total_images += num_features
+        proportions.append(num_features)
+        features_from_subdirs.append(file_features)
 
-        # If we exceed n_cache_max, we perform resampling
-        if n_cache_max is not None and total_images > n_cache_max:
-            features_from_subdirs = concatenate_and_resample(
-                features_from_subdirs, n_cache_max, proportions)
-            features_from_subdirs = [features_from_subdirs]
-            proportions = [total_images]
+    if debug:
+        print(folder_path)
 
-    # Assume there are always feaures
+    # Assume there are always features
     if len(features_from_subdirs) > 1:
-        concatenated_features = concatenate_and_resample(features_from_subdirs)
+        concatenated_features = concatenate_and_resample(features_from_subdirs,
+                                                         n_cache_max,
+                                                         proportions,
+                                                         debug=debug)
     else:
         concatenated_features = features_from_subdirs[0]
 
@@ -282,7 +304,6 @@ def dfs_diversity(folder_path,
 
     # Compute scores if there are enough features
     if num_features >= n_min:
-        print(folder_path)
         scores_list = compute_diversity_scores(concatenated_features, n_max,
                                                n_eval_samples)
         # Update the results DataFrame
@@ -315,7 +336,7 @@ def main(args):
               unit="dir") as pbar:
         dfs_diversity(args.root_dir, args.root_dir, args.n_min, args.n_max,
                       args.n_cache_max, args.n_eval_samples, existing_df,
-                      results, pbar)
+                      results, pbar, args.debug)
 
     # After DFS, create and/or update the CSV
     new_df = pd.DataFrame(results)
@@ -357,6 +378,9 @@ if __name__ == '__main__':
                         type=str,
                         default='all_diversity.csv',
                         help="Path to save CSV with scores.")
+    parser.add_argument('--debug',
+                        action='store_true',
+                        help='Print informationg for debugging.')
 
     args = parser.parse_args()
 

@@ -72,7 +72,7 @@ def encode_image_features(image_paths,
     dataloader = DataLoader(dataset,
                             batch_size=batch_size,
                             pin_memory=True,
-                            num_workers=8,
+                            num_workers=1,
                             shuffle=False)
 
     all_keys = []
