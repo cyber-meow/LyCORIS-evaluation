@@ -14,7 +14,7 @@ def compute_vendi_and_dissim(X):
     X = normalize(X, dim=1)
     n = X.shape[0]
     S = X @ X.T
-    # S = S.to(torch.float32)
+    S = S.to(torch.float32)
     # print('similarity matrix of shape {}'.format(S.shape))
     w = torch.linalg.eigvalsh(S / n)
     vendi = torch.exp(entropy_q(w))
@@ -340,7 +340,7 @@ if __name__ == '__main__':
         help="Minimum number of samples required to compute scores.")
     parser.add_argument(
         '--n_max',
-        default=9999,
+        default=10000,
         type=int,
         help="Maximum  number of samples used to compute scores.")
     parser.add_argument(

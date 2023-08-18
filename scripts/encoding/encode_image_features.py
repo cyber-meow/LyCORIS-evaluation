@@ -79,7 +79,7 @@ def encode_image_features(image_paths,
     all_features = []
     # all_images = []
 
-    with torch.no_grad():
+    with torch.no_grad(), torch.autocast('cuda'):
         for keys, images in dataloader:
             images = images.to(device)
             features = encoder.encode(images)

@@ -37,7 +37,7 @@ class Encoder(object):
                                    interpolation=TF.InterpolationMode.BICUBIC)
             normalize = TF.Normalize(mean=image_mean, std=image_std)
             self.transform = TF.Compose(
-                resize, _convert_to_rgb, TF.ToTensor(), normalize)
+                [resize, _convert_to_rgb, TF.ToTensor(), normalize])
         else:
             use_padding = resize_mode == 'padding'
             self.transform = open_clip.image_transform(
@@ -53,7 +53,7 @@ class Encoder(object):
     def encode(self):
         raise NotImplementedError
 
-    def accept_rectangle(self):
+    def get_accept_rectangle(self):
         return False
 
 
@@ -62,7 +62,7 @@ class ClipL14(Encoder):
     def setup_model(self, model_name):
         model = open_clip.create_model(model_name,
                                        pretrained='datacomp_xl_s13b_b90k')
-        image_size = model.visual.image_size
+        image_size = model.visual.image_size[0]
         image_mean = model.visual.image_mean
         image_std = model.visual.image_std
         return model, image_size, image_mean, image_std
@@ -86,7 +86,7 @@ class TimmModel(Encoder):
     def encode(self, images):
         return self.model(images)
 
-    def accept_rectangle(self):
+    def get_accept_rectangle(self):
         if 'convnext' in self.model_name:
             return True
         return False
