@@ -96,7 +96,7 @@ def encode_image_features(image_paths,
     sorted_features = all_features[sorted_indices]
     # sorted_images = all_images[sorted_indices]
 
-    return sorted_features.cpu()
+    return sorted_features.cpu().to(torch.float32)
 
 
 def main(args):
