@@ -27,8 +27,7 @@ def get_im_similarity_metrics(eval_dir, ref_dir, encoder_name):
     ref_feature_path = os.path.join(ref_dir, "image-features.npz")
     if os.path.exists(ref_feature_path):
         ref_features_dict = load_image_features(ref_feature_path,
-                                                encoder_name,
-                                                padding=True)
+                                                encoder_name)
     else:
         # Completely ignore it if reference image feature file does not exist
         return {}
@@ -47,8 +46,8 @@ def get_im_similarity_metrics(eval_dir, ref_dir, encoder_name):
         for eval_key in eval_features_dict:
             similarity = compute_cosine_similarity(
                 ref_features_dict[ref_key], eval_features_dict[eval_key])
-            metric_name = (f"Image Similarity ({encoder_name})" +
-                           f" ({eval_key}-{ref_key})")
+            metric_name = (f"Image Similarity ({encoder_name}-{ref_key})" +
+                           f" ({eval_key})")
             metrics[metric_name] = similarity
 
     return metrics
@@ -106,9 +105,6 @@ if __name__ == "__main__":
                         type=str,
                         default='clip-L-14',
                         help="Choice of encoder")
-    parser.add_argument("--padding",
-                        action="store_true",
-                        help="Comopare with reference images with padding")
     parser.add_argument("--extra_level",
                         type=int,
                         default=1,

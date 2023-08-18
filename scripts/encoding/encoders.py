@@ -4,26 +4,57 @@ import open_clip
 import torch
 import torch.nn as nn
 import torchvision.models as models
+import torchvision.transforms as TF
+
+
+def _convert_to_rgb(image):
+    return image.convert('RGB')
 
 
 class Encoder(object):
 
-    def __init__(self, model_name, use_padding, device):
+    def __init__(self, model_name, resize_mode, device):
+
+        accept_resize_modes = ['resize', 'crop', 'padding']
+        assert resize_mode in accept_resize_modes, \
+            "invalid resize_mode, must be 'resize', 'crop', or 'padding'"
 
         model, image_size, image_mean, image_std = self.setup_model(model_name)
         self.model = model.eval().to(device)
-        self.transform = open_clip.image_transform(
-            image_size=image_size,
-            is_train=False,
-            mean=image_mean,
-            std=image_std,
-            resize_longest_max=use_padding)
+
+        accept_rectangle = self.get_accept_rectangle()
+
+        if accept_rectangle and resize_mode != 'resize':
+            print(f"Warning, {resize_mode} is used while"
+                  + " the model can accept rectangle input")
+
+        if resize_mode == 'resize':
+            if accept_rectangle:
+                resize = TF.Resize(image_size,
+                                   interpolation=TF.InterpolationMode.BICUBIC)
+            else:
+                resize = TF.Resize((image_size, image_size),
+                                   interpolation=TF.InterpolationMode.BICUBIC)
+            normalize = TF.Normalize(mean=image_mean, std=image_std)
+            self.transform = TF.Compose(
+                resize, _convert_to_rgb, TF.ToTensor(), normalize)
+        else:
+            use_padding = resize_mode == 'padding'
+            self.transform = open_clip.image_transform(
+                image_size=image_size,
+                is_train=False,
+                mean=image_mean,
+                std=image_std,
+                resize_longest_max=use_padding)
 
     def setup_model(self):
         raise NotImplementedError
 
     def encode(self):
         raise NotImplementedError
+
+    def accept_rectangle(self):
+        return False
 
 
 class ClipL14(Encoder):
@@ -43,6 +74,7 @@ class ClipL14(Encoder):
 class TimmModel(Encoder):
 
     def setup_model(self, model_name):
+        self.model_name = model_name
         model = timm.create_model(model_name, pretrained=True)
         # get model specific transforms (normalization, resize)
         data_config = timm.data.resolve_model_data_config(model)
@@ -53,6 +85,11 @@ class TimmModel(Encoder):
 
     def encode(self, images):
         return self.model(images)
+
+    def accept_rectangle(self):
+        if 'convnext' in self.model_name:
+            return True
+        return False
 
 
 class DINOv2Encoder(Encoder):
@@ -108,3 +145,6 @@ class VggGram(Encoder):
             grams.append(gram_matrix.view(batch_size, -1))
         grams = torch.hstack(grams)
         return grams
+
+    def get_accept_rectangle(self):
+        return True

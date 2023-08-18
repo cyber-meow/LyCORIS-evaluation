@@ -19,7 +19,7 @@ encoders = {
     'clip-L-14': (ClipL14, 'ViT-L-14'),
     'convnextv2-l': (TimmModel, 'convnextv2_large'),
     'convnextv2-h': (TimmModel, 'convnextv2_huge'),
-    'dinov2-l': (TimmModel, 'vit_large_patch14_dinov2'),
+    'dinov2-l-hf': (TimmModel, 'vit_large_patch14_dinov2'),
     'dinov2-l-fb': (DINOv2Encoder, 'dinov2_vitl14'),
     'vgg19-gram': (VggGram, None)
 }
@@ -116,10 +116,8 @@ def main(args):
             # Initialize encoder for the current encoder_name
             print(f"Set up encoder {encoder_name}...")
             encoder_class, model_name = encoders[encoder_name]
-            encoder = encoder_class(model_name, args.use_padding, device)
-            feature_key = encoder_name
-            if args.use_padding:
-                feature_key = feature_key + "-padding"
+            encoder = encoder_class(model_name, args.resize_mode, device)
+            feature_key = encoder_name + f"-{args.resize_mode}"
 
             for subdir in subdirs_with_images:
 
@@ -194,9 +192,9 @@ if __name__ == '__main__':
     # parser.add_argument("--save_transformed_images",
     #                     action="store_true",
     #                     help="Whether to save transformed image or not")
-    parser.add_argument("--use_padding",
-                        action="store_true",
-                        help="Whether to use padding or not")
+    parser.add_argument("--resize_mode",
+                        type=str,
+                        help="Mode used to resize the images")
     parser.add_argument("--generated",
                         action="store_true",
                         help="Dealing with generated images")

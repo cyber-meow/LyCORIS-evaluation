@@ -44,14 +44,14 @@ def get_relevant_directories(eval_subdir,
     return eval_subdir, ref_subdir, key_path
 
 
-def load_image_features(path, encoder_name, padding=False):
+def load_image_features(path, encoder_name):
     features_dict = {}
     if os.path.exists(path):
         feature_npz = np.load(path)
-        if encoder_name in feature_npz.files:
-            features_dict['crop'] = feature_npz[encoder_name]
-        if padding and (encoder_name + '-padding') in feature_npz.files:
-            features_dict['padding'] = feature_npz[encoder_name + '-padding']
+        for resize_mode in ['resize', 'crop', 'padding']:
+            key_name = encoder_name + f"-{resize_mode}"
+            if key_name in feature_npz.files:
+                features_dict[resize_mode] = feature_npz[key_name]
     return features_dict
 
 
@@ -62,15 +62,17 @@ def load_image_features_in_out(eval_dir, encoder_name):
 
     eval_features_dict = {}
 
+    # Use resize by default, this does not matter because we only
+    # consider square images here (used for generated images)
     eval_features_in_dict = load_image_features(
         os.path.join(eval_dir, in_dist_features), encoder_name)
-    if 'crop' in eval_features_in_dict:
-        eval_features_dict['in'] = eval_features_in_dict['crop']
+    if 'resize' in eval_features_in_dict:
+        eval_features_dict['in'] = eval_features_in_dict['resize']
 
     eval_features_out_dict = load_image_features(
         os.path.join(eval_dir, out_dist_features), encoder_name)
-    if 'crop' in eval_features_out_dict:
-        eval_features_dict['out'] = eval_features_out_dict['crop']
+    if 'resize' in eval_features_out_dict:
+        eval_features_dict['out'] = eval_features_out_dict['resize']
 
     return eval_features_dict
 

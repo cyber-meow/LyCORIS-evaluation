@@ -26,7 +26,7 @@ def get_im_diversity_metrics(eval_dir,
 
     if 'in' in eval_features_dict:
         in_features = eval_features_dict['in']
-        metric_name = f"vendi ({encoder_name}) (in)"
+        metric_name = f"Vendi ({encoder_name}) (in)"
         if should_compute_metric(key_path, metric_name, existing_df,
                                  overwrite):
             vendi_score = compute_vendi_score(in_features)
@@ -36,7 +36,7 @@ def get_im_diversity_metrics(eval_dir,
 
     if 'out' in eval_features_dict:
         out_features = eval_features_dict['out']
-        metric_name = f"vendi ({encoder_name}) (out)"
+        metric_name = f"Vendi ({encoder_name}) (out)"
         if should_compute_metric(key_path, metric_name, existing_df,
                                  overwrite):
             vendi_per_prompt = compute_per_prompt_vendi_scores(
