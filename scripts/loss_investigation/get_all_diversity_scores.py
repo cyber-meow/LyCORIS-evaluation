@@ -14,7 +14,7 @@ def compute_vendi_and_dissim(X):
     X = normalize(X, dim=1)
     n = X.shape[0]
     S = X @ X.T
-    S = S.to(torch.float32)
+    # S = S.to(torch.float32)
     # print('similarity matrix of shape {}'.format(S.shape))
     w = torch.linalg.eigvalsh(S / n)
     vendi = torch.exp(entropy_q(w))
@@ -30,6 +30,8 @@ def entropy_q(p):
 def compute_std(X):
     mean = torch.mean(X, axis=0, keepdims=True)
     std = torch.sqrt(torch.sum((X - mean)**2) / (X.shape[0] - 1))
+    if torch.isinf(std):
+        raise ValueError('inf std detectetd')
     return std.cpu().item()
 
 
@@ -43,6 +45,7 @@ def get_diversity_score_aux(features):
     Returns:
         - scores (dict): Dictionary of diversity scores for the features.
     """
+    features = features.to(torch.float32)
     vendi, dissim = compute_vendi_and_dissim(features)
     torch.cuda.empty_cache()
     std = compute_std(features)

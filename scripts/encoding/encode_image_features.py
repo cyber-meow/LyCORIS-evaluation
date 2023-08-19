@@ -65,6 +65,7 @@ def encode_image_features(image_paths,
                           encoder,
                           generated,
                           batch_size=16,
+                          autocast=True,
                           device='cuda'):
 
     # Create dataset and dataloader
@@ -79,7 +80,7 @@ def encode_image_features(image_paths,
     all_features = []
     # all_images = []
 
-    with torch.no_grad():
+    with torch.no_grad(), torch.autocast(device_type=device, enabled=autocast):
         for keys, images in dataloader:
             images = images.to(device)
             features = encoder.encode(images)
@@ -156,6 +157,7 @@ def main(args):
                                                        encoder,
                                                        args.generated,
                                                        args.batch_size,
+                                                       (not args.no_autocast),
                                                        device=device)
                 image_features_all[feature_key] = image_features.numpy()
 
@@ -209,6 +211,9 @@ if __name__ == '__main__':
                         type=int,
                         default=16,
                         help="Batch size for feature encoding")
+    parser.add_argument("--no_autocast",
+                        action="store_true",
+                        help="Turn off autocast")
     args = parser.parse_args()
 
     if args.encoder_names is not None:
