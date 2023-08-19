@@ -105,7 +105,7 @@ def encode_image_features(image_paths,
 
 def main(args):
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = "cuda" if torch.cuda.is_available() else "cpu"
 
     # Collect all subdirectories that contain images
     subdirs_with_images = []
