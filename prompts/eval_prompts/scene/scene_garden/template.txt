@@ -1,4 +1,5 @@
 {} with an active volcano in the background
+{} with night sky
 {} with with cloudy sky
 {} with stone pillars and intricate carvings on it
 A british shorthair cat sitting in front of {}
@@ -6,5 +7,4 @@ A koala eating leaves in {}
 A red cardinal flying in {}
 A rustic wooden swing in {}
 A laughing Buddha statue in {}
-{} with night sky
-A pointillism representation of {}
+{} with yellow marigold flowers

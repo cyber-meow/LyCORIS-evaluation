@@ -25,63 +25,71 @@ def construct_trigger_word(path_components, token_mapping):
     return f"{trigger}"
 
 
-def create_out_dist_prompts(directory, token_mapping):
+def create_out_dist_prompts(directory, token_mapping,
+                            template_file, save_name, tag_format):
     template_data = {}
-    template_tags_data = {}
 
     # Collect all template data
     for root, _, files in os.walk(directory):
-        if 'template.txt' in files:
-            with open(os.path.join(root, 'template.txt'), 'r') as f:
+        if template_file in files:
+            with open(os.path.join(root, template_file), 'r') as f:
                 template_data[root] = f.readlines()
-        if 'template_tags.txt' in files:
-            with open(os.path.join(root, 'template_tags.txt'), 'r') as f:
-                template_tags_data[root] = f.readlines()
+    print(template_data)
 
     for root, dirs, _ in os.walk(directory):
         # Only process deepest directories
         if not dirs:
-            path_components = root.split(os.path.sep)[2:]
+            root_rel = os.path.relpath(root, directory)
+            # print(root_rel)
+            path_components = root_rel.split(os.path.sep)[1:]
             trigger_word = construct_trigger_word(
                 path_components, token_mapping)
 
-            # Find the closest template
-            current_root = root
-            while current_root not in template_data and current_root != directory:
-                current_root = os.path.dirname(current_root)
-
-            # If we found a template, use it
-            if current_root in template_data:
-                out_file_path = os.path.join(root, 'out_dist_prompts.txt')
-                with open(out_file_path, 'w') as f_out:
-                    for line in template_data[current_root]:
-                        f_out.write(line.replace("{}", trigger_word))
-
             # Find the closest tag template
             current_root = root
-            while current_root not in template_tags_data and current_root != directory:
+            while (current_root not in template_data
+                    and current_root != directory.rstrip('/')):
                 current_root = os.path.dirname(current_root)
 
-            # If we found a template, use it
-            if current_root in template_tags_data:
-                out_file_path = os.path.join(root, 'out_dist_prompts_tags.txt')
+            if current_root in template_data:
+
+                # If we found a template, use it
+                out_file_path = os.path.join(root, save_name)
                 with open(out_file_path, 'w') as f_out:
-                    for line in template_tags_data[current_root]:
-                        trigger_word_split = trigger_word.split(',')
-                        to_write = ','.join(
-                            trigger_word_split + line.split(',')[len(trigger_word_split):])
-                        f_out.write(to_write)
+                    if tag_format:
+                        for line in template_data[current_root]:
+                            trigger_word_split = trigger_word.split(',')
+                            to_write = ','.join(
+                                trigger_word_split
+                                + line.split(',')[len(trigger_word_split):])
+                            f_out.write(to_write)
+                    else:
+                        for line in template_data[current_root]:
+                            f_out.write(line.replace("{}", trigger_word))
 
 
 def main(args):
     token_mapping = read_token_mapping(args.token_mapping)
-    create_out_dist_prompts(args.directory, token_mapping)
+    create_out_dist_prompts(
+        args.directory, token_mapping,
+        args.template_name, args.save_name, args.tag_format)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Process directory and generate out_dist_prompts.txt files.")
+        description="Process template files.")
     parser.add_argument("--directory", help="Target directory")
     parser.add_argument("--token_mapping", help="CSV file for token mapping")
+    parser.add_argument("--template_name",
+                        type=str,
+                        default='template.txt',
+                        help="name of the template file")
+    parser.add_argument("--save_name",
+                        type=str,
+                        default='out_dist_prompts.txt',
+                        help="name of the template file")
+    parser.add_argument("--tag_format",
+                        action='store_true',
+                        help="whether the template has tag format")
     args = parser.parse_args()
     main(args)

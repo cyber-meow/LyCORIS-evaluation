@@ -7,4 +7,4 @@ hta stuffed toy, indoors, from side, desk, computer, monitor, laptop, keyboard (
 hta stuffed toy, indoors, pillow, on side
 hta stuffed toy, indoors, window, oblique angle, wood flooring
 hta stuffed toy, indoors, stairs, from side, head on handrail, feet off the ground
-hta stuffed toy, in doors, on door, office
+hta stuffed toy, indoors, on door, office
