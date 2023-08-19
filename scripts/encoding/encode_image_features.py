@@ -79,12 +79,15 @@ def encode_image_features(image_paths,
     all_features = []
     # all_images = []
 
-    with torch.no_grad(), torch.autocast('cuda'):
+    with torch.no_grad():
         for keys, images in dataloader:
             images = images.to(device)
             features = encoder.encode(images)
+            if not torch.all(torch.isfinite(features)):
+                raise ValueError('Invalid features detected')
             all_keys.extend(keys)
             all_features.append(features)
+            # print(features.mean())
             # all_images.append(images)
 
     # Concatenate all the features
@@ -134,12 +137,13 @@ def main(args):
                     args.dst_dir, os.path.relpath(save_path, args.src_dir))
 
                 if os.path.exists(save_path):
-                    image_features_all = dict(np.load(save_path).items())
-                    if (feature_key in image_features_all
+                    npz = np.load(save_path)
+                    if (feature_key in npz.files
                             and not args.overwrite):
                         print(f"{feature_key} already in {save_path}, skip")
                         pbar.update(1)
                         continue
+                    image_features_all = dict(npz.items())
                 else:
                     image_features_all = {}
 

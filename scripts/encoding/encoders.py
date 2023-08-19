@@ -1,9 +1,11 @@
-import timm
-import open_clip
+import numpy as np
 
 import torch
 import torch.nn as nn
 import torchvision.models as models
+
+import timm
+import open_clip
 
 from transform import image_transform
 
@@ -126,6 +128,9 @@ class VggGram(Encoder):
             batch_size, channel, height, width = feature.shape
             feature_reshaped = feature.view(batch_size, channel,
                                             height * width)
+            # Normalize using the number of element in each feature map
+            feature_reshaped = feature_reshaped / np.sqrt(
+                channel * height * width)
             gram_matrix = torch.bmm(feature_reshaped,
                                     feature_reshaped.transpose(1, 2))
             grams.append(gram_matrix.view(batch_size, -1))
