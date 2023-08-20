@@ -129,7 +129,7 @@ def main(args):
                         os.path.dirname(subdir),
                         f"{os.path.basename(subdir)}-image-scores.npz")
                 else:
-                    save_path = os.path.join(subdir, 'image_scores.npz')
+                    save_path = os.path.join(subdir, 'image-scores.npz')
                 # This is to deal with a bug in felix_vallotton_stroke
                 save_path = save_path.replace('captions', 'prompts')
 
