@@ -1,9 +1,0 @@
-sampler_name = "DDIM"
-lora_weight = 1
-steps = 25
-width = 512
-height = 512
-negative_prompt = ""
-seed = 1000
-cfg_scale = 7
-enable_hr = false

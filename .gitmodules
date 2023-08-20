@@ -1,0 +1,3 @@
+[submodule "scripts/metrics/LIQE"]
+	path = scripts/metrics/LIQE
+	url = https://github.com/zwx8981/LIQE/
