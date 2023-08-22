@@ -93,7 +93,7 @@ def main(args):
         except pd.errors.EmptyDataError:
             existing_df = pd.DataFrame()
             # Or handle it in some other way, like logging a message, etc.
-            print(f"Warning: The file {args.csv} is empty!")
+            print(f"Warning: The file {args.metric_csv} is empty!")
     else:
         existing_df = pd.DataFrame()
 
@@ -178,12 +178,7 @@ def main(args):
                 pbar.update(1)
 
             new_df = pd.DataFrame(results)
-
-            if not existing_df.empty:
-                existing_df = pd.concat([existing_df, new_df])
-            else:
-                existing_df = new_df
-
+            existing_df = pd.concat([existing_df, new_df])
             existing_df.to_csv(args.metric_csv, index=False)
             results = []
 

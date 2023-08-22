@@ -59,6 +59,7 @@ def load_image_features_in_out(eval_dir, encoder_name):
 
     in_dist_features = "in_dist_prompts-image-features.npz"
     out_dist_features = "out_dist_prompts-image-features.npz"
+    trigger_features = "triggeronly-image-features.npz"
 
     eval_features_dict = {}
 
@@ -73,6 +74,11 @@ def load_image_features_in_out(eval_dir, encoder_name):
         os.path.join(eval_dir, out_dist_features), encoder_name)
     if 'resize' in eval_features_out_dict:
         eval_features_dict['out'] = eval_features_out_dict['resize']
+
+    eval_features_trigger_dict = load_image_features(
+        os.path.join(eval_dir, trigger_features), encoder_name)
+    if 'resize' in eval_features_trigger_dict:
+        eval_features_dict['trigger'] = eval_features_trigger_dict['resize']
 
     return eval_features_dict
 

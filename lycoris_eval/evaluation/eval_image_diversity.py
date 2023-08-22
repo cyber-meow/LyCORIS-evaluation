@@ -58,11 +58,12 @@ def main(args):
         except pd.errors.EmptyDataError:
             existing_df = pd.DataFrame()
             # Or handle it in some other way, like logging a message, etc.
-            print(f"Warning: The file {args.csv} is empty!")
+            print(f"Warning: The file {args.metric_csv} is empty!")
     else:
         existing_df = pd.DataFrame()
 
     results = []
+    n_updated = 0
     eval_subdirs = get_all_subdirectories(args.eval_dir)
 
     for subdir in tqdm(eval_subdirs, desc="Evaluating"):
@@ -76,13 +77,19 @@ def main(args):
 
         update_results(key_path, metrics, existing_df, results)
 
+        if len(metrics) > 0:
+            n_updated += 1
+
+        if n_updated >= args.write_every:
+
+            new_df = pd.DataFrame(results)
+            existing_df = pd.concat([existing_df, new_df])
+            existing_df.to_csv(args.metric_csv, index=False)
+            results = []
+            n_updated = 0
+
     new_df = pd.DataFrame(results)
-
-    if not existing_df.empty:
-        combined_df = pd.concat([existing_df, new_df])
-    else:
-        combined_df = new_df
-
+    combined_df = pd.concat([existing_df, new_df])
     combined_df.to_csv(args.metric_csv, index=False)
 
 
@@ -117,6 +124,10 @@ if __name__ == "__main__":
                         type=str,
                         default="similarity_results.csv",
                         help="Name of the output CSV file")
+    parser.add_argument("--write_every",
+                        type=int,
+                        default=100,
+                        help="Write to csv frequency")
 
     args = parser.parse_args()
     main(args)

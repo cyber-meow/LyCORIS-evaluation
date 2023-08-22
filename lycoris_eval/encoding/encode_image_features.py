@@ -7,7 +7,8 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from encoders import ClipL14, TimmModel, DINOv2Encoder, VggGram
+from lycoris_eval.encoding.encoders import ClipL14, TimmModel
+from lycoris_eval.encoding.encoders import DINOv2Encoder, VggGram
 from lycoris_eval.data_utils.image_dataset import ImageDataset
 
 # import cProfile
@@ -29,7 +30,8 @@ def encode_image_features(image_paths,
                           generated,
                           batch_size=16,
                           autocast=True,
-                          device='cuda'):
+                          device='cuda',
+                          return_cpu=True):
 
     # Create dataset and dataloader
     dataset = ImageDataset(image_paths, encoder.transform, generated)
@@ -63,7 +65,9 @@ def encode_image_features(image_paths,
     sorted_features = all_features[sorted_indices]
     # sorted_images = all_images[sorted_indices]
 
-    return sorted_features.cpu()
+    if return_cpu:
+        sorted_features = sorted_features.cpu()
+    return sorted_features
 
 
 def main(args):

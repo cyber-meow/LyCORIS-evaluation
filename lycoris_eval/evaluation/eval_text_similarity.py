@@ -21,36 +21,41 @@ def compute_cosine_similarity(arr_a, arr_b):
     return similarities.mean().item()
 
 
+def update_text_similarity_metrics(
+        text_feature_path, image_feature_dict,
+        prompt_type, metrics, eval_dir):
+    if os.path.exists(text_feature_path):
+        if prompt_type in image_feature_dict:
+            text_features = np.load(text_feature_path)
+            image_features = image_feature_dict[prompt_type]
+            similarity = compute_cosine_similarity(text_features,
+                                                   image_features)
+            metrics[f'Text Similarity ({prompt_type})'] = similarity
+        else:
+            print(f"Warning: in prompt features unfound in {eval_dir}")
+
+
 def get_text_similarity_metrics(eval_dir, ref_dir):
 
     metrics = {}
 
-    eval_features_dict = load_image_features_in_out(eval_dir, 'clip-L-14')
+    image_feacture_dict = load_image_features_in_out(eval_dir, 'clip-L-14')
 
-    text_feature_path_in = os.path.join(
-        ref_dir, "in_dist_prompts-clip-text-features.npy")
-    text_feature_path_out = os.path.join(
-        ref_dir, "out_dist_prompts-clip-text-features.npy")
+    text_feature_paths = [
+        os.path.join(
+            ref_dir, "in_dist_prompts-clip-text-features.npy"),
+        os.path.join(
+            ref_dir, "out_dist_prompts-clip-text-features.npy"),
+        os.path.join(
+            ref_dir, "triggeronly-clip-text-features.npy")
+    ]
+    prompt_types = ['in', 'out', 'trigger']
 
-    if os.path.exists(text_feature_path_in):
-        if 'in' in eval_features_dict:
-            text_features = np.load(text_feature_path_in)
-            image_features = eval_features_dict['in']
-            similarity = compute_cosine_similarity(text_features,
-                                                   image_features)
-            metrics['Text Similarity (in)'] = similarity
-        else:
-            print(f"Warning: in prompt features unfound in {eval_dir}")
-
-    if os.path.exists(text_feature_path_out):
-        if 'out' in eval_features_dict:
-            text_features = np.load(text_feature_path_out)
-            image_features = eval_features_dict['out']
-            similarity = compute_cosine_similarity(text_features,
-                                                   image_features)
-            metrics['Text Similarity (out)'] = similarity
-        else:
-            print(f"Warning: out prompt features unfound in {eval_dir}")
+    comb = zip(text_feature_paths, prompt_types)
+    for text_feature_path, prompt_type in comb:
+        update_text_similarity_metrics(
+            text_feature_path, image_feacture_dict,
+            prompt_type, metrics, eval_dir)
 
     return metrics
 
@@ -70,6 +75,7 @@ def main(args):
         existing_df = pd.DataFrame()
 
     results = []
+    n_updated = 0
     eval_subdirs = get_all_subdirectories(args.eval_dir)
 
     for subdir in tqdm(eval_subdirs, desc="Evaluating"):
@@ -81,13 +87,19 @@ def main(args):
 
         update_results(key_path, metrics, existing_df, results)
 
+        if len(metrics) > 0:
+            n_updated += 1
+
+        if n_updated >= args.write_every:
+
+            new_df = pd.DataFrame(results)
+            existing_df = pd.concat([existing_df, new_df])
+            existing_df.to_csv(args.metric_csv, index=False)
+            results = []
+            n_updated = 0
+
     new_df = pd.DataFrame(results)
-
-    if not existing_df.empty:
-        combined_df = pd.concat([existing_df, new_df]).fillna(0)
-    else:
-        combined_df = new_df
-
+    combined_df = pd.concat([existing_df, new_df])
     combined_df.to_csv(args.metric_csv, index=False)
 
 
@@ -115,6 +127,10 @@ if __name__ == "__main__":
                         type=str,
                         default="similarity_results.csv",
                         help="Name of the output CSV file")
+    parser.add_argument("--write_every",
+                        type=int,
+                        default=1000,
+                        help="Write to csv frequency")
 
     args = parser.parse_args()
     main(args)

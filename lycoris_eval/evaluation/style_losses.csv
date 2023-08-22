@@ -1,0 +1,15 @@
+Folder,Style loss (dataset) (out),Style loss (dataset) (in)
+exp-1101-sd15-nt-a/style/felix_vallotton_stroke,307758.3125,
+exp-1101-sd15-nt-a/style/ghibi_alter,2665757.5,7156045.0
+exp-1101-sd15-nt-a/style/ukiyo_e,744212.0625,85848976.0
+exp-1101-sd15-nt-a/style/impressionism,462900.5,12805050.0
+exp-1101-sd15-nt-a/style/vladimir_borovikovsky,6327540.0,26254388.0
+exp-1101-sd15-nt-a/style/pencil_drawing,22465.634765625,3246457.25
+exp-1101-sd15-nt-a/style/ghibi,11912745.0,11775061.0
+exp-1101-sd15-nt-a-000030/style/felix_vallotton_stroke,610092.9375,
+exp-1101-sd15-nt-a-000030/style/ghibi_alter,2287649.25,4414657.5
+exp-1101-sd15-nt-a-000030/style/ukiyo_e,12256793.0,90625568.0
+exp-1101-sd15-nt-a-000030/style/impressionism,1259408.5,10996191.0
+exp-1101-sd15-nt-a-000030/style/vladimir_borovikovsky,2747278.0,23629360.0
+exp-1101-sd15-nt-a-000030/style/pencil_drawing,43262.3046875,3336899.0
+exp-1101-sd15-nt-a-000030/style/ghibi,23425808.0,2600156.5

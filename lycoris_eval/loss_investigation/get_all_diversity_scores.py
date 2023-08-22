@@ -27,12 +27,12 @@ def entropy_q(p):
     return -(p_ * torch.log(p_)).sum()
 
 
-def compute_std(X):
+def compute_var(X):
     mean = torch.mean(X, axis=0, keepdims=True)
-    std = torch.sqrt(torch.sum((X - mean)**2) / (X.shape[0] - 1))
-    if torch.isinf(std):
-        raise ValueError('inf std detectetd')
-    return std.cpu().item()
+    var = torch.sum((X - mean)**2) / X.shape[0]
+    if torch.isinf(var):
+        raise ValueError('inf variance detectetd')
+    return var.cpu().item()
 
 
 def get_diversity_score_aux(features):
@@ -48,9 +48,9 @@ def get_diversity_score_aux(features):
     features = features.to(torch.float32)
     vendi, dissim = compute_vendi_and_dissim(features)
     torch.cuda.empty_cache()
-    std = compute_std(features)
+    var = compute_var(features)
     torch.cuda.empty_cache()
-    scores = {"Vendi": vendi, "Dissimilarity": dissim, "Std": std}
+    scores = {"Vendi": vendi, "Dissimilarity": dissim, "Var": var}
     return scores
 
 
