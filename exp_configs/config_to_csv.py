@@ -8,9 +8,12 @@ def parse_toml(toml_file):
     data = toml.load(toml_file)
 
     config_name = os.path.splitext(os.path.basename(toml_file))[0]
+    parts = config_name.split('-')
+    if parts[-1] in ['a', 'b', 'c']:
+        config_name = '-'.join(parts[:-1])
 
     if "nt" in config_name:
-        algo = "db"
+        algo = "full"
         preset = "full"
         factor = "N/A"
     else:
@@ -40,7 +43,7 @@ def main(directory, csv_name):
     with open(csv_name, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(
-            ["config_name", "algo", "preset", "lr", "dim", "alpha", "factor"])
+            ["Config", "Algo", "Preset", "Lr", "Dim", "Alpha", "Factor"])
 
         for filename in os.listdir(directory):
             if filename.endswith('.toml'):
