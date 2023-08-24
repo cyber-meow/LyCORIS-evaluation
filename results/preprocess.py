@@ -1,6 +1,10 @@
 import pandas as pd
 
 
+SCORE_METRICS = ['Text Similarity', 'Image Similarity', 'Vendi', 'vendi']
+DISTANCE_METRICS = ['Squared Centroid Distance', 'Style Loss']
+
+
 def extract_multiindex_components(col_name):
     components = col_name.split('(')
 
@@ -98,12 +102,12 @@ def get_folder_element(folder_str, target):
         try:
             return components[3]
         except IndexError:
-            return 'none'
+            return ''
     else:
         raise ValueError('Unsupported target type')
 
 
-def process_folder_path(df):
+def process_folder_path(df, keywords_to_exclude=None):
     targets = ['Config', 'Seed', 'Step', 'Category', 'Class', 'Subclass']
     for idx, target in enumerate(targets):
         df.insert(idx+1, target,
@@ -111,6 +115,13 @@ def process_folder_path(df):
         if target != 'Step':
             df[target] = df[target].astype('category')
     df.drop(level=0, columns='Folder', inplace=True)
+    # Check if any of the keywords to exclude are in x
+
+    def exclude_keywords(x):
+        return not any(keyword in x for keyword in keywords_to_exclude)
+
+    if keywords_to_exclude is not None:
+        df = df[df['Config'].apply(exclude_keywords)]
     return df
 
 
@@ -136,10 +147,10 @@ def compute_scaled_ranks(df, groupby_columns, score_metrics, distance_metrics):
         group_size = len(group)
 
         # Standard rank function, where highest score gets highest rank
-        standard_ranking = group.rank(ascending=False) / group_size
+        standard_ranking = (group.rank(ascending=True)-1) / (group_size-1)
 
         # Distance metric rank function, where lowest score gets highest rank
-        distance_ranking = group.rank(ascending=True) / group_size
+        distance_ranking = (group.rank(ascending=False)-1) / (group_size-1)
 
         # Apply the appropriate ranking method based on the column's presence
         # in distance_metrics
@@ -179,18 +190,18 @@ def join_with_config(metrics, config_mapping):
 
 
 def load_and_preprocess_metrics(
-        metric_file, config_file, metrics_to_include=None,
+        metric_file, config_file,
+        metrics_to_include=None, keywords_to_exclude=None,
         score_metrics=None, distances_metrics=None):
     if score_metrics is None:
-        score_metrics = ['Text Similarity',
-                         'Image Similarity', 'Vendi', 'vendi']
+        score_metrics = SCORE_METRICS
     if distances_metrics is None:
-        distance_metrics = ['Squared Centroid Distance', 'Style Loss']
+        distance_metrics = DISTANCE_METRICS
     df_metrics = pd.read_csv(metric_file)
     df_metrics = to_multiindex(df_metrics)
     if metrics_to_include is not None:
         df_metrics = filter_columns(df_metrics, metrics_to_include)
-    df_metrics = process_folder_path(df_metrics)
+    df_metrics = process_folder_path(df_metrics, keywords_to_exclude)
     groupby_cols = ['Category', 'Class', 'Subclass']
     df_ranked = compute_scaled_ranks(
         df_metrics, groupby_cols, score_metrics, distance_metrics)
