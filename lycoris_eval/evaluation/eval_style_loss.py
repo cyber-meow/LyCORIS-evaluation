@@ -150,7 +150,7 @@ def get_style_loss_allpairs(eval_dir, ref_dir, batch_size=8):
         loss = allpair_msd(ref_features, eval_features_dict[prompt_type])
         if np.isinf(loss):
             raise ValueError(f'{ref_dir}: inf loss detectetd')
-        metrics[f'Style loss (dataset) ({prompt_type})'] = loss
+        metrics[f'Style loss ({prompt_type})'] = loss
     return metrics
 
 
