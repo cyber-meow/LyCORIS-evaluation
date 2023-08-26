@@ -23,13 +23,13 @@ def extract_multiindex_components(col_name):
     # Check how many parenthesis to determine the case
     if len(components) == 2:  # Metric + Architecture
         arch = components[1].split(')')[0]
-        if arch in encoder_mapping:
-            arch = encoder_mapping[arch]
+        for arch_name in encoder_mapping:
+            arch = arch.replace(arch_name, encoder_mapping[arch_name])
         return (metric, arch, '')
     elif len(components) == 3:  # Metric + Architecture + Condition
         arch = components[1].split(')')[0]
-        if arch in encoder_mapping:
-            arch = encoder_mapping[arch]
+        for arch_name in encoder_mapping:
+            arch = arch.replace(arch_name, encoder_mapping[arch_name])
         condition = components[2].split(')')[0]
         return (metric, arch, condition)
     else:  # Only metric
@@ -72,6 +72,8 @@ def filter_columns(df, triplets):
 
 
 def extract_config_step(folder_name):
+    exp_parts = folder_name.split('exp')
+    folder_name = 'exp' + exp_parts[1]
     parts = folder_name.split('-')
     if parts[0] == 'v15':
         del parts[0]
@@ -198,6 +200,9 @@ def load_and_preprocess_metrics(
     if distances_metrics is None:
         distance_metrics = DISTANCE_METRICS
     df_metrics = pd.read_csv(metric_file)
+    existing_columns = list(df_metrics.columns)
+    df_metrics = df_metrics[
+        existing_columns[:1] + sorted(existing_columns[1:])]
     df_metrics = to_multiindex(df_metrics)
     if metrics_to_include is not None:
         df_metrics = filter_columns(df_metrics, metrics_to_include)

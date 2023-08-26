@@ -10,6 +10,14 @@ def display_all_rows():
     pd.set_option("display.max_rows", prev_option)
 
 
+@contextmanager
+def display_all_columns():
+    prev_option = pd.get_option("display.max_columns")
+    pd.set_option("display.max_columns", None)
+    yield
+    pd.set_option("display.max_columns", prev_option)
+
+
 def detect_systematically_worse(df, metric_triplets, threshold):
     """
     Returns the subframe containing rows for which all specified metric means

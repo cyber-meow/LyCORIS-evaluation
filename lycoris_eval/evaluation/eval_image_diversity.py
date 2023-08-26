@@ -24,15 +24,17 @@ def get_im_diversity_metrics(eval_dir,
     eval_features_dict = load_image_features_in_out(eval_dir, encoder_name)
     metrics = {}
 
-    if 'in' in eval_features_dict:
-        in_features = eval_features_dict['in']
-        metric_name = f"Vendi ({encoder_name}) (in)"
-        if should_compute_metric(key_path, metric_name, existing_df,
-                                 overwrite):
-            vendi_score = compute_vendi_score(in_features)
-            metrics[metric_name] = vendi_score
-        else:
-            print(f"{key_path}: {metric_name} exists, skip")
+    for prompt_type in ['in', 'trigger']:
+
+        if prompt_type in eval_features_dict:
+            in_features = eval_features_dict[prompt_type]
+            metric_name = f"Vendi ({encoder_name}) ({prompt_type})"
+            if should_compute_metric(key_path, metric_name, existing_df,
+                                     overwrite):
+                vendi_score = compute_vendi_score(in_features)
+                metrics[metric_name] = vendi_score
+            else:
+                print(f"{key_path}: {metric_name} exists, skip")
 
     if 'out' in eval_features_dict:
         out_features = eval_features_dict['out']
