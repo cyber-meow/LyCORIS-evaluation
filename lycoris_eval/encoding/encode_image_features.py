@@ -79,7 +79,11 @@ def main(args):
     for subdir, _, files in os.walk(args.src_dir):
         if any(file.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))
                for file in files):
-            subdirs_with_images.append(subdir)
+            if args.style_only:
+                if 'style_prompts' in subdir:
+                    subdirs_with_images.append(subdir)
+            else:
+                subdirs_with_images.append(subdir)
 
     with tqdm(total=len(subdirs_with_images) * len(args.encoder_names),
               desc="Encoding") as pbar:
@@ -183,6 +187,9 @@ if __name__ == '__main__':
     parser.add_argument("--no_autocast",
                         action="store_true",
                         help="Turn off autocast")
+    parser.add_argument("--style_only",
+                        action="store_true",
+                        help="Encode features only for style prompts")
     args = parser.parse_args()
 
     if args.encoder_names is not None:

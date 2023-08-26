@@ -1,0 +1,1654 @@
+Folder,Artifact-padding,Liqe-resize,Maniqa-resize
+exp-1101-sd15-nt-b-000010/scene/scene_canal/in_dist_prompts,2.296875,2.8373203,0.6918153166770935
+exp-1101-sd15-nt-b-000010/scene/scene_canal/out_dist_prompts,2.025390625,3.008364,0.6576037406921387
+exp-1101-sd15-nt-b-000010/scene/scene_garden/in_dist_prompts,2.205078125,2.7713718,0.6879812479019165
+exp-1101-sd15-nt-b-000010/scene/scene_garden/out_dist_prompts,2.33203125,2.900249,0.6183940172195435
+exp-1101-sd15-nt-b-000010/scene/scene_waterfall/in_dist_prompts,1.4169921875,3.1670077,0.5044843554496765
+exp-1101-sd15-nt-b-000010/scene/scene_waterfall/out_dist_prompts,2.169921875,2.8865826,0.5234172940254211
+exp-1101-sd15-nt-b-000010/scene/scene_castle/in_dist_prompts,2.46875,2.731744,0.6178256869316101
+exp-1101-sd15-nt-b-000010/scene/scene_castle/out_dist_prompts,1.794921875,2.9938562,0.6216366291046143
+exp-1101-sd15-nt-b-000010/scene/scene_sculpture1/in_dist_prompts,3.16796875,2.7107937,0.5569372773170471
+exp-1101-sd15-nt-b-000010/scene/scene_sculpture1/out_dist_prompts,2.748046875,2.886236,0.574277937412262
+exp-1101-sd15-nt-b-000010/style/felix_vallotton_stroke/in_dist_captions,1.7236328125,2.7641783,0.5224239230155945
+exp-1101-sd15-nt-b-000010/style/felix_vallotton_stroke/out_dist_prompts,1.8701171875,2.7963228,0.6068805456161499
+exp-1101-sd15-nt-b-000010/style/ghibi_alter/in_dist_prompts,3.189453125,2.7928224,0.5683860182762146
+exp-1101-sd15-nt-b-000010/style/ghibi_alter/out_dist_prompts,2.458984375,2.687101,0.5679472088813782
+exp-1101-sd15-nt-b-000010/style/ukiyo_e/in_dist_prompts,2.513671875,2.9802911,0.592983603477478
+exp-1101-sd15-nt-b-000010/style/ukiyo_e/out_dist_prompts,2.275390625,2.8898427,0.6069995164871216
+exp-1101-sd15-nt-b-000010/style/impressionism/in_dist_prompts,1.5751953125,2.718507,0.3621742725372314
+exp-1101-sd15-nt-b-000010/style/impressionism/out_dist_prompts,2.06640625,2.6842632,0.3650076389312744
+exp-1101-sd15-nt-b-000010/style/vladimir_borovikovsky/in_dist_prompts,2.3046875,2.917683,0.4715212285518646
+exp-1101-sd15-nt-b-000010/style/vladimir_borovikovsky/out_dist_prompts,2.115234375,2.7936404,0.5257095098495483
+exp-1101-sd15-nt-b-000010/style/pencil_drawing/in_dist_prompts,2.32421875,2.8030653,0.4674166738986969
+exp-1101-sd15-nt-b-000010/style/pencil_drawing/out_dist_prompts,2.205078125,2.7259235,0.4708969593048095
+exp-1101-sd15-nt-b-000010/style/ghibi/in_dist_prompts,3.2890625,3.0442386,0.551637589931488
+exp-1101-sd15-nt-b-000010/style/ghibi/out_dist_prompts,2.50390625,2.9035296,0.5822720527648926
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_bunny/in_dist_prompts,2.42578125,2.7065678,0.6050121784210205
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_bunny/out_dist_prompts,2.26171875,2.7156591,0.5784339308738708
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_teddybear/in_dist_prompts,2.17578125,2.796691,0.6410576105117798
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_teddybear/out_dist_prompts,2.541015625,2.806723,0.6097700595855713
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_pink/in_dist_prompts,2.75,2.6758103,0.5377476215362549
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_pink/out_dist_prompts,2.896484375,2.6884024,0.5638198852539062
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_panda/in_dist_prompts,2.767578125,2.9540207,0.6286251544952393
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_panda/out_dist_prompts,2.63671875,2.8797867,0.6056252717971802
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_lobster/in_dist_prompts,3.52734375,2.8902347,0.6065656542778015
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_lobster/out_dist_prompts,3.271484375,2.8162012,0.631921112537384
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_tortoise/in_dist_prompts,2.640625,2.9346514,0.6749898791313171
+exp-1101-sd15-nt-b-000010/stuffed_toy/plushie_tortoise/out_dist_prompts,2.673828125,2.978581,0.67634117603302
+exp-1101-sd15-nt-b-000010/anime/yuuki_makoto/in_dist_prompts,2.7265625,2.9294474,0.3931825757026672
+exp-1101-sd15-nt-b-000010/anime/yuuki_makoto/out_dist_prompts,2.798828125,3.0617156,0.453008621931076
+exp-1101-sd15-nt-b-000010/anime/yuuki_makoto/out_dist_prompts_tags,2.775390625,3.1292946,0.4649124145507812
+exp-1101-sd15-nt-b-000010/anime/tsushima_yoshiko/in_dist_prompts,3.333984375,2.9635892,0.4372625052928924
+exp-1101-sd15-nt-b-000010/anime/tsushima_yoshiko/out_dist_prompts,3.357421875,3.0207422,0.4700661599636078
+exp-1101-sd15-nt-b-000010/anime/tsushima_yoshiko/out_dist_prompts_tags,3.208984375,3.1024194,0.4995087385177612
+exp-1101-sd15-nt-b-000010/anime/abukuma/toid outfit/in_dist_prompts,3.171875,2.9541812,0.449741929769516
+exp-1101-sd15-nt-b-000010/anime/abukuma/toid outfit/out_dist_prompts,3.25390625,2.9738376,0.4432362020015716
+exp-1101-sd15-nt-b-000010/anime/abukuma/toid outfit/out_dist_prompts_tags,3.35546875,3.0189276,0.4693508446216583
+exp-1101-sd15-nt-b-000010/anime/abukuma/none/in_dist_prompts,3.359375,2.9779248,0.43949756026268
+exp-1101-sd15-nt-b-000010/anime/abukuma/none/out_dist_prompts,3.23828125,2.9750378,0.4292463958263397
+exp-1101-sd15-nt-b-000010/anime/abukuma/none/out_dist_prompts_tags,3.2734375,3.0633957,0.4757292568683624
+exp-1101-sd15-nt-b-000010/anime/abukuma/onex outfit/in_dist_prompts,3.052734375,2.9210474,0.4449650943279266
+exp-1101-sd15-nt-b-000010/anime/abukuma/onex outfit/out_dist_prompts,3.21484375,2.993625,0.4575850367546081
+exp-1101-sd15-nt-b-000010/anime/abukuma/onex outfit/out_dist_prompts_tags,3.345703125,3.0161004,0.4653933048248291
+exp-1101-sd15-nt-b-000010/anime/kotomine_kirei/in_dist_prompts,2.947265625,3.0990808,0.4563190042972564
+exp-1101-sd15-nt-b-000010/anime/kotomine_kirei/out_dist_prompts,3.19921875,3.068427,0.4847587943077087
+exp-1101-sd15-nt-b-000010/anime/kotomine_kirei/out_dist_prompts_tags,3.109375,3.112038,0.4929727911949157
+exp-1101-sd15-nt-b-000010/anime/ikamusume/dca outfit/in_dist_prompts,2.9921875,2.8429034,0.4440230429172516
+exp-1101-sd15-nt-b-000010/anime/ikamusume/dca outfit/out_dist_prompts,3.052734375,2.8517272,0.456472635269165
+exp-1101-sd15-nt-b-000010/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.130859375,2.9190338,0.4608308672904968
+exp-1101-sd15-nt-b-000010/anime/ikamusume/none/in_dist_prompts,3.146484375,2.9420054,0.4660155773162842
+exp-1101-sd15-nt-b-000010/anime/ikamusume/none/out_dist_prompts,3.19921875,2.8422854,0.4422328472137451
+exp-1101-sd15-nt-b-000010/anime/ikamusume/none/out_dist_prompts_tags,3.13671875,2.9447029,0.4820493757724762
+exp-1101-sd15-nt-b-000010/anime/ikamusume/wafc outfit/in_dist_prompts,3.21484375,2.8857484,0.4646089076995849
+exp-1101-sd15-nt-b-000010/anime/ikamusume/wafc outfit/out_dist_prompts,3.203125,2.8580065,0.4637020528316498
+exp-1101-sd15-nt-b-000010/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.201171875,2.9231484,0.479516327381134
+exp-1101-sd15-nt-b-000010/people/K-2SO/in_dist_prompts,1.9970703125,3.022631,0.6039668917655945
+exp-1101-sd15-nt-b-000010/people/K-2SO/out_dist_prompts,2.341796875,3.0395684,0.5885032415390015
+exp-1101-sd15-nt-b-000010/people/Bodhi_Rook/illustration/in_dist_prompts,2.287109375,3.0644174,0.6378157138824463
+exp-1101-sd15-nt-b-000010/people/Bodhi_Rook/illustration/out_dist_prompts,2.63671875,2.8832111,0.6010575890541077
+exp-1101-sd15-nt-b-000010/people/Bodhi_Rook/realistic/in_dist_prompts,2.62109375,3.0562494,0.5237739682197571
+exp-1101-sd15-nt-b-000010/people/Bodhi_Rook/realistic/out_dist_prompts,2.84765625,2.9967382,0.5385324954986572
+exp-1101-sd15-nt-b-000010/people/Bodhi_Rook/figurine/in_dist_prompts,2.607421875,2.7986658,0.6162338852882385
+exp-1101-sd15-nt-b-000010/people/Bodhi_Rook/figurine/out_dist_prompts,2.6640625,2.866199,0.6053547859191895
+exp-1101-sd15-nt-b-000010/people/Rose_Tico/illustration/in_dist_prompts,2.70703125,3.081689,0.6105868816375732
+exp-1101-sd15-nt-b-000010/people/Rose_Tico/illustration/out_dist_prompts,2.837890625,3.0141015,0.6408407688140869
+exp-1101-sd15-nt-b-000010/people/Rose_Tico/realistic/in_dist_prompts,2.70703125,3.132212,0.513190746307373
+exp-1101-sd15-nt-b-000010/people/Rose_Tico/realistic/out_dist_prompts,3.041015625,3.076764,0.5745998620986938
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.7119140625,2.9695916,0.5124754905700684
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.533203125,2.9614174,0.5476958155632019
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/afro, realistic/in_dist_prompts",1.751953125,3.2550514,0.6452957987785339
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.271484375,3.1725156,0.6180784702301025
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.244140625,2.7968888,0.5725817084312439
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.8828125,2.7840884,0.5229668617248535
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.169921875,3.1586208,0.6385469436645508
+"exp-1101-sd15-nt-b-000010/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.201171875,3.1062517,0.6540105938911438
+exp-1101-sd15-nt-b-000010/people/Admiral_Piett/reaslitic/in_dist_prompts,2.5859375,2.967722,0.5018983483314514
+exp-1101-sd15-nt-b-000010/people/Admiral_Piett/reaslitic/out_dist_prompts,2.701171875,2.927305,0.4502089619636535
+exp-1101-sd15-nt-b-000010/people/Admiral_Piett/figurine/in_dist_prompts,2.451171875,2.9045496,0.6101158857345581
+exp-1101-sd15-nt-b-000010/people/Admiral_Piett/figurine/out_dist_prompts,2.60546875,2.8443513,0.5657705664634705
+exp-1101-sd15-nt-c/scene/scene_canal/in_dist_prompts,2.76171875,2.7002735,0.2666384279727936
+exp-1101-sd15-nt-c/scene/scene_canal/out_dist_prompts,2.75390625,2.6996055,0.3080822229385376
+exp-1101-sd15-nt-c/scene/scene_garden/in_dist_prompts,2.68359375,2.846137,0.3885510563850403
+exp-1101-sd15-nt-c/scene/scene_garden/out_dist_prompts,2.912109375,2.72396,0.3809104859828949
+exp-1101-sd15-nt-c/scene/scene_waterfall/in_dist_prompts,2.044921875,2.8150275,0.2497853487730026
+exp-1101-sd15-nt-c/scene/scene_waterfall/out_dist_prompts,2.62109375,2.6248748,0.2951571643352508
+exp-1101-sd15-nt-c/scene/scene_castle/in_dist_prompts,2.845703125,2.5356503,0.2355046421289444
+exp-1101-sd15-nt-c/scene/scene_castle/out_dist_prompts,2.6875,2.4478567,0.2710924744606018
+exp-1101-sd15-nt-c/scene/scene_sculpture1/in_dist_prompts,3.650390625,2.687932,0.2597500681877136
+exp-1101-sd15-nt-c/scene/scene_sculpture1/out_dist_prompts,3.76953125,2.6663897,0.2669693529605865
+exp-1101-sd15-nt-c/style/felix_vallotton_stroke/in_dist_captions,1.873046875,2.623852,0.4833519756793976
+exp-1101-sd15-nt-c/style/felix_vallotton_stroke/out_dist_prompts,2.05078125,2.696352,0.5854582190513611
+exp-1101-sd15-nt-c/style/ghibi_alter/in_dist_prompts,3.255859375,2.8048294,0.5036070346832275
+exp-1101-sd15-nt-c/style/ghibi_alter/out_dist_prompts,2.662109375,2.7306476,0.5122659206390381
+exp-1101-sd15-nt-c/style/ukiyo_e/in_dist_prompts,2.634765625,2.9661257,0.551629900932312
+exp-1101-sd15-nt-c/style/ukiyo_e/out_dist_prompts,2.41015625,2.7815368,0.5755715370178223
+exp-1101-sd15-nt-c/style/impressionism/in_dist_prompts,1.8896484375,2.7221823,0.2984199225902557
+exp-1101-sd15-nt-c/style/impressionism/out_dist_prompts,1.97265625,2.6351478,0.3378768265247345
+exp-1101-sd15-nt-c/style/vladimir_borovikovsky/in_dist_prompts,2.533203125,2.8960679,0.436693787574768
+exp-1101-sd15-nt-c/style/vladimir_borovikovsky/out_dist_prompts,2.115234375,2.676533,0.4420613050460815
+exp-1101-sd15-nt-c/style/pencil_drawing/in_dist_prompts,2.513671875,2.8548377,0.548366367816925
+exp-1101-sd15-nt-c/style/pencil_drawing/out_dist_prompts,2.15625,2.734021,0.5132437944412231
+exp-1101-sd15-nt-c/style/ghibi/in_dist_prompts,3.25,3.1657555,0.6446720361709595
+exp-1101-sd15-nt-c/style/ghibi/out_dist_prompts,2.740234375,2.9409344,0.6167833209037781
+exp-1101-sd15-nt-c/stuffed_toy/plushie_bunny/in_dist_prompts,3.53515625,2.4912689,0.2934372127056122
+exp-1101-sd15-nt-c/stuffed_toy/plushie_bunny/out_dist_prompts,3.17578125,2.4718535,0.3045474886894226
+exp-1101-sd15-nt-c/stuffed_toy/plushie_teddybear/in_dist_prompts,2.7265625,2.5742047,0.2778450846672058
+exp-1101-sd15-nt-c/stuffed_toy/plushie_teddybear/out_dist_prompts,2.576171875,2.576425,0.333907276391983
+exp-1101-sd15-nt-c/stuffed_toy/plushie_pink/in_dist_prompts,3.080078125,2.6257825,0.4794298410415649
+exp-1101-sd15-nt-c/stuffed_toy/plushie_pink/out_dist_prompts,3.083984375,2.582958,0.4972415268421173
+exp-1101-sd15-nt-c/stuffed_toy/plushie_panda/in_dist_prompts,3.14453125,2.76082,0.4842778146266937
+exp-1101-sd15-nt-c/stuffed_toy/plushie_panda/out_dist_prompts,2.79296875,2.7476623,0.4606020748615265
+exp-1101-sd15-nt-c/stuffed_toy/plushie_lobster/in_dist_prompts,4.28515625,2.558752,0.3825094699859619
+exp-1101-sd15-nt-c/stuffed_toy/plushie_lobster/out_dist_prompts,3.71875,2.6198742,0.4469331800937652
+exp-1101-sd15-nt-c/stuffed_toy/plushie_tortoise/in_dist_prompts,2.91015625,3.0076962,0.4768781960010528
+exp-1101-sd15-nt-c/stuffed_toy/plushie_tortoise/out_dist_prompts,2.880859375,2.9570725,0.4761139154434204
+exp-1101-sd15-nt-c/anime/yuuki_makoto/in_dist_prompts,2.794921875,2.9803686,0.4085951745510101
+exp-1101-sd15-nt-c/anime/yuuki_makoto/out_dist_prompts,2.92578125,3.0037463,0.4305629730224609
+exp-1101-sd15-nt-c/anime/yuuki_makoto/out_dist_prompts_tags,2.951171875,3.06386,0.41783007979393
+exp-1101-sd15-nt-c/anime/tsushima_yoshiko/in_dist_prompts,3.474609375,2.9581187,0.4236125648021698
+exp-1101-sd15-nt-c/anime/tsushima_yoshiko/out_dist_prompts,3.44921875,2.981112,0.4509492218494415
+exp-1101-sd15-nt-c/anime/tsushima_yoshiko/out_dist_prompts_tags,3.318359375,3.0430377,0.4381899535655975
+exp-1101-sd15-nt-c/anime/abukuma/toid outfit/in_dist_prompts,3.318359375,2.9004974,0.440645307302475
+exp-1101-sd15-nt-c/anime/abukuma/toid outfit/out_dist_prompts,3.369140625,2.9042616,0.4337954819202423
+exp-1101-sd15-nt-c/anime/abukuma/toid outfit/out_dist_prompts_tags,3.505859375,2.9005725,0.4098046422004699
+exp-1101-sd15-nt-c/anime/abukuma/none/in_dist_prompts,3.36328125,2.9235945,0.4541366994380951
+exp-1101-sd15-nt-c/anime/abukuma/none/out_dist_prompts,3.3515625,2.8987365,0.4319698810577392
+exp-1101-sd15-nt-c/anime/abukuma/none/out_dist_prompts_tags,3.419921875,2.9210558,0.4227586984634399
+exp-1101-sd15-nt-c/anime/abukuma/onex outfit/in_dist_prompts,3.189453125,2.855323,0.449493795633316
+exp-1101-sd15-nt-c/anime/abukuma/onex outfit/out_dist_prompts,3.27734375,2.8908753,0.4538455903530121
+exp-1101-sd15-nt-c/anime/abukuma/onex outfit/out_dist_prompts_tags,3.41015625,2.8805158,0.4381904602050781
+exp-1101-sd15-nt-c/anime/kotomine_kirei/in_dist_prompts,3.142578125,3.0739775,0.4584423005580902
+exp-1101-sd15-nt-c/anime/kotomine_kirei/out_dist_prompts,3.419921875,2.9884598,0.4534726738929748
+exp-1101-sd15-nt-c/anime/kotomine_kirei/out_dist_prompts_tags,3.302734375,2.9964683,0.4330730736255646
+exp-1101-sd15-nt-c/anime/ikamusume/dca outfit/in_dist_prompts,3.05859375,2.9282115,0.4484143853187561
+exp-1101-sd15-nt-c/anime/ikamusume/dca outfit/out_dist_prompts,3.048828125,2.8841572,0.4331835508346557
+exp-1101-sd15-nt-c/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.134765625,2.964762,0.4292914271354675
+exp-1101-sd15-nt-c/anime/ikamusume/none/in_dist_prompts,3.23046875,2.9656358,0.4588849246501922
+exp-1101-sd15-nt-c/anime/ikamusume/none/out_dist_prompts,3.216796875,2.8821619,0.4342376291751861
+exp-1101-sd15-nt-c/anime/ikamusume/none/out_dist_prompts_tags,3.25,2.9407208,0.4284493625164032
+exp-1101-sd15-nt-c/anime/ikamusume/wafc outfit/in_dist_prompts,3.28515625,2.9638734,0.4655588567256927
+exp-1101-sd15-nt-c/anime/ikamusume/wafc outfit/out_dist_prompts,3.236328125,2.8962088,0.4523433446884155
+exp-1101-sd15-nt-c/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.2578125,2.961827,0.4515067040920257
+exp-1101-sd15-nt-c/people/K-2SO/in_dist_prompts,2.060546875,3.0422473,0.5828171372413635
+exp-1101-sd15-nt-c/people/K-2SO/out_dist_prompts,2.48828125,3.0166702,0.5397565960884094
+exp-1101-sd15-nt-c/people/Bodhi_Rook/illustration/in_dist_prompts,2.37890625,3.0169837,0.6123901605606079
+exp-1101-sd15-nt-c/people/Bodhi_Rook/illustration/out_dist_prompts,2.79296875,2.8039234,0.566567599773407
+exp-1101-sd15-nt-c/people/Bodhi_Rook/realistic/in_dist_prompts,2.87890625,2.8694763,0.4275144636631012
+exp-1101-sd15-nt-c/people/Bodhi_Rook/realistic/out_dist_prompts,2.9765625,2.8276658,0.4247669577598572
+exp-1101-sd15-nt-c/people/Bodhi_Rook/figurine/in_dist_prompts,3.052734375,2.7432034,0.5630027651786804
+exp-1101-sd15-nt-c/people/Bodhi_Rook/figurine/out_dist_prompts,2.923828125,2.7660346,0.5573221445083618
+exp-1101-sd15-nt-c/people/Rose_Tico/illustration/in_dist_prompts,2.595703125,3.096503,0.5777477622032166
+exp-1101-sd15-nt-c/people/Rose_Tico/illustration/out_dist_prompts,2.853515625,2.9356787,0.5945161581039429
+exp-1101-sd15-nt-c/people/Rose_Tico/realistic/in_dist_prompts,2.634765625,3.1413908,0.4953071475028991
+exp-1101-sd15-nt-c/people/Rose_Tico/realistic/out_dist_prompts,2.9609375,2.9725244,0.4783504903316498
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.16015625,2.742934,0.3817218542098999
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.681640625,2.771917,0.406667947769165
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.04296875,3.0362833,0.4853719770908355
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.380859375,3.0246778,0.501432478427887
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.4140625,2.8443527,0.5349514484405518
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.97265625,2.7493634,0.4768008887767792
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.46484375,3.0965257,0.5878776907920837
+"exp-1101-sd15-nt-c/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.220703125,2.9199786,0.6027740240097046
+exp-1101-sd15-nt-c/people/Admiral_Piett/reaslitic/in_dist_prompts,2.810546875,2.8508804,0.3755296468734741
+exp-1101-sd15-nt-c/people/Admiral_Piett/reaslitic/out_dist_prompts,2.91015625,2.7604961,0.3365203440189361
+exp-1101-sd15-nt-c/people/Admiral_Piett/figurine/in_dist_prompts,2.658203125,2.9274855,0.4703560769557953
+exp-1101-sd15-nt-c/people/Admiral_Piett/figurine/out_dist_prompts,2.953125,2.7336895,0.4364140331745147
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_canal/in_dist_prompts,2.53125,2.6658332,0.3424623012542724
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_canal/out_dist_prompts,2.5078125,2.744472,0.4256248474121094
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_garden/in_dist_prompts,2.3125,2.6734164,0.5026100277900696
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_garden/out_dist_prompts,2.3359375,2.6987352,0.5713951587677002
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_waterfall/in_dist_prompts,1.40625,3.0197048,0.319885641336441
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_waterfall/out_dist_prompts,1.755859375,2.616542,0.3759843409061432
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_castle/in_dist_prompts,2.5625,2.5923605,0.3198718726634979
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_castle/out_dist_prompts,2.349609375,2.5568063,0.3583882451057434
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_sculpture1/in_dist_prompts,3.583984375,2.670089,0.3477611243724823
+exp-1102-sd15-nt-Prodigy-a-000010/scene/scene_sculpture1/out_dist_prompts,3.5390625,2.6704137,0.3563429117202759
+exp-1102-sd15-nt-Prodigy-a-000010/style/felix_vallotton_stroke/in_dist_captions,2.251953125,2.5725195,0.2883358597755432
+exp-1102-sd15-nt-Prodigy-a-000010/style/felix_vallotton_stroke/out_dist_prompts,2.1015625,2.6059375,0.4392759799957275
+exp-1102-sd15-nt-Prodigy-a-000010/style/ghibi_alter/in_dist_prompts,2.99609375,2.5896864,0.3555292189121246
+exp-1102-sd15-nt-Prodigy-a-000010/style/ghibi_alter/out_dist_prompts,2.4921875,2.4945707,0.3397913873195648
+exp-1102-sd15-nt-Prodigy-a-000010/style/ukiyo_e/in_dist_prompts,2.85546875,2.7700279,0.3953291177749634
+exp-1102-sd15-nt-Prodigy-a-000010/style/ukiyo_e/out_dist_prompts,2.349609375,2.6235192,0.3969045281410217
+exp-1102-sd15-nt-Prodigy-a-000010/style/impressionism/in_dist_prompts,2.79296875,2.5576868,0.1610496342182159
+exp-1102-sd15-nt-Prodigy-a-000010/style/impressionism/out_dist_prompts,2.490234375,2.5718176,0.1824860423803329
+exp-1102-sd15-nt-Prodigy-a-000010/style/vladimir_borovikovsky/in_dist_prompts,3.275390625,2.712826,0.2703510522842407
+exp-1102-sd15-nt-Prodigy-a-000010/style/vladimir_borovikovsky/out_dist_prompts,2.609375,2.605908,0.3236552774906158
+exp-1102-sd15-nt-Prodigy-a-000010/style/pencil_drawing/in_dist_prompts,3.041015625,2.7241356,0.481046587228775
+exp-1102-sd15-nt-Prodigy-a-000010/style/pencil_drawing/out_dist_prompts,2.33203125,2.6821504,0.5199154615402222
+exp-1102-sd15-nt-Prodigy-a-000010/style/ghibi/in_dist_prompts,3.388671875,3.0862534,0.5513538122177124
+exp-1102-sd15-nt-Prodigy-a-000010/style/ghibi/out_dist_prompts,2.8828125,2.9308174,0.5625362992286682
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_bunny/in_dist_prompts,2.8671875,2.5513065,0.364801287651062
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_bunny/out_dist_prompts,2.943359375,2.5152023,0.341276466846466
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_teddybear/in_dist_prompts,2.37109375,2.5678098,0.3172847628593445
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_teddybear/out_dist_prompts,2.298828125,2.5577056,0.353738784790039
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_pink/in_dist_prompts,2.8515625,2.556433,0.4650224447250366
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_pink/out_dist_prompts,2.64453125,2.7064924,0.5009415149688721
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_panda/in_dist_prompts,2.7421875,2.6993408,0.4816607236862182
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_panda/out_dist_prompts,2.39453125,2.6879318,0.4466880559921264
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_lobster/in_dist_prompts,3.93359375,2.577763,0.4156264066696167
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_lobster/out_dist_prompts,4.01171875,2.6413922,0.4426917135715484
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_tortoise/in_dist_prompts,2.537109375,2.984778,0.5996274352073669
+exp-1102-sd15-nt-Prodigy-a-000010/stuffed_toy/plushie_tortoise/out_dist_prompts,2.427734375,2.9570377,0.6067936420440674
+exp-1102-sd15-nt-Prodigy-a-000010/anime/yuuki_makoto/in_dist_prompts,2.87109375,2.9772666,0.3786132037639618
+exp-1102-sd15-nt-Prodigy-a-000010/anime/yuuki_makoto/out_dist_prompts,2.71484375,2.9950821,0.3700335025787353
+exp-1102-sd15-nt-Prodigy-a-000010/anime/yuuki_makoto/out_dist_prompts_tags,2.7578125,2.9998863,0.3400550186634063
+exp-1102-sd15-nt-Prodigy-a-000010/anime/tsushima_yoshiko/in_dist_prompts,3.6015625,3.0029113,0.4114700555801391
+exp-1102-sd15-nt-Prodigy-a-000010/anime/tsushima_yoshiko/out_dist_prompts,3.4921875,2.9951901,0.3813150823116302
+exp-1102-sd15-nt-Prodigy-a-000010/anime/tsushima_yoshiko/out_dist_prompts_tags,3.4921875,2.9612699,0.3689551651477813
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/toid outfit/in_dist_prompts,3.353515625,2.88763,0.436205506324768
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/toid outfit/out_dist_prompts,3.345703125,2.877944,0.4420628249645233
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/toid outfit/out_dist_prompts_tags,3.392578125,2.895131,0.4421397745609283
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/none/in_dist_prompts,3.44140625,2.906856,0.4164167046546936
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/none/out_dist_prompts,3.314453125,2.8700068,0.4195030629634857
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/none/out_dist_prompts_tags,3.388671875,2.8729606,0.4190659821033478
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/onex outfit/in_dist_prompts,3.2265625,2.8469203,0.4121423363685608
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/onex outfit/out_dist_prompts,3.267578125,2.8275619,0.4108653962612152
+exp-1102-sd15-nt-Prodigy-a-000010/anime/abukuma/onex outfit/out_dist_prompts_tags,3.2890625,2.8420353,0.4128588438034057
+exp-1102-sd15-nt-Prodigy-a-000010/anime/kotomine_kirei/in_dist_prompts,3.501953125,3.019347,0.4120523333549499
+exp-1102-sd15-nt-Prodigy-a-000010/anime/kotomine_kirei/out_dist_prompts,3.3984375,2.9951677,0.405985027551651
+exp-1102-sd15-nt-Prodigy-a-000010/anime/kotomine_kirei/out_dist_prompts_tags,3.572265625,2.9870348,0.3954199850559234
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/dca outfit/in_dist_prompts,3.25390625,2.8206272,0.4607749879360199
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/dca outfit/out_dist_prompts,3.17578125,2.8425727,0.4608685970306396
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.15234375,2.8424006,0.4680842161178589
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/none/in_dist_prompts,3.349609375,2.9235222,0.4451664388179779
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/none/out_dist_prompts,3.25390625,2.8463755,0.4607704281806946
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/none/out_dist_prompts_tags,3.234375,2.8539698,0.4544497430324554
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/wafc outfit/in_dist_prompts,3.46484375,2.8270118,0.4527109265327453
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/wafc outfit/out_dist_prompts,3.279296875,2.8169117,0.4655988812446594
+exp-1102-sd15-nt-Prodigy-a-000010/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.318359375,2.8429697,0.4574617445468902
+exp-1102-sd15-nt-Prodigy-a-000010/people/K-2SO/in_dist_prompts,2.14453125,3.0051694,0.5590609908103943
+exp-1102-sd15-nt-Prodigy-a-000010/people/K-2SO/out_dist_prompts,2.23046875,3.0795474,0.5792621374130249
+exp-1102-sd15-nt-Prodigy-a-000010/people/Bodhi_Rook/illustration/in_dist_prompts,2.830078125,2.7890394,0.5234782099723816
+exp-1102-sd15-nt-Prodigy-a-000010/people/Bodhi_Rook/illustration/out_dist_prompts,3.009765625,2.7902386,0.4948290288448334
+exp-1102-sd15-nt-Prodigy-a-000010/people/Bodhi_Rook/realistic/in_dist_prompts,2.93359375,2.864735,0.4138401746749878
+exp-1102-sd15-nt-Prodigy-a-000010/people/Bodhi_Rook/realistic/out_dist_prompts,2.513671875,2.9492583,0.4255374073982239
+exp-1102-sd15-nt-Prodigy-a-000010/people/Bodhi_Rook/figurine/in_dist_prompts,3.37890625,2.766293,0.5352098941802979
+exp-1102-sd15-nt-Prodigy-a-000010/people/Bodhi_Rook/figurine/out_dist_prompts,3.169921875,2.8225563,0.5305693745613098
+exp-1102-sd15-nt-Prodigy-a-000010/people/Rose_Tico/illustration/in_dist_prompts,3.103515625,2.9757733,0.4599464535713196
+exp-1102-sd15-nt-Prodigy-a-000010/people/Rose_Tico/illustration/out_dist_prompts,3.16796875,2.9047189,0.5124109387397766
+exp-1102-sd15-nt-Prodigy-a-000010/people/Rose_Tico/realistic/in_dist_prompts,2.853515625,3.1513975,0.4255984425544739
+exp-1102-sd15-nt-Prodigy-a-000010/people/Rose_Tico/realistic/out_dist_prompts,2.583984375,3.1542373,0.4448089301586151
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.9541015625,2.7611423,0.3316082656383514
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.04296875,2.8156223,0.3872323930263519
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.416015625,3.0402863,0.4599387645721435
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.201171875,3.1028771,0.4928219616413116
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.337890625,2.7068741,0.4134920537471771
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.3828125,2.584258,0.4316177368164062
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.763671875,2.9132693,0.4202664196491241
+"exp-1102-sd15-nt-Prodigy-a-000010/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.625,2.9245465,0.4753872752189636
+exp-1102-sd15-nt-Prodigy-a-000010/people/Admiral_Piett/reaslitic/in_dist_prompts,2.58984375,2.865981,0.3472452163696289
+exp-1102-sd15-nt-Prodigy-a-000010/people/Admiral_Piett/reaslitic/out_dist_prompts,2.41015625,2.8278646,0.3738537132740021
+exp-1102-sd15-nt-Prodigy-a-000010/people/Admiral_Piett/figurine/in_dist_prompts,3.037109375,2.839032,0.3862394094467163
+exp-1102-sd15-nt-Prodigy-a-000010/people/Admiral_Piett/figurine/out_dist_prompts,3.02734375,2.8503919,0.411632090806961
+exp-1102-sd15-nt-Prodigy-c/scene/scene_canal/in_dist_prompts,2.513671875,2.6981723,0.6304326057434082
+exp-1102-sd15-nt-Prodigy-c/scene/scene_canal/out_dist_prompts,2.7265625,2.6814935,0.6028005480766296
+exp-1102-sd15-nt-Prodigy-c/scene/scene_garden/in_dist_prompts,2.1171875,2.8662505,0.6597884893417358
+exp-1102-sd15-nt-Prodigy-c/scene/scene_garden/out_dist_prompts,2.408203125,2.8281305,0.6266624331474304
+exp-1102-sd15-nt-Prodigy-c/scene/scene_waterfall/in_dist_prompts,1.421875,2.908242,0.3684726357460022
+exp-1102-sd15-nt-Prodigy-c/scene/scene_waterfall/out_dist_prompts,2.5625,2.7010672,0.4386457800865173
+exp-1102-sd15-nt-Prodigy-c/scene/scene_castle/in_dist_prompts,2.26953125,2.6092134,0.5049372315406799
+exp-1102-sd15-nt-Prodigy-c/scene/scene_castle/out_dist_prompts,2.154296875,2.6070147,0.462964653968811
+exp-1102-sd15-nt-Prodigy-c/scene/scene_sculpture1/in_dist_prompts,3.37890625,2.533026,0.5926503539085388
+exp-1102-sd15-nt-Prodigy-c/scene/scene_sculpture1/out_dist_prompts,3.076171875,2.5257483,0.5859175324440002
+exp-1102-sd15-nt-Prodigy-c/style/felix_vallotton_stroke/in_dist_captions,1.970703125,2.5755134,0.4345710873603821
+exp-1102-sd15-nt-Prodigy-c/style/felix_vallotton_stroke/out_dist_prompts,2.0625,2.6093268,0.477693647146225
+exp-1102-sd15-nt-Prodigy-c/style/ghibi_alter/in_dist_prompts,3.513671875,2.6900206,0.3761603236198425
+exp-1102-sd15-nt-Prodigy-c/style/ghibi_alter/out_dist_prompts,3.12109375,2.542588,0.4060244858264923
+exp-1102-sd15-nt-Prodigy-c/style/ukiyo_e/in_dist_prompts,2.826171875,2.7694101,0.4357390701770782
+exp-1102-sd15-nt-Prodigy-c/style/ukiyo_e/out_dist_prompts,2.7578125,2.7385926,0.4195036590099334
+exp-1102-sd15-nt-Prodigy-c/style/impressionism/in_dist_prompts,2.203125,2.5541766,0.2265258580446243
+exp-1102-sd15-nt-Prodigy-c/style/impressionism/out_dist_prompts,2.365234375,2.4218092,0.1814560294151306
+exp-1102-sd15-nt-Prodigy-c/style/vladimir_borovikovsky/in_dist_prompts,2.779296875,2.8144019,0.3715753853321075
+exp-1102-sd15-nt-Prodigy-c/style/vladimir_borovikovsky/out_dist_prompts,2.546875,2.5666788,0.3299969434738159
+exp-1102-sd15-nt-Prodigy-c/style/pencil_drawing/in_dist_prompts,2.689453125,2.7522607,0.4626607894897461
+exp-1102-sd15-nt-Prodigy-c/style/pencil_drawing/out_dist_prompts,2.4921875,2.7329001,0.4328669011592865
+exp-1102-sd15-nt-Prodigy-c/style/ghibi/in_dist_prompts,3.25,3.102504,0.5423095226287842
+exp-1102-sd15-nt-Prodigy-c/style/ghibi/out_dist_prompts,3.07421875,2.9541867,0.4833002090454101
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_bunny/in_dist_prompts,2.650390625,2.5744529,0.4790211021900177
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_bunny/out_dist_prompts,3.1796875,2.533757,0.3678410649299621
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_teddybear/in_dist_prompts,2.09375,2.6291091,0.454926073551178
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_teddybear/out_dist_prompts,2.240234375,2.6048005,0.4300194084644317
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_pink/in_dist_prompts,2.779296875,2.5726936,0.4813164174556732
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_pink/out_dist_prompts,3.146484375,2.7161164,0.5218484997749329
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_panda/in_dist_prompts,2.7265625,2.6813166,0.4832075834274292
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_panda/out_dist_prompts,2.462890625,2.6433697,0.4333887994289398
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_lobster/in_dist_prompts,3.673828125,2.665689,0.5310654640197754
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_lobster/out_dist_prompts,3.68359375,2.6894064,0.5262743830680847
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_tortoise/in_dist_prompts,2.4375,2.8860946,0.5305052399635315
+exp-1102-sd15-nt-Prodigy-c/stuffed_toy/plushie_tortoise/out_dist_prompts,2.3515625,2.9354076,0.5372141003608704
+exp-1102-sd15-nt-Prodigy-c/anime/yuuki_makoto/in_dist_prompts,2.84375,2.9721334,0.3608253896236419
+exp-1102-sd15-nt-Prodigy-c/anime/yuuki_makoto/out_dist_prompts,2.900390625,2.9310813,0.3564274609088897
+exp-1102-sd15-nt-Prodigy-c/anime/yuuki_makoto/out_dist_prompts_tags,2.861328125,2.9320035,0.3279510140419006
+exp-1102-sd15-nt-Prodigy-c/anime/tsushima_yoshiko/in_dist_prompts,3.58203125,2.9456315,0.4112286269664764
+exp-1102-sd15-nt-Prodigy-c/anime/tsushima_yoshiko/out_dist_prompts,3.5078125,2.9002743,0.3673161268234253
+exp-1102-sd15-nt-Prodigy-c/anime/tsushima_yoshiko/out_dist_prompts_tags,3.421875,2.9105005,0.3528228104114532
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/toid outfit/in_dist_prompts,3.796875,2.8614874,0.4014639556407928
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/toid outfit/out_dist_prompts,3.69921875,2.7850177,0.3870542049407959
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/toid outfit/out_dist_prompts_tags,3.72265625,2.7632918,0.38434037566185
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/none/in_dist_prompts,3.728515625,2.8584387,0.4223828613758087
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/none/out_dist_prompts,3.646484375,2.7770395,0.3907711505889892
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/none/out_dist_prompts_tags,3.619140625,2.7651334,0.3796985745429992
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/onex outfit/in_dist_prompts,3.798828125,2.8993366,0.4352542757987976
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/onex outfit/out_dist_prompts,3.712890625,2.8762696,0.4064624011516571
+exp-1102-sd15-nt-Prodigy-c/anime/abukuma/onex outfit/out_dist_prompts_tags,3.634765625,2.8240092,0.3786759972572326
+exp-1102-sd15-nt-Prodigy-c/anime/kotomine_kirei/in_dist_prompts,3.5625,2.8540823,0.307101845741272
+exp-1102-sd15-nt-Prodigy-c/anime/kotomine_kirei/out_dist_prompts,3.453125,2.7975922,0.3055495023727417
+exp-1102-sd15-nt-Prodigy-c/anime/kotomine_kirei/out_dist_prompts_tags,3.4921875,2.8228607,0.2606982886791229
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/dca outfit/in_dist_prompts,3.212890625,2.849183,0.4704214036464691
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/dca outfit/out_dist_prompts,3.18359375,2.8203256,0.468129813671112
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.255859375,2.80889,0.451042890548706
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/none/in_dist_prompts,3.470703125,2.8893323,0.4606343507766723
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/none/out_dist_prompts,3.3359375,2.8293242,0.4652327299118042
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/none/out_dist_prompts_tags,3.35546875,2.8092487,0.4416724443435669
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/wafc outfit/in_dist_prompts,3.55859375,2.8643923,0.4645794034004211
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/wafc outfit/out_dist_prompts,3.498046875,2.8396893,0.4667759239673614
+exp-1102-sd15-nt-Prodigy-c/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.458984375,2.8156846,0.4587374031543731
+exp-1102-sd15-nt-Prodigy-c/people/K-2SO/in_dist_prompts,2.388671875,2.8441846,0.4166809916496277
+exp-1102-sd15-nt-Prodigy-c/people/K-2SO/out_dist_prompts,2.392578125,2.8911939,0.5018260478973389
+exp-1102-sd15-nt-Prodigy-c/people/Bodhi_Rook/illustration/in_dist_prompts,2.724609375,2.8874335,0.4449041485786438
+exp-1102-sd15-nt-Prodigy-c/people/Bodhi_Rook/illustration/out_dist_prompts,3.044921875,2.9090376,0.4473111629486084
+exp-1102-sd15-nt-Prodigy-c/people/Bodhi_Rook/realistic/in_dist_prompts,2.9609375,2.7082446,0.3318796455860138
+exp-1102-sd15-nt-Prodigy-c/people/Bodhi_Rook/realistic/out_dist_prompts,2.611328125,2.7269611,0.3341331779956817
+exp-1102-sd15-nt-Prodigy-c/people/Bodhi_Rook/figurine/in_dist_prompts,3.1875,2.6287954,0.4185312986373901
+exp-1102-sd15-nt-Prodigy-c/people/Bodhi_Rook/figurine/out_dist_prompts,3.0625,2.5727515,0.3938042521476745
+exp-1102-sd15-nt-Prodigy-c/people/Rose_Tico/illustration/in_dist_prompts,2.94140625,2.9802701,0.421578586101532
+exp-1102-sd15-nt-Prodigy-c/people/Rose_Tico/illustration/out_dist_prompts,2.69140625,3.0215368,0.4968471825122833
+exp-1102-sd15-nt-Prodigy-c/people/Rose_Tico/realistic/in_dist_prompts,2.771484375,2.909156,0.3576067686080932
+exp-1102-sd15-nt-Prodigy-c/people/Rose_Tico/realistic/out_dist_prompts,2.775390625,2.9436195,0.3581492602825165
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.365234375,2.4535332,0.2296034395694732
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.466796875,2.405636,0.2285442799329757
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.37109375,2.6307464,0.2772993147373199
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.216796875,2.7391381,0.3064414262771606
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/bald, 3d/in_dist_prompts",3.001953125,2.4852064,0.2597458958625793
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.888671875,2.5179255,0.2938094437122345
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/afro, illustration/in_dist_prompts",3.18359375,2.6957912,0.3390156924724579
+"exp-1102-sd15-nt-Prodigy-c/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.96875,2.764099,0.362554669380188
+exp-1102-sd15-nt-Prodigy-c/people/Admiral_Piett/reaslitic/in_dist_prompts,2.7734375,2.622065,0.2549598813056946
+exp-1102-sd15-nt-Prodigy-c/people/Admiral_Piett/reaslitic/out_dist_prompts,2.736328125,2.6223388,0.2365054935216903
+exp-1102-sd15-nt-Prodigy-c/people/Admiral_Piett/figurine/in_dist_prompts,2.900390625,2.794619,0.3778629601001739
+exp-1102-sd15-nt-Prodigy-c/people/Admiral_Piett/figurine/out_dist_prompts,3.072265625,2.7801046,0.2696809768676758
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_canal/in_dist_prompts,2.57421875,2.6958375,0.6153391003608704
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_canal/out_dist_prompts,2.701171875,2.7755475,0.6289077997207642
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_garden/in_dist_prompts,2.1796875,2.869905,0.6364535689353943
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_garden/out_dist_prompts,2.36328125,2.7391207,0.6181851029396057
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_waterfall/in_dist_prompts,1.712890625,2.9296103,0.3661504983901977
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_waterfall/out_dist_prompts,2.203125,2.687065,0.4267211854457855
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_castle/in_dist_prompts,2.34765625,2.674435,0.4663327932357788
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_castle/out_dist_prompts,2.248046875,2.6450498,0.4814712107181549
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_sculpture1/in_dist_prompts,3.3125,2.6082532,0.6224895119667053
+exp-1102-sd15-nt-Prodigy-a-000030/scene/scene_sculpture1/out_dist_prompts,3.06640625,2.6045446,0.5795583128929138
+exp-1102-sd15-nt-Prodigy-a-000030/style/felix_vallotton_stroke/in_dist_captions,2.091796875,2.6119776,0.4104512929916382
+exp-1102-sd15-nt-Prodigy-a-000030/style/felix_vallotton_stroke/out_dist_prompts,2.166015625,2.5938158,0.463468998670578
+exp-1102-sd15-nt-Prodigy-a-000030/style/ghibi_alter/in_dist_prompts,3.513671875,2.7754622,0.4152209460735321
+exp-1102-sd15-nt-Prodigy-a-000030/style/ghibi_alter/out_dist_prompts,3.16015625,2.470872,0.4081708788871765
+exp-1102-sd15-nt-Prodigy-a-000030/style/ukiyo_e/in_dist_prompts,2.626953125,2.8193765,0.46377894282341
+exp-1102-sd15-nt-Prodigy-a-000030/style/ukiyo_e/out_dist_prompts,2.162109375,2.5439446,0.3724957406520843
+exp-1102-sd15-nt-Prodigy-a-000030/style/impressionism/in_dist_prompts,2.166015625,2.6338654,0.2614659368991852
+exp-1102-sd15-nt-Prodigy-a-000030/style/impressionism/out_dist_prompts,2.013671875,2.5405035,0.2585017681121826
+exp-1102-sd15-nt-Prodigy-a-000030/style/vladimir_borovikovsky/in_dist_prompts,2.8671875,2.843401,0.3841506540775299
+exp-1102-sd15-nt-Prodigy-a-000030/style/vladimir_borovikovsky/out_dist_prompts,2.6875,2.5745163,0.3056935369968414
+exp-1102-sd15-nt-Prodigy-a-000030/style/pencil_drawing/in_dist_prompts,2.748046875,2.7114758,0.5085996389389038
+exp-1102-sd15-nt-Prodigy-a-000030/style/pencil_drawing/out_dist_prompts,2.498046875,2.5926745,0.5111850500106812
+exp-1102-sd15-nt-Prodigy-a-000030/style/ghibi/in_dist_prompts,3.193359375,3.0353808,0.6176218390464783
+exp-1102-sd15-nt-Prodigy-a-000030/style/ghibi/out_dist_prompts,3.087890625,2.7967854,0.549369215965271
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_bunny/in_dist_prompts,2.923828125,2.5922546,0.4356761276721954
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_bunny/out_dist_prompts,3.6171875,2.5176847,0.2752972841262817
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_teddybear/in_dist_prompts,2.142578125,2.6564796,0.4176878035068512
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_teddybear/out_dist_prompts,2.390625,2.6319447,0.3557277321815491
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_pink/in_dist_prompts,2.9609375,2.557617,0.4631331264972687
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_pink/out_dist_prompts,3.57421875,2.6506085,0.378296434879303
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_panda/in_dist_prompts,2.857421875,2.6722698,0.4863188564777374
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_panda/out_dist_prompts,2.86328125,2.6679251,0.4350196421146393
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_lobster/in_dist_prompts,3.83203125,2.6180463,0.4874317646026611
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_lobster/out_dist_prompts,4.0078125,2.6187983,0.4781452417373657
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_tortoise/in_dist_prompts,2.564453125,2.8973727,0.515231728553772
+exp-1102-sd15-nt-Prodigy-a-000030/stuffed_toy/plushie_tortoise/out_dist_prompts,2.5078125,2.9542036,0.514138400554657
+exp-1102-sd15-nt-Prodigy-a-000030/anime/yuuki_makoto/in_dist_prompts,2.859375,3.0524764,0.3925243020057678
+exp-1102-sd15-nt-Prodigy-a-000030/anime/yuuki_makoto/out_dist_prompts,2.984375,3.021221,0.4014188647270202
+exp-1102-sd15-nt-Prodigy-a-000030/anime/yuuki_makoto/out_dist_prompts_tags,3.01953125,3.0009165,0.3648824989795685
+exp-1102-sd15-nt-Prodigy-a-000030/anime/tsushima_yoshiko/in_dist_prompts,3.298828125,3.0129888,0.4233174920082092
+exp-1102-sd15-nt-Prodigy-a-000030/anime/tsushima_yoshiko/out_dist_prompts,3.255859375,2.9780009,0.3968589007854461
+exp-1102-sd15-nt-Prodigy-a-000030/anime/tsushima_yoshiko/out_dist_prompts_tags,3.25390625,2.9943662,0.3531148135662079
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/toid outfit/in_dist_prompts,3.42578125,2.9073472,0.4389235377311706
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/toid outfit/out_dist_prompts,3.576171875,2.88648,0.4476976692676544
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/toid outfit/out_dist_prompts_tags,3.595703125,2.859402,0.4236129522323608
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/none/in_dist_prompts,3.453125,2.9316907,0.4650436639785766
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/none/out_dist_prompts,3.462890625,2.911146,0.4411110281944275
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/none/out_dist_prompts_tags,3.45703125,2.9193594,0.4332740306854248
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/onex outfit/in_dist_prompts,3.34765625,2.9597619,0.4471925795078277
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/onex outfit/out_dist_prompts,3.455078125,2.9200406,0.4439774453639984
+exp-1102-sd15-nt-Prodigy-a-000030/anime/abukuma/onex outfit/out_dist_prompts_tags,3.431640625,2.8966818,0.4315454959869385
+exp-1102-sd15-nt-Prodigy-a-000030/anime/kotomine_kirei/in_dist_prompts,3.37109375,3.032345,0.3772276043891907
+exp-1102-sd15-nt-Prodigy-a-000030/anime/kotomine_kirei/out_dist_prompts,3.46875,3.0296645,0.4007053673267364
+exp-1102-sd15-nt-Prodigy-a-000030/anime/kotomine_kirei/out_dist_prompts_tags,3.515625,3.0265079,0.3908690512180328
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/dca outfit/in_dist_prompts,3.05078125,2.913585,0.461761325597763
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/dca outfit/out_dist_prompts,3.103515625,2.9259434,0.4789331555366516
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.236328125,2.942957,0.4675262570381164
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/none/in_dist_prompts,3.302734375,2.9686823,0.4631043374538421
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/none/out_dist_prompts,3.16796875,2.9189224,0.4751354455947876
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/none/out_dist_prompts_tags,3.333984375,2.946956,0.4578462541103363
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/wafc outfit/in_dist_prompts,3.408203125,2.8803983,0.4644340276718139
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/wafc outfit/out_dist_prompts,3.275390625,2.9253297,0.4781491756439209
+exp-1102-sd15-nt-Prodigy-a-000030/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.39453125,2.9273508,0.4699067175388336
+exp-1102-sd15-nt-Prodigy-a-000030/people/K-2SO/in_dist_prompts,2.3125,3.026436,0.5558077096939087
+exp-1102-sd15-nt-Prodigy-a-000030/people/K-2SO/out_dist_prompts,2.53125,3.0224047,0.5920262932777405
+exp-1102-sd15-nt-Prodigy-a-000030/people/Bodhi_Rook/illustration/in_dist_prompts,2.43359375,3.067695,0.5951096415519714
+exp-1102-sd15-nt-Prodigy-a-000030/people/Bodhi_Rook/illustration/out_dist_prompts,2.654296875,3.0511503,0.6164065003395081
+exp-1102-sd15-nt-Prodigy-a-000030/people/Bodhi_Rook/realistic/in_dist_prompts,2.80078125,2.8837717,0.4187221527099609
+exp-1102-sd15-nt-Prodigy-a-000030/people/Bodhi_Rook/realistic/out_dist_prompts,2.685546875,2.8533797,0.3948069810867309
+exp-1102-sd15-nt-Prodigy-a-000030/people/Bodhi_Rook/figurine/in_dist_prompts,3.2265625,2.6865547,0.5270189046859741
+exp-1102-sd15-nt-Prodigy-a-000030/people/Bodhi_Rook/figurine/out_dist_prompts,3.115234375,2.7111492,0.5699193477630615
+exp-1102-sd15-nt-Prodigy-a-000030/people/Rose_Tico/illustration/in_dist_prompts,2.712890625,3.1333838,0.5324346423149109
+exp-1102-sd15-nt-Prodigy-a-000030/people/Rose_Tico/illustration/out_dist_prompts,2.740234375,3.1234422,0.5817098021507263
+exp-1102-sd15-nt-Prodigy-a-000030/people/Rose_Tico/realistic/in_dist_prompts,2.65625,3.0337157,0.3953596353530884
+exp-1102-sd15-nt-Prodigy-a-000030/people/Rose_Tico/realistic/out_dist_prompts,2.77734375,3.030559,0.382609486579895
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.115234375,2.5360968,0.2153994441032409
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.263671875,2.6473382,0.2739629447460174
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.37109375,2.772874,0.34764164686203
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.4140625,2.8442822,0.3667449653148651
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.779296875,2.5876093,0.3006767034530639
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.962890625,2.4839323,0.3526809811592102
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.908203125,2.9826639,0.4389345049858093
+"exp-1102-sd15-nt-Prodigy-a-000030/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.5859375,3.0456295,0.4729544520378113
+exp-1102-sd15-nt-Prodigy-a-000030/people/Admiral_Piett/reaslitic/in_dist_prompts,2.826171875,2.6753855,0.2907510995864868
+exp-1102-sd15-nt-Prodigy-a-000030/people/Admiral_Piett/reaslitic/out_dist_prompts,2.619140625,2.6639054,0.2408833354711532
+exp-1102-sd15-nt-Prodigy-a-000030/people/Admiral_Piett/figurine/in_dist_prompts,2.833984375,2.8327253,0.4257150292396545
+exp-1102-sd15-nt-Prodigy-a-000030/people/Admiral_Piett/figurine/out_dist_prompts,2.880859375,2.7238984,0.3885363042354584
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_canal/in_dist_prompts,2.392578125,2.8954926,0.4418476521968841
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_canal/out_dist_prompts,2.34375,2.8062592,0.5365169048309326
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_garden/in_dist_prompts,2.3203125,2.8363695,0.5804422497749329
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_garden/out_dist_prompts,2.37109375,2.777538,0.5626157522201538
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_waterfall/in_dist_prompts,1.6298828125,3.0820174,0.2931179404258728
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_waterfall/out_dist_prompts,2.146484375,2.753026,0.3985421061515808
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_castle/in_dist_prompts,2.38671875,2.6028414,0.4104278683662414
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_castle/out_dist_prompts,2.34765625,2.5342147,0.4214184284210205
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_sculpture1/in_dist_prompts,3.390625,2.6613042,0.4652178585529327
+exp-1102-sd15-nt-Prodigy-b-000010/scene/scene_sculpture1/out_dist_prompts,3.22265625,2.7049015,0.5300037264823914
+exp-1102-sd15-nt-Prodigy-b-000010/style/felix_vallotton_stroke/in_dist_captions,2.24609375,2.559398,0.4273854196071625
+exp-1102-sd15-nt-Prodigy-b-000010/style/felix_vallotton_stroke/out_dist_prompts,2.529296875,2.571409,0.5270600914955139
+exp-1102-sd15-nt-Prodigy-b-000010/style/ghibi_alter/in_dist_prompts,3.646484375,2.7332716,0.5006228089332581
+exp-1102-sd15-nt-Prodigy-b-000010/style/ghibi_alter/out_dist_prompts,3.29296875,2.5611014,0.5215558409690857
+exp-1102-sd15-nt-Prodigy-b-000010/style/ukiyo_e/in_dist_prompts,2.68359375,2.9327674,0.5227830410003662
+exp-1102-sd15-nt-Prodigy-b-000010/style/ukiyo_e/out_dist_prompts,2.3515625,2.8003013,0.5142938494682312
+exp-1102-sd15-nt-Prodigy-b-000010/style/impressionism/in_dist_prompts,2.3125,2.6880257,0.3237925469875335
+exp-1102-sd15-nt-Prodigy-b-000010/style/impressionism/out_dist_prompts,2.712890625,2.6492782,0.3104707598686218
+exp-1102-sd15-nt-Prodigy-b-000010/style/vladimir_borovikovsky/in_dist_prompts,2.927734375,3.0082166,0.5243724584579468
+exp-1102-sd15-nt-Prodigy-b-000010/style/vladimir_borovikovsky/out_dist_prompts,2.380859375,2.9111087,0.5475934743881226
+exp-1102-sd15-nt-Prodigy-b-000010/style/pencil_drawing/in_dist_prompts,3.0859375,2.817001,0.4563232064247131
+exp-1102-sd15-nt-Prodigy-b-000010/style/pencil_drawing/out_dist_prompts,2.904296875,2.7375412,0.4451183676719665
+exp-1102-sd15-nt-Prodigy-b-000010/style/ghibi/in_dist_prompts,3.462890625,3.1513958,0.6423113942146301
+exp-1102-sd15-nt-Prodigy-b-000010/style/ghibi/out_dist_prompts,3.275390625,2.9980025,0.635072648525238
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_bunny/in_dist_prompts,2.90625,2.579737,0.3548229932785034
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_bunny/out_dist_prompts,2.9765625,2.5673225,0.3133900165557861
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_teddybear/in_dist_prompts,2.421875,2.672973,0.3298057615756988
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_teddybear/out_dist_prompts,2.37890625,2.6741161,0.3564073443412781
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_pink/in_dist_prompts,2.912109375,2.5863974,0.4635035991668701
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_pink/out_dist_prompts,2.763671875,2.6779058,0.4664310216903686
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_panda/in_dist_prompts,2.81640625,2.727048,0.4749186635017395
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_panda/out_dist_prompts,2.234375,2.8407094,0.4854481518268585
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_lobster/in_dist_prompts,3.619140625,2.6412277,0.4351116120815277
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_lobster/out_dist_prompts,3.99609375,2.6423872,0.4286870062351227
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_tortoise/in_dist_prompts,2.59375,2.9966736,0.5692289471626282
+exp-1102-sd15-nt-Prodigy-b-000010/stuffed_toy/plushie_tortoise/out_dist_prompts,2.56640625,3.0187335,0.5872344374656677
+exp-1102-sd15-nt-Prodigy-b-000010/anime/yuuki_makoto/in_dist_prompts,2.794921875,2.9954548,0.3981468975543976
+exp-1102-sd15-nt-Prodigy-b-000010/anime/yuuki_makoto/out_dist_prompts,2.734375,3.0081284,0.4119202792644501
+exp-1102-sd15-nt-Prodigy-b-000010/anime/yuuki_makoto/out_dist_prompts_tags,2.771484375,2.9537592,0.3857929110527038
+exp-1102-sd15-nt-Prodigy-b-000010/anime/tsushima_yoshiko/in_dist_prompts,3.47265625,3.0065866,0.4549117982387543
+exp-1102-sd15-nt-Prodigy-b-000010/anime/tsushima_yoshiko/out_dist_prompts,3.416015625,3.0028684,0.4349900782108307
+exp-1102-sd15-nt-Prodigy-b-000010/anime/tsushima_yoshiko/out_dist_prompts_tags,3.412109375,2.9858136,0.4116480946540832
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/toid outfit/in_dist_prompts,3.310546875,2.94145,0.4772411584854126
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/toid outfit/out_dist_prompts,3.279296875,2.9236677,0.4669232964515686
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/toid outfit/out_dist_prompts_tags,3.25390625,2.895688,0.4585331380367279
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/none/in_dist_prompts,3.50390625,2.9287913,0.4687510430812835
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/none/out_dist_prompts,3.24609375,2.9048126,0.4690317809581756
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/none/out_dist_prompts_tags,3.259765625,2.9096034,0.4644537270069122
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/onex outfit/in_dist_prompts,3.173828125,2.933928,0.486655592918396
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/onex outfit/out_dist_prompts,3.1484375,2.9351335,0.4772632122039795
+exp-1102-sd15-nt-Prodigy-b-000010/anime/abukuma/onex outfit/out_dist_prompts_tags,3.185546875,2.9174933,0.4805343151092529
+exp-1102-sd15-nt-Prodigy-b-000010/anime/kotomine_kirei/in_dist_prompts,3.208984375,3.0215964,0.3814257681369781
+exp-1102-sd15-nt-Prodigy-b-000010/anime/kotomine_kirei/out_dist_prompts,3.337890625,3.0414944,0.3995535969734192
+exp-1102-sd15-nt-Prodigy-b-000010/anime/kotomine_kirei/out_dist_prompts_tags,3.376953125,2.9780655,0.3868201971054077
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/dca outfit/in_dist_prompts,3.19921875,2.8895273,0.4957500398159027
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/dca outfit/out_dist_prompts,3.173828125,2.8989642,0.4958100616931915
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.142578125,2.8990216,0.4878071546554565
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/none/in_dist_prompts,3.359375,2.953029,0.4881903529167175
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/none/out_dist_prompts,3.169921875,2.9011521,0.4908071756362915
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/none/out_dist_prompts_tags,3.173828125,2.8951993,0.4682426154613495
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/wafc outfit/in_dist_prompts,3.34765625,2.898168,0.4800586700439453
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/wafc outfit/out_dist_prompts,3.2265625,2.9023798,0.4850214719772339
+exp-1102-sd15-nt-Prodigy-b-000010/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.1796875,2.8990207,0.4743117988109588
+exp-1102-sd15-nt-Prodigy-b-000010/people/K-2SO/in_dist_prompts,2.14453125,2.9739656,0.5545627474784851
+exp-1102-sd15-nt-Prodigy-b-000010/people/K-2SO/out_dist_prompts,2.32421875,3.0988135,0.6147847175598145
+exp-1102-sd15-nt-Prodigy-b-000010/people/Bodhi_Rook/illustration/in_dist_prompts,2.490234375,2.9582016,0.5216593742370605
+exp-1102-sd15-nt-Prodigy-b-000010/people/Bodhi_Rook/illustration/out_dist_prompts,2.904296875,2.9089205,0.5461687445640564
+exp-1102-sd15-nt-Prodigy-b-000010/people/Bodhi_Rook/realistic/in_dist_prompts,2.79296875,2.948473,0.4596925675868988
+exp-1102-sd15-nt-Prodigy-b-000010/people/Bodhi_Rook/realistic/out_dist_prompts,2.728515625,3.021845,0.4725606441497803
+exp-1102-sd15-nt-Prodigy-b-000010/people/Bodhi_Rook/figurine/in_dist_prompts,3.19921875,2.7334826,0.5436936020851135
+exp-1102-sd15-nt-Prodigy-b-000010/people/Bodhi_Rook/figurine/out_dist_prompts,3.24609375,2.7393768,0.5091363191604614
+exp-1102-sd15-nt-Prodigy-b-000010/people/Rose_Tico/illustration/in_dist_prompts,2.66796875,3.0280194,0.4778596460819244
+exp-1102-sd15-nt-Prodigy-b-000010/people/Rose_Tico/illustration/out_dist_prompts,2.68359375,2.9494677,0.5235127806663513
+exp-1102-sd15-nt-Prodigy-b-000010/people/Rose_Tico/realistic/in_dist_prompts,2.791015625,2.943683,0.4129019975662231
+exp-1102-sd15-nt-Prodigy-b-000010/people/Rose_Tico/realistic/out_dist_prompts,2.53515625,2.9976013,0.4019771218299866
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.4453125,2.7797413,0.4132821261882782
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.625,2.8995101,0.4727303981781006
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.37890625,2.9796586,0.4870784878730774
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.4453125,3.0502746,0.5211610198020935
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.234375,2.812843,0.4883285164833069
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.400390625,2.713236,0.5538401007652283
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.6328125,3.0417962,0.5290789604187012
+"exp-1102-sd15-nt-Prodigy-b-000010/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.47265625,3.0587227,0.5496096611022949
+exp-1102-sd15-nt-Prodigy-b-000010/people/Admiral_Piett/reaslitic/in_dist_prompts,2.853515625,2.8111749,0.3553955852985382
+exp-1102-sd15-nt-Prodigy-b-000010/people/Admiral_Piett/reaslitic/out_dist_prompts,2.685546875,2.9009106,0.3969022333621979
+exp-1102-sd15-nt-Prodigy-b-000010/people/Admiral_Piett/figurine/in_dist_prompts,2.8359375,2.8930788,0.4879560768604278
+exp-1102-sd15-nt-Prodigy-b-000010/people/Admiral_Piett/figurine/out_dist_prompts,2.791015625,2.9276536,0.4837518334388733
+exp-1102-sd15-nt-Prodigy-a/scene/scene_canal/in_dist_prompts,2.4453125,2.72696,0.6646761894226074
+exp-1102-sd15-nt-Prodigy-a/scene/scene_canal/out_dist_prompts,2.423828125,2.752911,0.6278380751609802
+exp-1102-sd15-nt-Prodigy-a/scene/scene_garden/in_dist_prompts,2.12109375,2.7973576,0.6529301404953003
+exp-1102-sd15-nt-Prodigy-a/scene/scene_garden/out_dist_prompts,2.12890625,2.8297656,0.6474559307098389
+exp-1102-sd15-nt-Prodigy-a/scene/scene_waterfall/in_dist_prompts,1.3837890625,2.9155426,0.4070915877819061
+exp-1102-sd15-nt-Prodigy-a/scene/scene_waterfall/out_dist_prompts,2.27734375,2.6555576,0.401794284582138
+exp-1102-sd15-nt-Prodigy-a/scene/scene_castle/in_dist_prompts,2.224609375,2.654931,0.5735547542572021
+exp-1102-sd15-nt-Prodigy-a/scene/scene_castle/out_dist_prompts,2.201171875,2.7502809,0.5270664691925049
+exp-1102-sd15-nt-Prodigy-a/scene/scene_sculpture1/in_dist_prompts,3.34375,2.552307,0.6057827472686768
+exp-1102-sd15-nt-Prodigy-a/scene/scene_sculpture1/out_dist_prompts,3.212890625,2.5242128,0.5578109622001648
+exp-1102-sd15-nt-Prodigy-a/style/felix_vallotton_stroke/in_dist_captions,1.9462890625,2.6283464,0.4249740839004516
+exp-1102-sd15-nt-Prodigy-a/style/felix_vallotton_stroke/out_dist_prompts,1.9306640625,2.5727835,0.4606842696666717
+exp-1102-sd15-nt-Prodigy-a/style/ghibi_alter/in_dist_prompts,3.486328125,2.7481527,0.4134073257446289
+exp-1102-sd15-nt-Prodigy-a/style/ghibi_alter/out_dist_prompts,3.162109375,2.5976331,0.4120083749294281
+exp-1102-sd15-nt-Prodigy-a/style/ukiyo_e/in_dist_prompts,2.853515625,2.7262068,0.4129031300544739
+exp-1102-sd15-nt-Prodigy-a/style/ukiyo_e/out_dist_prompts,2.900390625,2.6232352,0.3945861756801605
+exp-1102-sd15-nt-Prodigy-a/style/impressionism/in_dist_prompts,2.025390625,2.5638773,0.2526678144931793
+exp-1102-sd15-nt-Prodigy-a/style/impressionism/out_dist_prompts,2.15234375,2.5195708,0.2286563366651535
+exp-1102-sd15-nt-Prodigy-a/style/vladimir_borovikovsky/in_dist_prompts,2.869140625,2.7820954,0.3358396589756012
+exp-1102-sd15-nt-Prodigy-a/style/vladimir_borovikovsky/out_dist_prompts,2.654296875,2.595605,0.3232579529285431
+exp-1102-sd15-nt-Prodigy-a/style/pencil_drawing/in_dist_prompts,2.6796875,2.7706378,0.4833931028842926
+exp-1102-sd15-nt-Prodigy-a/style/pencil_drawing/out_dist_prompts,2.73828125,2.736682,0.4970845282077789
+exp-1102-sd15-nt-Prodigy-a/style/ghibi/in_dist_prompts,3.1796875,3.0809684,0.5719571113586426
+exp-1102-sd15-nt-Prodigy-a/style/ghibi/out_dist_prompts,3.037109375,2.8948004,0.5428715944290161
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_bunny/in_dist_prompts,2.541015625,2.5745916,0.5090434551239014
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_bunny/out_dist_prompts,2.814453125,2.523039,0.4610419571399688
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_teddybear/in_dist_prompts,2.125,2.6296194,0.4794931411743164
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_teddybear/out_dist_prompts,2.02734375,2.5928233,0.4833680987358093
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_pink/in_dist_prompts,2.80078125,2.5551817,0.4896879196166992
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_pink/out_dist_prompts,2.595703125,2.688384,0.5597776770591736
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_panda/in_dist_prompts,2.73046875,2.6901193,0.484380155801773
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_panda/out_dist_prompts,2.263671875,2.6378818,0.4193158447742462
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_lobster/in_dist_prompts,3.69921875,2.69332,0.5499075651168823
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_lobster/out_dist_prompts,3.732421875,2.7087693,0.5552154183387756
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_tortoise/in_dist_prompts,2.455078125,2.9568403,0.5469537377357483
+exp-1102-sd15-nt-Prodigy-a/stuffed_toy/plushie_tortoise/out_dist_prompts,2.1796875,2.9835584,0.5551252961158752
+exp-1102-sd15-nt-Prodigy-a/anime/yuuki_makoto/in_dist_prompts,2.92578125,2.9516954,0.3770166337490082
+exp-1102-sd15-nt-Prodigy-a/anime/yuuki_makoto/out_dist_prompts,2.9296875,2.899095,0.3677964806556701
+exp-1102-sd15-nt-Prodigy-a/anime/yuuki_makoto/out_dist_prompts_tags,2.921875,2.8946304,0.335081934928894
+exp-1102-sd15-nt-Prodigy-a/anime/tsushima_yoshiko/in_dist_prompts,3.671875,2.93628,0.3964670598506927
+exp-1102-sd15-nt-Prodigy-a/anime/tsushima_yoshiko/out_dist_prompts,3.40625,2.8762753,0.3680431842803955
+exp-1102-sd15-nt-Prodigy-a/anime/tsushima_yoshiko/out_dist_prompts_tags,3.40234375,2.87953,0.3435402810573578
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/toid outfit/in_dist_prompts,3.572265625,2.8353195,0.4210696518421173
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/toid outfit/out_dist_prompts,3.416015625,2.8041139,0.4043889343738556
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/toid outfit/out_dist_prompts_tags,3.517578125,2.8376334,0.3963049650192261
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/none/in_dist_prompts,3.646484375,2.871725,0.4167102873325348
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/none/out_dist_prompts,3.359375,2.7917347,0.4165348410606384
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/none/out_dist_prompts_tags,3.3515625,2.8401709,0.38717982172966
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/onex outfit/in_dist_prompts,3.48046875,2.854735,0.4241281449794769
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/onex outfit/out_dist_prompts,3.337890625,2.7846155,0.4080052673816681
+exp-1102-sd15-nt-Prodigy-a/anime/abukuma/onex outfit/out_dist_prompts_tags,3.373046875,2.820314,0.3998751044273376
+exp-1102-sd15-nt-Prodigy-a/anime/kotomine_kirei/in_dist_prompts,3.498046875,2.8603742,0.3082963824272156
+exp-1102-sd15-nt-Prodigy-a/anime/kotomine_kirei/out_dist_prompts,3.251953125,2.8158796,0.2978793382644653
+exp-1102-sd15-nt-Prodigy-a/anime/kotomine_kirei/out_dist_prompts_tags,3.275390625,2.8395982,0.2567998766899109
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/dca outfit/in_dist_prompts,3.130859375,2.924544,0.4918027818202972
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/dca outfit/out_dist_prompts,3.1171875,2.8805325,0.4813990890979767
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.2109375,2.881367,0.4472395777702331
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/none/in_dist_prompts,3.54296875,2.958743,0.477214515209198
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/none/out_dist_prompts,3.197265625,2.8495913,0.4786655902862549
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/none/out_dist_prompts_tags,3.353515625,2.865148,0.4490260183811188
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/wafc outfit/in_dist_prompts,3.45703125,2.8823042,0.4805435836315155
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/wafc outfit/out_dist_prompts,3.3203125,2.8481202,0.4840195775032043
+exp-1102-sd15-nt-Prodigy-a/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.388671875,2.8535547,0.4698062241077423
+exp-1102-sd15-nt-Prodigy-a/people/K-2SO/in_dist_prompts,2.384765625,2.8085208,0.3859834671020508
+exp-1102-sd15-nt-Prodigy-a/people/K-2SO/out_dist_prompts,2.30078125,2.9159827,0.4875994026660919
+exp-1102-sd15-nt-Prodigy-a/people/Bodhi_Rook/illustration/in_dist_prompts,2.671875,2.8019311,0.4127310812473297
+exp-1102-sd15-nt-Prodigy-a/people/Bodhi_Rook/illustration/out_dist_prompts,3.154296875,2.8759398,0.4489683210849762
+exp-1102-sd15-nt-Prodigy-a/people/Bodhi_Rook/realistic/in_dist_prompts,2.931640625,2.7266452,0.3281316757202148
+exp-1102-sd15-nt-Prodigy-a/people/Bodhi_Rook/realistic/out_dist_prompts,2.564453125,2.7301862,0.3062590658664703
+exp-1102-sd15-nt-Prodigy-a/people/Bodhi_Rook/figurine/in_dist_prompts,3.30859375,2.6570208,0.4318482279777527
+exp-1102-sd15-nt-Prodigy-a/people/Bodhi_Rook/figurine/out_dist_prompts,3.0078125,2.5969474,0.4269538223743438
+exp-1102-sd15-nt-Prodigy-a/people/Rose_Tico/illustration/in_dist_prompts,3.03515625,2.886268,0.3972820937633514
+exp-1102-sd15-nt-Prodigy-a/people/Rose_Tico/illustration/out_dist_prompts,2.6640625,3.0127802,0.4777653217315674
+exp-1102-sd15-nt-Prodigy-a/people/Rose_Tico/realistic/in_dist_prompts,2.806640625,2.9717429,0.3774744868278503
+exp-1102-sd15-nt-Prodigy-a/people/Rose_Tico/realistic/out_dist_prompts,2.77734375,3.0151446,0.3828541040420532
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.255859375,2.468835,0.2234238684177398
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.2421875,2.5580823,0.2619354724884033
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.294921875,2.7453043,0.3255418539047241
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.28125,2.775033,0.3223763406276703
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.861328125,2.5693374,0.2998567223548889
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.83203125,2.6035755,0.3290215730667114
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/afro, illustration/in_dist_prompts",3.2890625,2.7569323,0.3582947254180908
+"exp-1102-sd15-nt-Prodigy-a/people/Saw_Gerrera/afro, illustration/out_dist_prompts",3.091796875,2.8263528,0.3702400326728821
+exp-1102-sd15-nt-Prodigy-a/people/Admiral_Piett/reaslitic/in_dist_prompts,2.859375,2.6781726,0.3033956289291382
+exp-1102-sd15-nt-Prodigy-a/people/Admiral_Piett/reaslitic/out_dist_prompts,2.978515625,2.6331234,0.2729833722114563
+exp-1102-sd15-nt-Prodigy-a/people/Admiral_Piett/figurine/in_dist_prompts,2.87890625,2.7935712,0.3785333633422851
+exp-1102-sd15-nt-Prodigy-a/people/Admiral_Piett/figurine/out_dist_prompts,3.072265625,2.800149,0.26372891664505
+exp-1101-sd15-nt-a/scene/scene_canal/in_dist_prompts,2.775390625,2.679313,0.2492035925388336
+exp-1101-sd15-nt-a/scene/scene_canal/out_dist_prompts,2.787109375,2.746646,0.323657214641571
+exp-1101-sd15-nt-a/scene/scene_garden/in_dist_prompts,2.65234375,2.8298285,0.3867589235305786
+exp-1101-sd15-nt-a/scene/scene_garden/out_dist_prompts,2.90234375,2.738613,0.3909675180912018
+exp-1101-sd15-nt-a/scene/scene_waterfall/in_dist_prompts,1.9375,2.7869768,0.2582637071609497
+exp-1101-sd15-nt-a/scene/scene_waterfall/out_dist_prompts,2.55078125,2.6201677,0.3120182156562805
+exp-1101-sd15-nt-a/scene/scene_castle/in_dist_prompts,2.85546875,2.5312786,0.2350335270166397
+exp-1101-sd15-nt-a/scene/scene_castle/out_dist_prompts,2.728515625,2.478229,0.2682061791419983
+exp-1101-sd15-nt-a/scene/scene_sculpture1/in_dist_prompts,3.638671875,2.6692278,0.2558802664279938
+exp-1101-sd15-nt-a/scene/scene_sculpture1/out_dist_prompts,3.73046875,2.6905453,0.2611731886863708
+exp-1101-sd15-nt-a/style/felix_vallotton_stroke/in_dist_captions,1.8828125,2.6234958,0.4463321268558502
+exp-1101-sd15-nt-a/style/felix_vallotton_stroke/out_dist_prompts,2.21484375,2.6732209,0.5670639276504517
+exp-1101-sd15-nt-a/style/ghibi_alter/in_dist_prompts,3.146484375,2.782708,0.4977652728557586
+exp-1101-sd15-nt-a/style/ghibi_alter/out_dist_prompts,2.517578125,2.7058554,0.5151404738426208
+exp-1101-sd15-nt-a/style/ukiyo_e/in_dist_prompts,2.6484375,2.932482,0.5456740260124207
+exp-1101-sd15-nt-a/style/ukiyo_e/out_dist_prompts,2.439453125,2.736638,0.5555346012115479
+exp-1101-sd15-nt-a/style/impressionism/in_dist_prompts,1.875,2.6999607,0.3150365352630615
+exp-1101-sd15-nt-a/style/impressionism/out_dist_prompts,2.021484375,2.6338494,0.3311091959476471
+exp-1101-sd15-nt-a/style/vladimir_borovikovsky/in_dist_prompts,2.53125,2.852149,0.420838862657547
+exp-1101-sd15-nt-a/style/vladimir_borovikovsky/out_dist_prompts,2.20703125,2.6521833,0.4318718314170837
+exp-1101-sd15-nt-a/style/pencil_drawing/in_dist_prompts,2.603515625,2.8035972,0.573597252368927
+exp-1101-sd15-nt-a/style/pencil_drawing/out_dist_prompts,2.205078125,2.7342422,0.520052969455719
+exp-1101-sd15-nt-a/style/ghibi/in_dist_prompts,3.15234375,3.1439905,0.6254255771636963
+exp-1101-sd15-nt-a/style/ghibi/out_dist_prompts,2.564453125,2.911197,0.5973681807518005
+exp-1101-sd15-nt-a/stuffed_toy/plushie_bunny/in_dist_prompts,3.541015625,2.476051,0.2784903049468994
+exp-1101-sd15-nt-a/stuffed_toy/plushie_bunny/out_dist_prompts,3.17578125,2.469286,0.296851634979248
+exp-1101-sd15-nt-a/stuffed_toy/plushie_teddybear/in_dist_prompts,2.74609375,2.5824485,0.2756510078907013
+exp-1101-sd15-nt-a/stuffed_toy/plushie_teddybear/out_dist_prompts,2.66796875,2.5785236,0.3493756949901581
+exp-1101-sd15-nt-a/stuffed_toy/plushie_pink/in_dist_prompts,3.14453125,2.6058085,0.4498372673988342
+exp-1101-sd15-nt-a/stuffed_toy/plushie_pink/out_dist_prompts,3.1015625,2.5840619,0.4924747943878174
+exp-1101-sd15-nt-a/stuffed_toy/plushie_panda/in_dist_prompts,3.1953125,2.7311075,0.4561987817287445
+exp-1101-sd15-nt-a/stuffed_toy/plushie_panda/out_dist_prompts,2.806640625,2.7690628,0.4500775933265686
+exp-1101-sd15-nt-a/stuffed_toy/plushie_lobster/in_dist_prompts,4.3671875,2.518821,0.3559315204620361
+exp-1101-sd15-nt-a/stuffed_toy/plushie_lobster/out_dist_prompts,3.650390625,2.5994658,0.4448805749416351
+exp-1101-sd15-nt-a/stuffed_toy/plushie_tortoise/in_dist_prompts,2.85546875,3.016872,0.4872727990150451
+exp-1101-sd15-nt-a/stuffed_toy/plushie_tortoise/out_dist_prompts,2.8359375,2.9764578,0.4541808664798736
+exp-1101-sd15-nt-a/anime/yuuki_makoto/in_dist_prompts,2.71484375,3.0017831,0.4220788180828094
+exp-1101-sd15-nt-a/anime/yuuki_makoto/out_dist_prompts,2.912109375,2.9920108,0.4386575818061828
+exp-1101-sd15-nt-a/anime/yuuki_makoto/out_dist_prompts_tags,2.90234375,3.0585227,0.4187742173671722
+exp-1101-sd15-nt-a/anime/tsushima_yoshiko/in_dist_prompts,3.376953125,2.9755,0.4464406669139862
+exp-1101-sd15-nt-a/anime/tsushima_yoshiko/out_dist_prompts,3.388671875,2.9779634,0.4406852722167969
+exp-1101-sd15-nt-a/anime/tsushima_yoshiko/out_dist_prompts_tags,3.291015625,3.056281,0.450333297252655
+exp-1101-sd15-nt-a/anime/abukuma/toid outfit/in_dist_prompts,3.333984375,2.8775992,0.44112229347229
+exp-1101-sd15-nt-a/anime/abukuma/toid outfit/out_dist_prompts,3.359375,2.9117084,0.4195623099803924
+exp-1101-sd15-nt-a/anime/abukuma/toid outfit/out_dist_prompts_tags,3.462890625,2.898641,0.4090739786624908
+exp-1101-sd15-nt-a/anime/abukuma/none/in_dist_prompts,3.35546875,2.8991208,0.4267525374889374
+exp-1101-sd15-nt-a/anime/abukuma/none/out_dist_prompts,3.3203125,2.9127524,0.4165332019329071
+exp-1101-sd15-nt-a/anime/abukuma/none/out_dist_prompts_tags,3.365234375,2.919754,0.40699303150177
+exp-1101-sd15-nt-a/anime/abukuma/onex outfit/in_dist_prompts,3.259765625,2.8864985,0.4564188718795776
+exp-1101-sd15-nt-a/anime/abukuma/onex outfit/out_dist_prompts,3.30859375,2.911502,0.4463017284870147
+exp-1101-sd15-nt-a/anime/abukuma/onex outfit/out_dist_prompts_tags,3.3984375,2.8930206,0.4425500035285949
+exp-1101-sd15-nt-a/anime/kotomine_kirei/in_dist_prompts,3.095703125,3.0671084,0.4693840146064758
+exp-1101-sd15-nt-a/anime/kotomine_kirei/out_dist_prompts,3.302734375,2.969411,0.4496782422065735
+exp-1101-sd15-nt-a/anime/kotomine_kirei/out_dist_prompts_tags,3.375,2.9954684,0.4584425985813141
+exp-1101-sd15-nt-a/anime/ikamusume/dca outfit/in_dist_prompts,3.033203125,2.8974621,0.45013228058815
+exp-1101-sd15-nt-a/anime/ikamusume/dca outfit/out_dist_prompts,3.0390625,2.8455977,0.4276992380619049
+exp-1101-sd15-nt-a/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.17578125,2.9361913,0.4284306764602661
+exp-1101-sd15-nt-a/anime/ikamusume/none/in_dist_prompts,3.185546875,2.9272199,0.4457168579101562
+exp-1101-sd15-nt-a/anime/ikamusume/none/out_dist_prompts,3.123046875,2.843844,0.4215725064277649
+exp-1101-sd15-nt-a/anime/ikamusume/none/out_dist_prompts_tags,3.17578125,2.8955414,0.4128065109252929
+exp-1101-sd15-nt-a/anime/ikamusume/wafc outfit/in_dist_prompts,3.228515625,2.9335432,0.4388686716556549
+exp-1101-sd15-nt-a/anime/ikamusume/wafc outfit/out_dist_prompts,3.140625,2.8745453,0.4422479569911957
+exp-1101-sd15-nt-a/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.28125,2.9364343,0.4248252213001251
+exp-1101-sd15-nt-a/people/K-2SO/in_dist_prompts,1.974609375,2.9839013,0.5710275173187256
+exp-1101-sd15-nt-a/people/K-2SO/out_dist_prompts,2.421875,2.9807289,0.5536718964576721
+exp-1101-sd15-nt-a/people/Bodhi_Rook/illustration/in_dist_prompts,2.388671875,3.0559068,0.6026611924171448
+exp-1101-sd15-nt-a/people/Bodhi_Rook/illustration/out_dist_prompts,2.857421875,2.8478873,0.5449675917625427
+exp-1101-sd15-nt-a/people/Bodhi_Rook/realistic/in_dist_prompts,2.82421875,2.8544347,0.432623416185379
+exp-1101-sd15-nt-a/people/Bodhi_Rook/realistic/out_dist_prompts,3.0,2.8234951,0.415836751461029
+exp-1101-sd15-nt-a/people/Bodhi_Rook/figurine/in_dist_prompts,3.015625,2.7407508,0.5563535094261169
+exp-1101-sd15-nt-a/people/Bodhi_Rook/figurine/out_dist_prompts,2.96484375,2.7494848,0.5244778394699097
+exp-1101-sd15-nt-a/people/Rose_Tico/illustration/in_dist_prompts,2.671875,3.088132,0.5829674005508423
+exp-1101-sd15-nt-a/people/Rose_Tico/illustration/out_dist_prompts,2.935546875,3.027857,0.5943806171417236
+exp-1101-sd15-nt-a/people/Rose_Tico/realistic/in_dist_prompts,2.64453125,3.0728836,0.4516043066978454
+exp-1101-sd15-nt-a/people/Rose_Tico/realistic/out_dist_prompts,3.080078125,2.9466858,0.4457772970199585
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.00390625,2.791992,0.3842239081859588
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.49609375,2.8089988,0.411747932434082
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.078125,3.0184808,0.4569914937019348
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.33203125,3.0420163,0.5248797535896301
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.435546875,2.7934148,0.5180000066757202
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.908203125,2.669185,0.4767646789550781
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.3984375,3.0699909,0.5775162577629089
+"exp-1101-sd15-nt-a/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.111328125,2.927243,0.6087895035743713
+exp-1101-sd15-nt-a/people/Admiral_Piett/reaslitic/in_dist_prompts,2.74609375,2.8837092,0.378996342420578
+exp-1101-sd15-nt-a/people/Admiral_Piett/reaslitic/out_dist_prompts,2.888671875,2.7217913,0.3219237625598907
+exp-1101-sd15-nt-a/people/Admiral_Piett/figurine/in_dist_prompts,2.685546875,2.9021058,0.4543862640857696
+exp-1101-sd15-nt-a/people/Admiral_Piett/figurine/out_dist_prompts,2.970703125,2.7365744,0.4316019713878631
+exp-1101-sd15-nt-b-000030/scene/scene_canal/in_dist_prompts,2.6640625,2.8425653,0.363935649394989
+exp-1101-sd15-nt-b-000030/scene/scene_canal/out_dist_prompts,2.470703125,2.9109411,0.519538164138794
+exp-1101-sd15-nt-b-000030/scene/scene_garden/in_dist_prompts,2.28515625,2.8786821,0.5868712067604065
+exp-1101-sd15-nt-b-000030/scene/scene_garden/out_dist_prompts,2.58984375,2.8908062,0.5536817312240601
+exp-1101-sd15-nt-b-000030/scene/scene_waterfall/in_dist_prompts,1.521484375,3.1183016,0.3869431018829345
+exp-1101-sd15-nt-b-000030/scene/scene_waterfall/out_dist_prompts,2.392578125,2.8509336,0.4291744530200958
+exp-1101-sd15-nt-b-000030/scene/scene_castle/in_dist_prompts,2.8203125,2.6626754,0.3527293801307678
+exp-1101-sd15-nt-b-000030/scene/scene_castle/out_dist_prompts,2.494140625,2.5409648,0.4295812249183655
+exp-1101-sd15-nt-b-000030/scene/scene_sculpture1/in_dist_prompts,3.755859375,2.7383044,0.2937912344932556
+exp-1101-sd15-nt-b-000030/scene/scene_sculpture1/out_dist_prompts,3.7421875,2.7456994,0.3170833587646484
+exp-1101-sd15-nt-b-000030/style/felix_vallotton_stroke/in_dist_captions,1.873046875,2.638264,0.4844304621219635
+exp-1101-sd15-nt-b-000030/style/felix_vallotton_stroke/out_dist_prompts,2.078125,2.6823509,0.5679782629013062
+exp-1101-sd15-nt-b-000030/style/ghibi_alter/in_dist_prompts,3.244140625,2.8489387,0.5113380551338196
+exp-1101-sd15-nt-b-000030/style/ghibi_alter/out_dist_prompts,2.548828125,2.7257798,0.5257037281990051
+exp-1101-sd15-nt-b-000030/style/ukiyo_e/in_dist_prompts,2.66015625,2.9742036,0.576061487197876
+exp-1101-sd15-nt-b-000030/style/ukiyo_e/out_dist_prompts,2.349609375,2.8578722,0.5769208669662476
+exp-1101-sd15-nt-b-000030/style/impressionism/in_dist_prompts,1.8662109375,2.6974905,0.3129818737506866
+exp-1101-sd15-nt-b-000030/style/impressionism/out_dist_prompts,2.05859375,2.6398656,0.325525164604187
+exp-1101-sd15-nt-b-000030/style/vladimir_borovikovsky/in_dist_prompts,2.546875,2.8778276,0.4222592115402221
+exp-1101-sd15-nt-b-000030/style/vladimir_borovikovsky/out_dist_prompts,2.048828125,2.7158964,0.490272969007492
+exp-1101-sd15-nt-b-000030/style/pencil_drawing/in_dist_prompts,2.6484375,2.8100486,0.5499833226203918
+exp-1101-sd15-nt-b-000030/style/pencil_drawing/out_dist_prompts,2.18359375,2.7975817,0.5296984314918518
+exp-1101-sd15-nt-b-000030/style/ghibi/in_dist_prompts,3.2578125,3.1568406,0.629702091217041
+exp-1101-sd15-nt-b-000030/style/ghibi/out_dist_prompts,2.728515625,2.935062,0.5893712639808655
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_bunny/in_dist_prompts,3.017578125,2.5746915,0.4035961031913757
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_bunny/out_dist_prompts,2.748046875,2.6036835,0.4645811319351196
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_teddybear/in_dist_prompts,2.6171875,2.7217104,0.3788024187088012
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_teddybear/out_dist_prompts,2.662109375,2.6877253,0.4642172753810882
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_pink/in_dist_prompts,2.796875,2.673648,0.5293148159980774
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_pink/out_dist_prompts,2.93359375,2.6810977,0.5626711845397949
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_panda/in_dist_prompts,2.76953125,2.843449,0.5570998191833496
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_panda/out_dist_prompts,2.537109375,2.8270402,0.5414526462554932
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_lobster/in_dist_prompts,3.919921875,2.780924,0.5430378913879395
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_lobster/out_dist_prompts,3.40234375,2.7812688,0.5828698873519897
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_tortoise/in_dist_prompts,2.580078125,3.009181,0.5901737809181213
+exp-1101-sd15-nt-b-000030/stuffed_toy/plushie_tortoise/out_dist_prompts,2.625,2.9833999,0.5800686478614807
+exp-1101-sd15-nt-b-000030/anime/yuuki_makoto/in_dist_prompts,2.73046875,2.951625,0.3845303356647491
+exp-1101-sd15-nt-b-000030/anime/yuuki_makoto/out_dist_prompts,2.888671875,2.9818935,0.4033382534980774
+exp-1101-sd15-nt-b-000030/anime/yuuki_makoto/out_dist_prompts_tags,2.873046875,3.058585,0.3974048495292663
+exp-1101-sd15-nt-b-000030/anime/tsushima_yoshiko/in_dist_prompts,3.416015625,2.9819655,0.4386802911758423
+exp-1101-sd15-nt-b-000030/anime/tsushima_yoshiko/out_dist_prompts,3.388671875,2.9816577,0.4468490183353424
+exp-1101-sd15-nt-b-000030/anime/tsushima_yoshiko/out_dist_prompts_tags,3.2890625,3.064079,0.4425171315670013
+exp-1101-sd15-nt-b-000030/anime/abukuma/toid outfit/in_dist_prompts,3.24609375,2.9304035,0.445788025856018
+exp-1101-sd15-nt-b-000030/anime/abukuma/toid outfit/out_dist_prompts,3.271484375,2.9198575,0.4252177476882934
+exp-1101-sd15-nt-b-000030/anime/abukuma/toid outfit/out_dist_prompts_tags,3.412109375,2.9154367,0.4023126661777496
+exp-1101-sd15-nt-b-000030/anime/abukuma/none/in_dist_prompts,3.314453125,2.9536736,0.4335100948810577
+exp-1101-sd15-nt-b-000030/anime/abukuma/none/out_dist_prompts,3.2578125,2.9201148,0.4122424721717834
+exp-1101-sd15-nt-b-000030/anime/abukuma/none/out_dist_prompts_tags,3.2578125,2.951673,0.4174210429191589
+exp-1101-sd15-nt-b-000030/anime/abukuma/onex outfit/in_dist_prompts,3.095703125,2.8990853,0.447454422712326
+exp-1101-sd15-nt-b-000030/anime/abukuma/onex outfit/out_dist_prompts,3.1875,2.9199216,0.4340014159679413
+exp-1101-sd15-nt-b-000030/anime/abukuma/onex outfit/out_dist_prompts_tags,3.32421875,2.9203973,0.4294501543045044
+exp-1101-sd15-nt-b-000030/anime/kotomine_kirei/in_dist_prompts,3.05078125,3.0602372,0.4345931112766266
+exp-1101-sd15-nt-b-000030/anime/kotomine_kirei/out_dist_prompts,3.3671875,3.0156455,0.4309413433074951
+exp-1101-sd15-nt-b-000030/anime/kotomine_kirei/out_dist_prompts_tags,3.2421875,3.0074105,0.4163277745246887
+exp-1101-sd15-nt-b-000030/anime/ikamusume/dca outfit/in_dist_prompts,3.001953125,2.8996298,0.425532579421997
+exp-1101-sd15-nt-b-000030/anime/ikamusume/dca outfit/out_dist_prompts,2.9609375,2.8622794,0.4041060209274292
+exp-1101-sd15-nt-b-000030/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.16015625,2.9434268,0.3852096796035766
+exp-1101-sd15-nt-b-000030/anime/ikamusume/none/in_dist_prompts,3.134765625,2.9451706,0.4346947371959686
+exp-1101-sd15-nt-b-000030/anime/ikamusume/none/out_dist_prompts,3.150390625,2.867424,0.405297040939331
+exp-1101-sd15-nt-b-000030/anime/ikamusume/none/out_dist_prompts_tags,3.1640625,2.9289362,0.4131044149398803
+exp-1101-sd15-nt-b-000030/anime/ikamusume/wafc outfit/in_dist_prompts,3.212890625,2.9423187,0.4336551427841186
+exp-1101-sd15-nt-b-000030/anime/ikamusume/wafc outfit/out_dist_prompts,3.109375,2.8640432,0.4195880591869354
+exp-1101-sd15-nt-b-000030/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.224609375,2.9464405,0.4147420823574066
+exp-1101-sd15-nt-b-000030/people/K-2SO/in_dist_prompts,2.0,3.0496855,0.6056037545204163
+exp-1101-sd15-nt-b-000030/people/K-2SO/out_dist_prompts,2.451171875,3.0049865,0.5487189292907715
+exp-1101-sd15-nt-b-000030/people/Bodhi_Rook/illustration/in_dist_prompts,2.341796875,3.0414515,0.6176828742027283
+exp-1101-sd15-nt-b-000030/people/Bodhi_Rook/illustration/out_dist_prompts,2.7578125,2.8680265,0.6076093316078186
+exp-1101-sd15-nt-b-000030/people/Bodhi_Rook/realistic/in_dist_prompts,2.734375,2.9312017,0.4715625643730163
+exp-1101-sd15-nt-b-000030/people/Bodhi_Rook/realistic/out_dist_prompts,2.880859375,2.873844,0.4644660949707031
+exp-1101-sd15-nt-b-000030/people/Bodhi_Rook/figurine/in_dist_prompts,2.9453125,2.7551782,0.5725831389427185
+exp-1101-sd15-nt-b-000030/people/Bodhi_Rook/figurine/out_dist_prompts,2.802734375,2.7821646,0.5580629706382751
+exp-1101-sd15-nt-b-000030/people/Rose_Tico/illustration/in_dist_prompts,2.625,3.054329,0.5744163990020752
+exp-1101-sd15-nt-b-000030/people/Rose_Tico/illustration/out_dist_prompts,2.736328125,2.9713516,0.6032026410102844
+exp-1101-sd15-nt-b-000030/people/Rose_Tico/realistic/in_dist_prompts,2.66015625,3.1212385,0.4756034016609192
+exp-1101-sd15-nt-b-000030/people/Rose_Tico/realistic/out_dist_prompts,2.99609375,2.9825993,0.4670336246490478
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.919921875,2.7788825,0.4172354936599731
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.49609375,2.8085575,0.4152785539627075
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/afro, realistic/in_dist_prompts",1.955078125,3.13358,0.5486971735954285
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.39453125,3.0558002,0.552329421043396
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.4296875,2.7749364,0.5354247093200684
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.814453125,2.7058215,0.4693452417850494
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.3828125,3.11268,0.59580397605896
+"exp-1101-sd15-nt-b-000030/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.19921875,2.9597175,0.6218769550323486
+exp-1101-sd15-nt-b-000030/people/Admiral_Piett/reaslitic/in_dist_prompts,2.85546875,2.856075,0.4069933295249939
+exp-1101-sd15-nt-b-000030/people/Admiral_Piett/reaslitic/out_dist_prompts,2.849609375,2.7466311,0.3423697650432586
+exp-1101-sd15-nt-b-000030/people/Admiral_Piett/figurine/in_dist_prompts,2.76171875,2.858494,0.4977592825889587
+exp-1101-sd15-nt-b-000030/people/Admiral_Piett/figurine/out_dist_prompts,2.873046875,2.7377062,0.4632975459098816
+exp-1101-sd15-nt-a-000030/scene/scene_canal/in_dist_prompts,2.734375,2.812777,0.3321917653083801
+exp-1101-sd15-nt-a-000030/scene/scene_canal/out_dist_prompts,2.51171875,2.895077,0.4847325086593628
+exp-1101-sd15-nt-a-000030/scene/scene_garden/in_dist_prompts,2.357421875,2.856357,0.5514355897903442
+exp-1101-sd15-nt-a-000030/scene/scene_garden/out_dist_prompts,2.53125,2.884646,0.5405193567276001
+exp-1101-sd15-nt-a-000030/scene/scene_waterfall/in_dist_prompts,1.6064453125,3.1369936,0.3989011347293854
+exp-1101-sd15-nt-a-000030/scene/scene_waterfall/out_dist_prompts,2.337890625,2.7868667,0.4526926875114441
+exp-1101-sd15-nt-a-000030/scene/scene_castle/in_dist_prompts,2.892578125,2.6352057,0.3375760614871979
+exp-1101-sd15-nt-a-000030/scene/scene_castle/out_dist_prompts,2.384765625,2.6272602,0.4376300871372223
+exp-1101-sd15-nt-a-000030/scene/scene_sculpture1/in_dist_prompts,3.705078125,2.6948698,0.2753023207187652
+exp-1101-sd15-nt-a-000030/scene/scene_sculpture1/out_dist_prompts,3.685546875,2.7534482,0.316027820110321
+exp-1101-sd15-nt-a-000030/style/felix_vallotton_stroke/in_dist_captions,2.08984375,2.7115803,0.435094267129898
+exp-1101-sd15-nt-a-000030/style/felix_vallotton_stroke/out_dist_prompts,2.099609375,2.7935941,0.5547047257423401
+exp-1101-sd15-nt-a-000030/style/ghibi_alter/in_dist_prompts,3.146484375,2.7809427,0.4994428157806396
+exp-1101-sd15-nt-a-000030/style/ghibi_alter/out_dist_prompts,2.482421875,2.6860125,0.5193145871162415
+exp-1101-sd15-nt-a-000030/style/ukiyo_e/in_dist_prompts,2.65234375,2.9536295,0.562798261642456
+exp-1101-sd15-nt-a-000030/style/ukiyo_e/out_dist_prompts,2.365234375,2.8855665,0.5950475931167603
+exp-1101-sd15-nt-a-000030/style/impressionism/in_dist_prompts,1.8017578125,2.7511532,0.3542454540729522
+exp-1101-sd15-nt-a-000030/style/impressionism/out_dist_prompts,1.994140625,2.7219214,0.3905390799045563
+exp-1101-sd15-nt-a-000030/style/vladimir_borovikovsky/in_dist_prompts,2.470703125,2.8796906,0.451979398727417
+exp-1101-sd15-nt-a-000030/style/vladimir_borovikovsky/out_dist_prompts,2.103515625,2.7073011,0.4993638098239898
+exp-1101-sd15-nt-a-000030/style/pencil_drawing/in_dist_prompts,2.541015625,2.7952464,0.545391857624054
+exp-1101-sd15-nt-a-000030/style/pencil_drawing/out_dist_prompts,2.138671875,2.7720008,0.522061824798584
+exp-1101-sd15-nt-a-000030/style/ghibi/in_dist_prompts,3.255859375,3.1123288,0.5999599099159241
+exp-1101-sd15-nt-a-000030/style/ghibi/out_dist_prompts,2.6328125,2.8906238,0.5918979048728943
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_bunny/in_dist_prompts,3.08203125,2.5617,0.3806769549846649
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_bunny/out_dist_prompts,2.9140625,2.5935214,0.4207622110843658
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_teddybear/in_dist_prompts,2.541015625,2.6782143,0.3792861998081207
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_teddybear/out_dist_prompts,2.693359375,2.6899838,0.4478069245815277
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_pink/in_dist_prompts,2.818359375,2.6540818,0.4961505532264709
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_pink/out_dist_prompts,2.9453125,2.7134573,0.5461709499359131
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_panda/in_dist_prompts,2.763671875,2.7962754,0.5291057229042053
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_panda/out_dist_prompts,2.57421875,2.8409867,0.5225805640220642
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_lobster/in_dist_prompts,3.830078125,2.7808383,0.5404676795005798
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_lobster/out_dist_prompts,3.3984375,2.764704,0.583886444568634
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_tortoise/in_dist_prompts,2.5234375,3.0171604,0.5904945731163025
+exp-1101-sd15-nt-a-000030/stuffed_toy/plushie_tortoise/out_dist_prompts,2.626953125,2.9858694,0.5633612275123596
+exp-1101-sd15-nt-a-000030/anime/yuuki_makoto/in_dist_prompts,2.669921875,2.943018,0.3925744593143463
+exp-1101-sd15-nt-a-000030/anime/yuuki_makoto/out_dist_prompts,2.82421875,2.9722474,0.4132536947727203
+exp-1101-sd15-nt-a-000030/anime/yuuki_makoto/out_dist_prompts_tags,2.87890625,3.0570843,0.4066025912761688
+exp-1101-sd15-nt-a-000030/anime/tsushima_yoshiko/in_dist_prompts,3.42578125,2.9464617,0.4264385104179382
+exp-1101-sd15-nt-a-000030/anime/tsushima_yoshiko/out_dist_prompts,3.427734375,2.9502444,0.4107952117919922
+exp-1101-sd15-nt-a-000030/anime/tsushima_yoshiko/out_dist_prompts_tags,3.353515625,3.0265043,0.4421975314617157
+exp-1101-sd15-nt-a-000030/anime/abukuma/toid outfit/in_dist_prompts,3.30859375,2.9287674,0.4405412375926971
+exp-1101-sd15-nt-a-000030/anime/abukuma/toid outfit/out_dist_prompts,3.341796875,2.9365373,0.4101069569587707
+exp-1101-sd15-nt-a-000030/anime/abukuma/toid outfit/out_dist_prompts_tags,3.453125,2.9395738,0.417934387922287
+exp-1101-sd15-nt-a-000030/anime/abukuma/none/in_dist_prompts,3.37890625,2.9277668,0.4120529592037201
+exp-1101-sd15-nt-a-000030/anime/abukuma/none/out_dist_prompts,3.279296875,2.9194818,0.4077526330947876
+exp-1101-sd15-nt-a-000030/anime/abukuma/none/out_dist_prompts_tags,3.423828125,2.9661853,0.4146388173103332
+exp-1101-sd15-nt-a-000030/anime/abukuma/onex outfit/in_dist_prompts,3.138671875,2.9019654,0.4458643794059753
+exp-1101-sd15-nt-a-000030/anime/abukuma/onex outfit/out_dist_prompts,3.298828125,2.9337444,0.4334215819835663
+exp-1101-sd15-nt-a-000030/anime/abukuma/onex outfit/out_dist_prompts_tags,3.390625,2.9551764,0.4457341432571411
+exp-1101-sd15-nt-a-000030/anime/kotomine_kirei/in_dist_prompts,3.16796875,3.0270743,0.4229798913002014
+exp-1101-sd15-nt-a-000030/anime/kotomine_kirei/out_dist_prompts,3.3671875,2.9731476,0.4397458732128143
+exp-1101-sd15-nt-a-000030/anime/kotomine_kirei/out_dist_prompts_tags,3.408203125,3.0113242,0.4393775165081024
+exp-1101-sd15-nt-a-000030/anime/ikamusume/dca outfit/in_dist_prompts,3.04296875,2.9060059,0.4261645972728729
+exp-1101-sd15-nt-a-000030/anime/ikamusume/dca outfit/out_dist_prompts,3.033203125,2.8582969,0.3943979740142822
+exp-1101-sd15-nt-a-000030/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.123046875,2.9288092,0.4026909172534942
+exp-1101-sd15-nt-a-000030/anime/ikamusume/none/in_dist_prompts,3.171875,2.943054,0.4287320673465729
+exp-1101-sd15-nt-a-000030/anime/ikamusume/none/out_dist_prompts,3.1796875,2.8349273,0.3998322188854217
+exp-1101-sd15-nt-a-000030/anime/ikamusume/none/out_dist_prompts_tags,3.181640625,2.9089358,0.3955603539943695
+exp-1101-sd15-nt-a-000030/anime/ikamusume/wafc outfit/in_dist_prompts,3.2421875,2.9285128,0.4213937819004059
+exp-1101-sd15-nt-a-000030/anime/ikamusume/wafc outfit/out_dist_prompts,3.138671875,2.8776214,0.4258804023265838
+exp-1101-sd15-nt-a-000030/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.216796875,2.9303124,0.4090344905853271
+exp-1101-sd15-nt-a-000030/people/K-2SO/in_dist_prompts,1.91796875,3.0743008,0.6003782749176025
+exp-1101-sd15-nt-a-000030/people/K-2SO/out_dist_prompts,2.390625,3.036531,0.5679421424865723
+exp-1101-sd15-nt-a-000030/people/Bodhi_Rook/illustration/in_dist_prompts,2.4140625,3.071481,0.6067804098129272
+exp-1101-sd15-nt-a-000030/people/Bodhi_Rook/illustration/out_dist_prompts,2.841796875,2.8716836,0.6098307967185974
+exp-1101-sd15-nt-a-000030/people/Bodhi_Rook/realistic/in_dist_prompts,2.6171875,2.9101799,0.4420861005783081
+exp-1101-sd15-nt-a-000030/people/Bodhi_Rook/realistic/out_dist_prompts,2.8671875,2.9259963,0.4626699090003967
+exp-1101-sd15-nt-a-000030/people/Bodhi_Rook/figurine/in_dist_prompts,2.8671875,2.785296,0.5692100524902344
+exp-1101-sd15-nt-a-000030/people/Bodhi_Rook/figurine/out_dist_prompts,2.9375,2.7985032,0.5609758496284485
+exp-1101-sd15-nt-a-000030/people/Rose_Tico/illustration/in_dist_prompts,2.67578125,3.0576694,0.5790655016899109
+exp-1101-sd15-nt-a-000030/people/Rose_Tico/illustration/out_dist_prompts,2.873046875,2.969845,0.5973222255706787
+exp-1101-sd15-nt-a-000030/people/Rose_Tico/realistic/in_dist_prompts,2.603515625,3.0947998,0.466646283864975
+exp-1101-sd15-nt-a-000030/people/Rose_Tico/realistic/out_dist_prompts,2.984375,2.994896,0.4655819237232208
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.904296875,2.893379,0.440473735332489
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.53125,2.8830743,0.4564467668533325
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/afro, realistic/in_dist_prompts",1.9521484375,3.1242633,0.4986855387687683
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.302734375,3.0863183,0.547198474407196
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.412109375,2.7600698,0.5196155905723572
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.861328125,2.6979995,0.4780671596527099
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.3828125,3.106297,0.5994479656219482
+"exp-1101-sd15-nt-a-000030/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.228515625,2.9554565,0.6033175587654114
+exp-1101-sd15-nt-a-000030/people/Admiral_Piett/reaslitic/in_dist_prompts,2.685546875,2.9142532,0.3929246068000793
+exp-1101-sd15-nt-a-000030/people/Admiral_Piett/reaslitic/out_dist_prompts,2.83984375,2.7473252,0.3155630230903625
+exp-1101-sd15-nt-a-000030/people/Admiral_Piett/figurine/in_dist_prompts,2.701171875,2.8566952,0.4557924270629883
+exp-1101-sd15-nt-a-000030/people/Admiral_Piett/figurine/out_dist_prompts,2.869140625,2.7681634,0.4689615666866302
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_canal/in_dist_prompts,2.6171875,2.7891507,0.4561222195625305
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_canal/out_dist_prompts,2.763671875,2.7581758,0.5100710988044739
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_garden/in_dist_prompts,2.265625,2.8196452,0.6009823083877563
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_garden/out_dist_prompts,2.18359375,2.7650104,0.6217054128646851
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_waterfall/in_dist_prompts,1.669921875,2.8811295,0.3336982429027557
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_waterfall/out_dist_prompts,2.2578125,2.6688607,0.3424169421195984
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_castle/in_dist_prompts,2.529296875,2.5677655,0.3606592416763305
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_castle/out_dist_prompts,2.1640625,2.6343398,0.3787991404533386
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_sculpture1/in_dist_prompts,3.46484375,2.5714571,0.5019833445549011
+exp-1102-sd15-nt-Prodigy-b-000030/scene/scene_sculpture1/out_dist_prompts,3.240234375,2.6154075,0.456521987915039
+exp-1102-sd15-nt-Prodigy-b-000030/style/felix_vallotton_stroke/in_dist_captions,1.96484375,2.645535,0.4862911105155945
+exp-1102-sd15-nt-Prodigy-b-000030/style/felix_vallotton_stroke/out_dist_prompts,2.140625,2.6036215,0.5415070056915283
+exp-1102-sd15-nt-Prodigy-b-000030/style/ghibi_alter/in_dist_prompts,3.365234375,2.7498198,0.4249168038368225
+exp-1102-sd15-nt-Prodigy-b-000030/style/ghibi_alter/out_dist_prompts,3.234375,2.5958164,0.4208523631095886
+exp-1102-sd15-nt-Prodigy-b-000030/style/ukiyo_e/in_dist_prompts,2.51171875,2.8675566,0.4981544613838196
+exp-1102-sd15-nt-Prodigy-b-000030/style/ukiyo_e/out_dist_prompts,2.302734375,2.7646334,0.5351753830909729
+exp-1102-sd15-nt-Prodigy-b-000030/style/impressionism/in_dist_prompts,1.8642578125,2.6046948,0.2925025224685669
+exp-1102-sd15-nt-Prodigy-b-000030/style/impressionism/out_dist_prompts,1.81640625,2.4969063,0.2483923286199569
+exp-1102-sd15-nt-Prodigy-b-000030/style/vladimir_borovikovsky/in_dist_prompts,2.7734375,2.819947,0.3840938210487366
+exp-1102-sd15-nt-Prodigy-b-000030/style/vladimir_borovikovsky/out_dist_prompts,2.404296875,2.6806629,0.4215873479843139
+exp-1102-sd15-nt-Prodigy-b-000030/style/pencil_drawing/in_dist_prompts,2.568359375,2.699952,0.4913617670536041
+exp-1102-sd15-nt-Prodigy-b-000030/style/pencil_drawing/out_dist_prompts,2.2890625,2.6241992,0.5090194940567017
+exp-1102-sd15-nt-Prodigy-b-000030/style/ghibi/in_dist_prompts,3.1484375,3.080982,0.5551010966300964
+exp-1102-sd15-nt-Prodigy-b-000030/style/ghibi/out_dist_prompts,3.052734375,2.9421754,0.5032947063446045
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_bunny/in_dist_prompts,2.779296875,2.5035543,0.4227831661701202
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_bunny/out_dist_prompts,3.556640625,2.4321985,0.2539844810962677
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_teddybear/in_dist_prompts,2.251953125,2.606579,0.4001696109771728
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_teddybear/out_dist_prompts,2.41015625,2.5915308,0.3888629972934723
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_pink/in_dist_prompts,2.822265625,2.5075862,0.4738581776618957
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_pink/out_dist_prompts,3.1875,2.5796084,0.4311642050743103
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_panda/in_dist_prompts,3.0234375,2.5806496,0.4225015342235565
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_panda/out_dist_prompts,2.814453125,2.5002804,0.3536695539951324
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_lobster/in_dist_prompts,3.689453125,2.6111286,0.4788066446781158
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_lobster/out_dist_prompts,3.822265625,2.546781,0.4170245826244354
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_tortoise/in_dist_prompts,2.55859375,2.9146554,0.4791044890880584
+exp-1102-sd15-nt-Prodigy-b-000030/stuffed_toy/plushie_tortoise/out_dist_prompts,2.498046875,2.9575064,0.4783287346363067
+exp-1102-sd15-nt-Prodigy-b-000030/anime/yuuki_makoto/in_dist_prompts,2.87890625,3.0302408,0.4084593653678894
+exp-1102-sd15-nt-Prodigy-b-000030/anime/yuuki_makoto/out_dist_prompts,2.875,3.0390387,0.4363444149494171
+exp-1102-sd15-nt-Prodigy-b-000030/anime/yuuki_makoto/out_dist_prompts_tags,2.873046875,3.0037377,0.4092839360237121
+exp-1102-sd15-nt-Prodigy-b-000030/anime/tsushima_yoshiko/in_dist_prompts,3.47265625,3.0061877,0.4303118586540222
+exp-1102-sd15-nt-Prodigy-b-000030/anime/tsushima_yoshiko/out_dist_prompts,3.33984375,2.97303,0.3991952836513519
+exp-1102-sd15-nt-Prodigy-b-000030/anime/tsushima_yoshiko/out_dist_prompts_tags,3.31640625,2.9989774,0.3667474389076233
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/toid outfit/in_dist_prompts,3.572265625,2.9247103,0.4651541113853454
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/toid outfit/out_dist_prompts,3.44921875,2.894035,0.463855504989624
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/toid outfit/out_dist_prompts_tags,3.400390625,2.8984885,0.4578026533126831
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/none/in_dist_prompts,3.5859375,2.9338312,0.4530728459358215
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/none/out_dist_prompts,3.361328125,2.9096355,0.4587830007076263
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/none/out_dist_prompts_tags,3.298828125,2.9015012,0.4414926469326019
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/onex outfit/in_dist_prompts,3.37890625,2.9578924,0.4916760921478271
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/onex outfit/out_dist_prompts,3.220703125,2.9689248,0.5006860494613647
+exp-1102-sd15-nt-Prodigy-b-000030/anime/abukuma/onex outfit/out_dist_prompts_tags,3.189453125,2.9869998,0.4717832505702972
+exp-1102-sd15-nt-Prodigy-b-000030/anime/kotomine_kirei/in_dist_prompts,3.375,2.9894645,0.3938537538051605
+exp-1102-sd15-nt-Prodigy-b-000030/anime/kotomine_kirei/out_dist_prompts,3.38671875,2.9565153,0.3925057649612427
+exp-1102-sd15-nt-Prodigy-b-000030/anime/kotomine_kirei/out_dist_prompts_tags,3.3125,2.994922,0.3722321987152099
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/dca outfit/in_dist_prompts,3.08984375,2.910298,0.4792968034744262
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/dca outfit/out_dist_prompts,3.0625,2.900003,0.4722422063350677
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.060546875,2.9256487,0.4586621224880218
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/none/in_dist_prompts,3.25390625,2.9197478,0.4741173684597015
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/none/out_dist_prompts,3.06640625,2.8708324,0.4699522852897644
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/none/out_dist_prompts_tags,3.11328125,2.8988082,0.454818844795227
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/wafc outfit/in_dist_prompts,3.2421875,2.8715963,0.4760910868644714
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/wafc outfit/out_dist_prompts,3.140625,2.8568008,0.4717317521572113
+exp-1102-sd15-nt-Prodigy-b-000030/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.15234375,2.8863056,0.4710291922092438
+exp-1102-sd15-nt-Prodigy-b-000030/people/K-2SO/in_dist_prompts,2.21875,3.012712,0.5874477624893188
+exp-1102-sd15-nt-Prodigy-b-000030/people/K-2SO/out_dist_prompts,2.46484375,3.0243087,0.6309067010879517
+exp-1102-sd15-nt-Prodigy-b-000030/people/Bodhi_Rook/illustration/in_dist_prompts,2.478515625,3.0058422,0.5539344549179077
+exp-1102-sd15-nt-Prodigy-b-000030/people/Bodhi_Rook/illustration/out_dist_prompts,2.806640625,2.9062433,0.5937920808792114
+exp-1102-sd15-nt-Prodigy-b-000030/people/Bodhi_Rook/realistic/in_dist_prompts,2.970703125,2.930388,0.4417780339717865
+exp-1102-sd15-nt-Prodigy-b-000030/people/Bodhi_Rook/realistic/out_dist_prompts,2.669921875,2.9553025,0.4265124499797821
+exp-1102-sd15-nt-Prodigy-b-000030/people/Bodhi_Rook/figurine/in_dist_prompts,3.353515625,2.7439783,0.540556788444519
+exp-1102-sd15-nt-Prodigy-b-000030/people/Bodhi_Rook/figurine/out_dist_prompts,3.126953125,2.775166,0.583605945110321
+exp-1102-sd15-nt-Prodigy-b-000030/people/Rose_Tico/illustration/in_dist_prompts,2.57421875,3.1508138,0.5459169149398804
+exp-1102-sd15-nt-Prodigy-b-000030/people/Rose_Tico/illustration/out_dist_prompts,2.294921875,3.1056178,0.5896942615509033
+exp-1102-sd15-nt-Prodigy-b-000030/people/Rose_Tico/realistic/in_dist_prompts,2.6875,3.0013778,0.37370166182518
+exp-1102-sd15-nt-Prodigy-b-000030/people/Rose_Tico/realistic/out_dist_prompts,2.65234375,3.0333107,0.427128404378891
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.189453125,2.4787319,0.1764561831951141
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.244140625,2.5389872,0.2205884903669357
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.158203125,2.737537,0.3327905237674713
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/afro, realistic/out_dist_prompts",1.7578125,2.7154527,0.3207230269908905
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.51171875,2.6964667,0.3501650989055633
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.455078125,2.6674576,0.3606508672237396
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/afro, illustration/in_dist_prompts",3.10546875,2.8521018,0.4359398782253265
+"exp-1102-sd15-nt-Prodigy-b-000030/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.23828125,2.987349,0.516318678855896
+exp-1102-sd15-nt-Prodigy-b-000030/people/Admiral_Piett/reaslitic/in_dist_prompts,2.673828125,2.7184796,0.2962527275085449
+exp-1102-sd15-nt-Prodigy-b-000030/people/Admiral_Piett/reaslitic/out_dist_prompts,2.5,2.7468338,0.2880537509918213
+exp-1102-sd15-nt-Prodigy-b-000030/people/Admiral_Piett/figurine/in_dist_prompts,2.818359375,2.8411062,0.4381757080554962
+exp-1102-sd15-nt-Prodigy-b-000030/people/Admiral_Piett/figurine/out_dist_prompts,2.919921875,2.8427153,0.4231180846691131
+exp-1101-sd15-nt-b/scene/scene_canal/in_dist_prompts,2.708984375,2.685472,0.2671391665935516
+exp-1101-sd15-nt-b/scene/scene_canal/out_dist_prompts,2.8203125,2.7116413,0.3196514248847961
+exp-1101-sd15-nt-b/scene/scene_garden/in_dist_prompts,2.70703125,2.8289077,0.3547345101833343
+exp-1101-sd15-nt-b/scene/scene_garden/out_dist_prompts,2.92578125,2.7186642,0.3713181316852569
+exp-1101-sd15-nt-b/scene/scene_waterfall/in_dist_prompts,1.9189453125,2.8428316,0.2526442408561706
+exp-1101-sd15-nt-b/scene/scene_waterfall/out_dist_prompts,2.49609375,2.6627853,0.3125317096710205
+exp-1101-sd15-nt-b/scene/scene_castle/in_dist_prompts,2.818359375,2.5211794,0.2320228070020675
+exp-1101-sd15-nt-b/scene/scene_castle/out_dist_prompts,2.69921875,2.4908094,0.2803411781787872
+exp-1101-sd15-nt-b/scene/scene_sculpture1/in_dist_prompts,3.6171875,2.6808908,0.2650541365146637
+exp-1101-sd15-nt-b/scene/scene_sculpture1/out_dist_prompts,3.724609375,2.6590464,0.2676998078823089
+exp-1101-sd15-nt-b/style/felix_vallotton_stroke/in_dist_captions,2.009765625,2.6186242,0.5146744847297668
+exp-1101-sd15-nt-b/style/felix_vallotton_stroke/out_dist_prompts,2.201171875,2.6568387,0.5852614045143127
+exp-1101-sd15-nt-b/style/ghibi_alter/in_dist_prompts,3.119140625,2.8167248,0.4958331286907196
+exp-1101-sd15-nt-b/style/ghibi_alter/out_dist_prompts,2.529296875,2.7498004,0.5204306244850159
+exp-1101-sd15-nt-b/style/ukiyo_e/in_dist_prompts,2.5859375,2.9346108,0.5557308793067932
+exp-1101-sd15-nt-b/style/ukiyo_e/out_dist_prompts,2.369140625,2.8262641,0.5600059032440186
+exp-1101-sd15-nt-b/style/impressionism/in_dist_prompts,1.9033203125,2.7131622,0.3072545528411865
+exp-1101-sd15-nt-b/style/impressionism/out_dist_prompts,2.091796875,2.6100821,0.3192375600337982
+exp-1101-sd15-nt-b/style/vladimir_borovikovsky/in_dist_prompts,2.517578125,2.8366067,0.3914211988449096
+exp-1101-sd15-nt-b/style/vladimir_borovikovsky/out_dist_prompts,2.109375,2.6918256,0.4427429437637329
+exp-1101-sd15-nt-b/style/pencil_drawing/in_dist_prompts,2.66796875,2.8198931,0.5593727231025696
+exp-1101-sd15-nt-b/style/pencil_drawing/out_dist_prompts,2.205078125,2.7316198,0.514227569103241
+exp-1101-sd15-nt-b/style/ghibi/in_dist_prompts,3.19140625,3.1717584,0.6383892297744751
+exp-1101-sd15-nt-b/style/ghibi/out_dist_prompts,2.77734375,2.9193976,0.6139843463897705
+exp-1101-sd15-nt-b/stuffed_toy/plushie_bunny/in_dist_prompts,3.48046875,2.5000565,0.2821069657802582
+exp-1101-sd15-nt-b/stuffed_toy/plushie_bunny/out_dist_prompts,3.208984375,2.526484,0.3061548173427582
+exp-1101-sd15-nt-b/stuffed_toy/plushie_teddybear/in_dist_prompts,2.6953125,2.5527174,0.2774985730648041
+exp-1101-sd15-nt-b/stuffed_toy/plushie_teddybear/out_dist_prompts,2.583984375,2.5890932,0.3481844961643219
+exp-1101-sd15-nt-b/stuffed_toy/plushie_pink/in_dist_prompts,3.1640625,2.6270733,0.4689637124538421
+exp-1101-sd15-nt-b/stuffed_toy/plushie_pink/out_dist_prompts,3.09765625,2.5965478,0.4782686233520508
+exp-1101-sd15-nt-b/stuffed_toy/plushie_panda/in_dist_prompts,3.099609375,2.7221422,0.4814032614231109
+exp-1101-sd15-nt-b/stuffed_toy/plushie_panda/out_dist_prompts,2.70703125,2.7480552,0.464410126209259
+exp-1101-sd15-nt-b/stuffed_toy/plushie_lobster/in_dist_prompts,4.33984375,2.5455594,0.3725561797618866
+exp-1101-sd15-nt-b/stuffed_toy/plushie_lobster/out_dist_prompts,3.677734375,2.6988566,0.4609131217002868
+exp-1101-sd15-nt-b/stuffed_toy/plushie_tortoise/in_dist_prompts,2.9296875,3.0117786,0.4990028440952301
+exp-1101-sd15-nt-b/stuffed_toy/plushie_tortoise/out_dist_prompts,2.830078125,2.944981,0.4826750159263611
+exp-1101-sd15-nt-b/anime/yuuki_makoto/in_dist_prompts,2.732421875,2.9793088,0.4189752638339996
+exp-1101-sd15-nt-b/anime/yuuki_makoto/out_dist_prompts,2.927734375,2.980989,0.4307012259960174
+exp-1101-sd15-nt-b/anime/yuuki_makoto/out_dist_prompts_tags,2.896484375,3.021251,0.4082851707935333
+exp-1101-sd15-nt-b/anime/tsushima_yoshiko/in_dist_prompts,3.44921875,2.9651117,0.4330144822597503
+exp-1101-sd15-nt-b/anime/tsushima_yoshiko/out_dist_prompts,3.37890625,2.956588,0.4300888180732727
+exp-1101-sd15-nt-b/anime/tsushima_yoshiko/out_dist_prompts_tags,3.328125,3.0225875,0.4310497343540191
+exp-1101-sd15-nt-b/anime/abukuma/toid outfit/in_dist_prompts,3.310546875,2.8994977,0.4496640861034393
+exp-1101-sd15-nt-b/anime/abukuma/toid outfit/out_dist_prompts,3.375,2.9207883,0.441521406173706
+exp-1101-sd15-nt-b/anime/abukuma/toid outfit/out_dist_prompts_tags,3.494140625,2.908459,0.4179958999156952
+exp-1101-sd15-nt-b/anime/abukuma/none/in_dist_prompts,3.3984375,2.9325888,0.4549359381198883
+exp-1101-sd15-nt-b/anime/abukuma/none/out_dist_prompts,3.3203125,2.9088583,0.4244040250778198
+exp-1101-sd15-nt-b/anime/abukuma/none/out_dist_prompts_tags,3.3515625,2.9005048,0.4057401418685913
+exp-1101-sd15-nt-b/anime/abukuma/onex outfit/in_dist_prompts,3.203125,2.8834176,0.470842182636261
+exp-1101-sd15-nt-b/anime/abukuma/onex outfit/out_dist_prompts,3.26953125,2.8994765,0.4446434080600738
+exp-1101-sd15-nt-b/anime/abukuma/onex outfit/out_dist_prompts_tags,3.408203125,2.8658786,0.441821813583374
+exp-1101-sd15-nt-b/anime/kotomine_kirei/in_dist_prompts,3.166015625,3.0809069,0.4545706212520599
+exp-1101-sd15-nt-b/anime/kotomine_kirei/out_dist_prompts,3.359375,3.0003257,0.4372324645519256
+exp-1101-sd15-nt-b/anime/kotomine_kirei/out_dist_prompts_tags,3.328125,2.9679697,0.4343479871749878
+exp-1101-sd15-nt-b/anime/ikamusume/dca outfit/in_dist_prompts,3.037109375,2.907229,0.4716502428054809
+exp-1101-sd15-nt-b/anime/ikamusume/dca outfit/out_dist_prompts,3.041015625,2.848637,0.4365889728069305
+exp-1101-sd15-nt-b/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.130859375,2.9240646,0.4350722134113312
+exp-1101-sd15-nt-b/anime/ikamusume/none/in_dist_prompts,3.208984375,2.9451327,0.4528256356716156
+exp-1101-sd15-nt-b/anime/ikamusume/none/out_dist_prompts,3.08203125,2.856772,0.4316835403442383
+exp-1101-sd15-nt-b/anime/ikamusume/none/out_dist_prompts_tags,3.1328125,2.9039545,0.430895447731018
+exp-1101-sd15-nt-b/anime/ikamusume/wafc outfit/in_dist_prompts,3.205078125,2.9017663,0.4546745717525482
+exp-1101-sd15-nt-b/anime/ikamusume/wafc outfit/out_dist_prompts,3.125,2.859168,0.4489987194538116
+exp-1101-sd15-nt-b/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.189453125,2.914953,0.4379255175590515
+exp-1101-sd15-nt-b/people/K-2SO/in_dist_prompts,2.10546875,3.0169818,0.5820413827896118
+exp-1101-sd15-nt-b/people/K-2SO/out_dist_prompts,2.58203125,3.0136101,0.5541472434997559
+exp-1101-sd15-nt-b/people/Bodhi_Rook/illustration/in_dist_prompts,2.455078125,3.0081482,0.5991660952568054
+exp-1101-sd15-nt-b/people/Bodhi_Rook/illustration/out_dist_prompts,2.89453125,2.8539822,0.5859079957008362
+exp-1101-sd15-nt-b/people/Bodhi_Rook/realistic/in_dist_prompts,2.8984375,2.8671496,0.4352785944938659
+exp-1101-sd15-nt-b/people/Bodhi_Rook/realistic/out_dist_prompts,3.13671875,2.8339486,0.4207379817962646
+exp-1101-sd15-nt-b/people/Bodhi_Rook/figurine/in_dist_prompts,3.0703125,2.7209616,0.5591906905174255
+exp-1101-sd15-nt-b/people/Bodhi_Rook/figurine/out_dist_prompts,3.033203125,2.78518,0.5462038516998291
+exp-1101-sd15-nt-b/people/Rose_Tico/illustration/in_dist_prompts,2.701171875,3.1187975,0.5858892202377319
+exp-1101-sd15-nt-b/people/Rose_Tico/illustration/out_dist_prompts,2.9375,2.9784179,0.5989753603935242
+exp-1101-sd15-nt-b/people/Rose_Tico/realistic/in_dist_prompts,2.634765625,3.1069748,0.4602270126342773
+exp-1101-sd15-nt-b/people/Rose_Tico/realistic/out_dist_prompts,2.927734375,2.9059775,0.4282078444957733
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.177734375,2.7172348,0.379450261592865
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.556640625,2.823838,0.4277600347995758
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.111328125,2.9912937,0.4688824117183685
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.388671875,3.0233467,0.5029367208480835
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.41796875,2.7868404,0.5135678052902222
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.966796875,2.6437538,0.4637243151664734
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.630859375,3.0826385,0.5746157765388489
+"exp-1101-sd15-nt-b/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.236328125,2.9260907,0.5889036059379578
+exp-1101-sd15-nt-b/people/Admiral_Piett/reaslitic/in_dist_prompts,2.955078125,2.7993734,0.3568329215049743
+exp-1101-sd15-nt-b/people/Admiral_Piett/reaslitic/out_dist_prompts,2.98046875,2.7403283,0.3446674048900604
+exp-1101-sd15-nt-b/people/Admiral_Piett/figurine/in_dist_prompts,2.701171875,2.877497,0.4577417075634002
+exp-1101-sd15-nt-b/people/Admiral_Piett/figurine/out_dist_prompts,2.869140625,2.707988,0.4400899410247803
+exp-1102-sd15-nt-Prodigy-b/scene/scene_canal/in_dist_prompts,2.375,2.7324598,0.6421772837638855
+exp-1102-sd15-nt-Prodigy-b/scene/scene_canal/out_dist_prompts,2.470703125,2.7557852,0.6018545031547546
+exp-1102-sd15-nt-Prodigy-b/scene/scene_garden/in_dist_prompts,2.13671875,2.8214474,0.6814027428627014
+exp-1102-sd15-nt-Prodigy-b/scene/scene_garden/out_dist_prompts,2.1640625,2.7785685,0.6614143252372742
+exp-1102-sd15-nt-Prodigy-b/scene/scene_waterfall/in_dist_prompts,1.5263671875,2.9265652,0.3482675850391388
+exp-1102-sd15-nt-Prodigy-b/scene/scene_waterfall/out_dist_prompts,2.126953125,2.6993928,0.4388114809989929
+exp-1102-sd15-nt-Prodigy-b/scene/scene_castle/in_dist_prompts,2.37109375,2.6487472,0.5804460048675537
+exp-1102-sd15-nt-Prodigy-b/scene/scene_castle/out_dist_prompts,2.0390625,2.5985074,0.5517536997795105
+exp-1102-sd15-nt-Prodigy-b/scene/scene_sculpture1/in_dist_prompts,3.3828125,2.5696235,0.5923264622688293
+exp-1102-sd15-nt-Prodigy-b/scene/scene_sculpture1/out_dist_prompts,2.98046875,2.6020422,0.5908156037330627
+exp-1102-sd15-nt-Prodigy-b/style/felix_vallotton_stroke/in_dist_captions,2.078125,2.551204,0.3867437243461609
+exp-1102-sd15-nt-Prodigy-b/style/felix_vallotton_stroke/out_dist_prompts,2.203125,2.5432892,0.4333299696445465
+exp-1102-sd15-nt-Prodigy-b/style/ghibi_alter/in_dist_prompts,3.447265625,2.6492016,0.374379962682724
+exp-1102-sd15-nt-Prodigy-b/style/ghibi_alter/out_dist_prompts,3.04296875,2.4557188,0.3883930146694183
+exp-1102-sd15-nt-Prodigy-b/style/ukiyo_e/in_dist_prompts,2.74609375,2.6427414,0.3944373428821563
+exp-1102-sd15-nt-Prodigy-b/style/ukiyo_e/out_dist_prompts,2.470703125,2.5929327,0.4065456390380859
+exp-1102-sd15-nt-Prodigy-b/style/impressionism/in_dist_prompts,2.09765625,2.5146549,0.2234098017215728
+exp-1102-sd15-nt-Prodigy-b/style/impressionism/out_dist_prompts,2.0546875,2.4773698,0.2121372669935226
+exp-1102-sd15-nt-Prodigy-b/style/vladimir_borovikovsky/in_dist_prompts,2.880859375,2.7376854,0.3575494885444641
+exp-1102-sd15-nt-Prodigy-b/style/vladimir_borovikovsky/out_dist_prompts,2.255859375,2.5456612,0.375113308429718
+exp-1102-sd15-nt-Prodigy-b/style/pencil_drawing/in_dist_prompts,2.716796875,2.6844735,0.4269480407238006
+exp-1102-sd15-nt-Prodigy-b/style/pencil_drawing/out_dist_prompts,2.388671875,2.6664317,0.4616739153861999
+exp-1102-sd15-nt-Prodigy-b/style/ghibi/in_dist_prompts,3.2109375,3.032168,0.5541138052940369
+exp-1102-sd15-nt-Prodigy-b/style/ghibi/out_dist_prompts,3.052734375,2.8533783,0.5360246300697327
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_bunny/in_dist_prompts,2.583984375,2.5990796,0.5429210066795349
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_bunny/out_dist_prompts,3.083984375,2.633907,0.4749261736869812
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_teddybear/in_dist_prompts,2.140625,2.6243572,0.467967689037323
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_teddybear/out_dist_prompts,2.166015625,2.6143627,0.4647441804409027
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_pink/in_dist_prompts,2.826171875,2.5712304,0.476149320602417
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_pink/out_dist_prompts,2.99609375,2.6531973,0.4371386468410492
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_panda/in_dist_prompts,2.705078125,2.6952333,0.5064895749092102
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_panda/out_dist_prompts,2.2109375,2.6606987,0.4312056303024292
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_lobster/in_dist_prompts,3.625,2.6725144,0.530918300151825
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_lobster/out_dist_prompts,3.6484375,2.7261236,0.5495765805244446
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_tortoise/in_dist_prompts,2.52734375,2.9441233,0.5363008975982666
+exp-1102-sd15-nt-Prodigy-b/stuffed_toy/plushie_tortoise/out_dist_prompts,2.421875,2.9800882,0.542040228843689
+exp-1102-sd15-nt-Prodigy-b/anime/yuuki_makoto/in_dist_prompts,2.845703125,2.9603195,0.3847518265247345
+exp-1102-sd15-nt-Prodigy-b/anime/yuuki_makoto/out_dist_prompts,2.859375,2.8921862,0.405740886926651
+exp-1102-sd15-nt-Prodigy-b/anime/yuuki_makoto/out_dist_prompts_tags,2.8359375,2.9173455,0.3557167053222656
+exp-1102-sd15-nt-Prodigy-b/anime/tsushima_yoshiko/in_dist_prompts,3.54296875,2.9433432,0.4081690311431885
+exp-1102-sd15-nt-Prodigy-b/anime/tsushima_yoshiko/out_dist_prompts,3.53125,2.8382773,0.361383706331253
+exp-1102-sd15-nt-Prodigy-b/anime/tsushima_yoshiko/out_dist_prompts_tags,3.47265625,2.9102402,0.3301218152046203
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/toid outfit/in_dist_prompts,3.720703125,2.8971725,0.4235256612300873
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/toid outfit/out_dist_prompts,3.6328125,2.8116724,0.3969128727912903
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/toid outfit/out_dist_prompts_tags,3.68359375,2.7854288,0.3671263456344604
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/none/in_dist_prompts,3.669921875,2.8739557,0.4233396649360657
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/none/out_dist_prompts,3.583984375,2.8058896,0.4028591513633728
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/none/out_dist_prompts_tags,3.548828125,2.8225381,0.3725632131099701
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/onex outfit/in_dist_prompts,3.572265625,2.9132657,0.4566854834556579
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/onex outfit/out_dist_prompts,3.484375,2.8312464,0.4313591420650482
+exp-1102-sd15-nt-Prodigy-b/anime/abukuma/onex outfit/out_dist_prompts_tags,3.47265625,2.8401546,0.4033979177474975
+exp-1102-sd15-nt-Prodigy-b/anime/kotomine_kirei/in_dist_prompts,3.474609375,2.9009118,0.3310214579105377
+exp-1102-sd15-nt-Prodigy-b/anime/kotomine_kirei/out_dist_prompts,3.45703125,2.8408701,0.341739684343338
+exp-1102-sd15-nt-Prodigy-b/anime/kotomine_kirei/out_dist_prompts_tags,3.419921875,2.8431962,0.2984418272972107
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/dca outfit/in_dist_prompts,3.349609375,2.855731,0.4678000509738922
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/dca outfit/out_dist_prompts,3.330078125,2.810606,0.4394263029098511
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.333984375,2.830031,0.4376689791679382
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/none/in_dist_prompts,3.5703125,2.8740814,0.4422163367271423
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/none/out_dist_prompts,3.392578125,2.7972574,0.443680852651596
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/none/out_dist_prompts_tags,3.4140625,2.8334436,0.4277570247650146
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/wafc outfit/in_dist_prompts,3.5703125,2.8498793,0.4532240331172943
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/wafc outfit/out_dist_prompts,3.3671875,2.80103,0.4539245963096618
+exp-1102-sd15-nt-Prodigy-b/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.42578125,2.8277335,0.4449622333049774
+exp-1102-sd15-nt-Prodigy-b/people/K-2SO/in_dist_prompts,2.373046875,2.9201162,0.4651806354522705
+exp-1102-sd15-nt-Prodigy-b/people/K-2SO/out_dist_prompts,2.369140625,2.991949,0.5253250598907471
+exp-1102-sd15-nt-Prodigy-b/people/Bodhi_Rook/illustration/in_dist_prompts,2.65625,2.857156,0.451569527387619
+exp-1102-sd15-nt-Prodigy-b/people/Bodhi_Rook/illustration/out_dist_prompts,2.919921875,2.7707586,0.4293811321258545
+exp-1102-sd15-nt-Prodigy-b/people/Bodhi_Rook/realistic/in_dist_prompts,2.9921875,2.7145703,0.3330241441726684
+exp-1102-sd15-nt-Prodigy-b/people/Bodhi_Rook/realistic/out_dist_prompts,2.7734375,2.675702,0.3304462134838104
+exp-1102-sd15-nt-Prodigy-b/people/Bodhi_Rook/figurine/in_dist_prompts,3.271484375,2.6294312,0.4683836102485657
+exp-1102-sd15-nt-Prodigy-b/people/Bodhi_Rook/figurine/out_dist_prompts,3.19140625,2.54286,0.4579266607761383
+exp-1102-sd15-nt-Prodigy-b/people/Rose_Tico/illustration/in_dist_prompts,2.865234375,3.0363998,0.4491950273513794
+exp-1102-sd15-nt-Prodigy-b/people/Rose_Tico/illustration/out_dist_prompts,2.58984375,3.025106,0.5064483284950256
+exp-1102-sd15-nt-Prodigy-b/people/Rose_Tico/realistic/in_dist_prompts,2.80859375,2.9098012,0.3641371428966522
+exp-1102-sd15-nt-Prodigy-b/people/Rose_Tico/realistic/out_dist_prompts,2.95703125,2.9167647,0.3634890615940094
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.400390625,2.446942,0.2275606393814087
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.615234375,2.4238784,0.2282157391309738
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.376953125,2.7061567,0.3069732785224914
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/afro, realistic/out_dist_prompts",1.982421875,2.9191024,0.3668247163295746
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.8828125,2.5334253,0.2829308211803436
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.763671875,2.4387481,0.2891882956027984
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/afro, illustration/in_dist_prompts",3.326171875,2.663462,0.3041942119598388
+"exp-1102-sd15-nt-Prodigy-b/people/Saw_Gerrera/afro, illustration/out_dist_prompts",3.15234375,2.6890628,0.3473367393016815
+exp-1102-sd15-nt-Prodigy-b/people/Admiral_Piett/reaslitic/in_dist_prompts,2.83203125,2.6600473,0.3003949224948883
+exp-1102-sd15-nt-Prodigy-b/people/Admiral_Piett/reaslitic/out_dist_prompts,2.77734375,2.5508866,0.2462429106235504
+exp-1102-sd15-nt-Prodigy-b/people/Admiral_Piett/figurine/in_dist_prompts,2.884765625,2.8043573,0.4135876893997192
+exp-1102-sd15-nt-Prodigy-b/people/Admiral_Piett/figurine/out_dist_prompts,3.0078125,2.8014421,0.3274559676647186
+exp-1101-sd15-nt-a-000010/scene/scene_canal/in_dist_prompts,2.271484375,2.7683654,0.7006605267524719
+exp-1101-sd15-nt-a-000010/scene/scene_canal/out_dist_prompts,2.16796875,2.9154382,0.666781485080719
+exp-1101-sd15-nt-a-000010/scene/scene_garden/in_dist_prompts,2.05078125,2.8594904,0.6795150637626648
+exp-1101-sd15-nt-a-000010/scene/scene_garden/out_dist_prompts,2.19140625,2.9392831,0.618486225605011
+exp-1101-sd15-nt-a-000010/scene/scene_waterfall/in_dist_prompts,1.5,3.1496172,0.4710478186607361
+exp-1101-sd15-nt-a-000010/scene/scene_waterfall/out_dist_prompts,2.169921875,2.8472934,0.5291329622268677
+exp-1101-sd15-nt-a-000010/scene/scene_castle/in_dist_prompts,2.34765625,2.7839932,0.6479669809341431
+exp-1101-sd15-nt-a-000010/scene/scene_castle/out_dist_prompts,1.798828125,2.9842827,0.6087247729301453
+exp-1101-sd15-nt-a-000010/scene/scene_sculpture1/in_dist_prompts,3.19921875,2.7163236,0.5735673904418945
+exp-1101-sd15-nt-a-000010/scene/scene_sculpture1/out_dist_prompts,2.650390625,2.92396,0.6129887104034424
+exp-1101-sd15-nt-a-000010/style/felix_vallotton_stroke/in_dist_captions,1.6982421875,2.8573368,0.530325174331665
+exp-1101-sd15-nt-a-000010/style/felix_vallotton_stroke/out_dist_prompts,2.017578125,2.849304,0.6131145358085632
+exp-1101-sd15-nt-a-000010/style/ghibi_alter/in_dist_prompts,3.15234375,2.9176354,0.5743159651756287
+exp-1101-sd15-nt-a-000010/style/ghibi_alter/out_dist_prompts,2.416015625,2.7496374,0.5778357982635498
+exp-1101-sd15-nt-a-000010/style/ukiyo_e/in_dist_prompts,2.66796875,2.962141,0.5795930624008179
+exp-1101-sd15-nt-a-000010/style/ukiyo_e/out_dist_prompts,2.455078125,2.8861618,0.6088579297065735
+exp-1101-sd15-nt-a-000010/style/impressionism/in_dist_prompts,1.609375,2.7294986,0.3667021989822387
+exp-1101-sd15-nt-a-000010/style/impressionism/out_dist_prompts,2.009765625,2.7077088,0.3888963460922241
+exp-1101-sd15-nt-a-000010/style/vladimir_borovikovsky/in_dist_prompts,2.4140625,2.9609754,0.5272657871246338
+exp-1101-sd15-nt-a-000010/style/vladimir_borovikovsky/out_dist_prompts,2.091796875,2.816256,0.5430852174758911
+exp-1101-sd15-nt-a-000010/style/pencil_drawing/in_dist_prompts,2.353515625,2.7694888,0.5613541603088379
+exp-1101-sd15-nt-a-000010/style/pencil_drawing/out_dist_prompts,2.115234375,2.7716992,0.5375014543533325
+exp-1101-sd15-nt-a-000010/style/ghibi/in_dist_prompts,3.2890625,3.0615127,0.5591006278991699
+exp-1101-sd15-nt-a-000010/style/ghibi/out_dist_prompts,2.591796875,2.8770628,0.5842669010162354
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_bunny/in_dist_prompts,2.322265625,2.7696404,0.6623212695121765
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_bunny/out_dist_prompts,2.271484375,2.7698002,0.6476667523384094
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_teddybear/in_dist_prompts,2.185546875,2.7483182,0.6305863261222839
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_teddybear/out_dist_prompts,2.501953125,2.7712998,0.6263983249664307
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_pink/in_dist_prompts,2.650390625,2.5849848,0.4657390713691711
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_pink/out_dist_prompts,2.71875,2.597395,0.4706634879112243
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_panda/in_dist_prompts,2.587890625,2.9307702,0.6068083047866821
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_panda/out_dist_prompts,2.55078125,2.8905509,0.5878807306289673
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_lobster/in_dist_prompts,3.44921875,2.8993037,0.5957604050636292
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_lobster/out_dist_prompts,3.18359375,2.8132915,0.6330239772796631
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_tortoise/in_dist_prompts,2.7265625,2.9771485,0.6901043057441711
+exp-1101-sd15-nt-a-000010/stuffed_toy/plushie_tortoise/out_dist_prompts,2.783203125,2.9738958,0.6667038202285767
+exp-1101-sd15-nt-a-000010/anime/yuuki_makoto/in_dist_prompts,2.685546875,3.009891,0.4383151233196258
+exp-1101-sd15-nt-a-000010/anime/yuuki_makoto/out_dist_prompts,2.7578125,3.0691433,0.464066207408905
+exp-1101-sd15-nt-a-000010/anime/yuuki_makoto/out_dist_prompts_tags,2.759765625,3.0834336,0.4573318362236023
+exp-1101-sd15-nt-a-000010/anime/tsushima_yoshiko/in_dist_prompts,3.36328125,2.970794,0.4632065296173095
+exp-1101-sd15-nt-a-000010/anime/tsushima_yoshiko/out_dist_prompts,3.28515625,3.0128195,0.4762535393238067
+exp-1101-sd15-nt-a-000010/anime/tsushima_yoshiko/out_dist_prompts_tags,3.16796875,3.0668507,0.4913697838783264
+exp-1101-sd15-nt-a-000010/anime/abukuma/toid outfit/in_dist_prompts,3.27734375,2.960939,0.4397524893283844
+exp-1101-sd15-nt-a-000010/anime/abukuma/toid outfit/out_dist_prompts,3.30859375,2.9443152,0.4143851399421692
+exp-1101-sd15-nt-a-000010/anime/abukuma/toid outfit/out_dist_prompts_tags,3.392578125,3.0011082,0.4607716500759125
+exp-1101-sd15-nt-a-000010/anime/abukuma/none/in_dist_prompts,3.416015625,2.9705627,0.4477303326129913
+exp-1101-sd15-nt-a-000010/anime/abukuma/none/out_dist_prompts,3.27734375,2.9650946,0.4211110174655914
+exp-1101-sd15-nt-a-000010/anime/abukuma/none/out_dist_prompts_tags,3.36328125,3.0531924,0.4627378582954407
+exp-1101-sd15-nt-a-000010/anime/abukuma/onex outfit/in_dist_prompts,3.248046875,2.9219036,0.4450367391109466
+exp-1101-sd15-nt-a-000010/anime/abukuma/onex outfit/out_dist_prompts,3.2578125,2.9636555,0.4152734279632568
+exp-1101-sd15-nt-a-000010/anime/abukuma/onex outfit/out_dist_prompts_tags,3.482421875,3.0024216,0.4568061530590057
+exp-1101-sd15-nt-a-000010/anime/kotomine_kirei/in_dist_prompts,2.978515625,3.0380862,0.4406190812587738
+exp-1101-sd15-nt-a-000010/anime/kotomine_kirei/out_dist_prompts,3.158203125,3.0768235,0.4553278684616089
+exp-1101-sd15-nt-a-000010/anime/kotomine_kirei/out_dist_prompts_tags,3.123046875,3.0772858,0.465376079082489
+exp-1101-sd15-nt-a-000010/anime/ikamusume/dca outfit/in_dist_prompts,3.033203125,2.9159942,0.450739324092865
+exp-1101-sd15-nt-a-000010/anime/ikamusume/dca outfit/out_dist_prompts,3.044921875,2.8931937,0.4376243650913238
+exp-1101-sd15-nt-a-000010/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.140625,2.9489732,0.4565244019031524
+exp-1101-sd15-nt-a-000010/anime/ikamusume/none/in_dist_prompts,3.236328125,2.983911,0.4576766490936279
+exp-1101-sd15-nt-a-000010/anime/ikamusume/none/out_dist_prompts,3.171875,2.9112518,0.4346175789833069
+exp-1101-sd15-nt-a-000010/anime/ikamusume/none/out_dist_prompts_tags,3.173828125,2.964606,0.467914342880249
+exp-1101-sd15-nt-a-000010/anime/ikamusume/wafc outfit/in_dist_prompts,3.29296875,2.9536657,0.4726260900497436
+exp-1101-sd15-nt-a-000010/anime/ikamusume/wafc outfit/out_dist_prompts,3.2109375,2.9434848,0.4566026031970978
+exp-1101-sd15-nt-a-000010/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.302734375,2.9651613,0.4799370169639587
+exp-1101-sd15-nt-a-000010/people/K-2SO/in_dist_prompts,1.9951171875,3.0540848,0.625419557094574
+exp-1101-sd15-nt-a-000010/people/K-2SO/out_dist_prompts,2.37109375,2.99849,0.5734913349151611
+exp-1101-sd15-nt-a-000010/people/Bodhi_Rook/illustration/in_dist_prompts,2.275390625,3.11684,0.6362149119377136
+exp-1101-sd15-nt-a-000010/people/Bodhi_Rook/illustration/out_dist_prompts,2.6640625,2.9097028,0.6204205751419067
+exp-1101-sd15-nt-a-000010/people/Bodhi_Rook/realistic/in_dist_prompts,2.609375,3.02047,0.5099015235900879
+exp-1101-sd15-nt-a-000010/people/Bodhi_Rook/realistic/out_dist_prompts,2.818359375,2.923684,0.5291168093681335
+exp-1101-sd15-nt-a-000010/people/Bodhi_Rook/figurine/in_dist_prompts,2.583984375,2.7819278,0.6044475436210632
+exp-1101-sd15-nt-a-000010/people/Bodhi_Rook/figurine/out_dist_prompts,2.6796875,2.8583028,0.5985398888587952
+exp-1101-sd15-nt-a-000010/people/Rose_Tico/illustration/in_dist_prompts,2.53125,3.0716212,0.5942826271057129
+exp-1101-sd15-nt-a-000010/people/Rose_Tico/illustration/out_dist_prompts,2.69921875,3.0171845,0.6252197027206421
+exp-1101-sd15-nt-a-000010/people/Rose_Tico/realistic/in_dist_prompts,2.6484375,3.0639343,0.4873100519180298
+exp-1101-sd15-nt-a-000010/people/Rose_Tico/realistic/out_dist_prompts,3.0,3.0378852,0.53119957447052
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.6396484375,2.9655416,0.4584876298904419
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.4140625,2.9440582,0.5064500570297241
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/afro, realistic/in_dist_prompts",1.654296875,3.2378216,0.6139688491821289
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.193359375,3.1278286,0.597165048122406
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.111328125,2.7285824,0.5401113033294678
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.666015625,2.765663,0.4848977923393249
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.12109375,3.1851053,0.6384493112564087
+"exp-1101-sd15-nt-a-000010/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.115234375,3.0850797,0.6490663886070251
+exp-1101-sd15-nt-a-000010/people/Admiral_Piett/reaslitic/in_dist_prompts,2.662109375,2.8996787,0.4521481394767761
+exp-1101-sd15-nt-a-000010/people/Admiral_Piett/reaslitic/out_dist_prompts,2.78515625,2.7853272,0.3879312574863434
+exp-1101-sd15-nt-a-000010/people/Admiral_Piett/figurine/in_dist_prompts,2.6484375,2.7940485,0.5642120838165283
+exp-1101-sd15-nt-a-000010/people/Admiral_Piett/figurine/out_dist_prompts,2.75390625,2.7787316,0.537395715713501
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_canal/in_dist_prompts,2.423828125,2.943432,0.6165626645088196
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_canal/out_dist_prompts,2.357421875,2.9427917,0.6229268908500671
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_garden/in_dist_prompts,2.134765625,2.7277436,0.6183171272277832
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_garden/out_dist_prompts,2.162109375,2.6737192,0.6243841052055359
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_waterfall/in_dist_prompts,1.478515625,3.0263195,0.3659462630748749
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_waterfall/out_dist_prompts,1.96484375,2.8113654,0.454101949930191
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_castle/in_dist_prompts,2.326171875,2.7050838,0.5077434778213501
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_castle/out_dist_prompts,2.1640625,2.7839026,0.558530867099762
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_sculpture1/in_dist_prompts,3.44140625,2.6234083,0.5404659509658813
+exp-1102-sd15-nt-Prodigy-c-000010/scene/scene_sculpture1/out_dist_prompts,3.41015625,2.6242938,0.5312206149101257
+exp-1102-sd15-nt-Prodigy-c-000010/style/felix_vallotton_stroke/in_dist_captions,2.232421875,2.6115072,0.4621268212795257
+exp-1102-sd15-nt-Prodigy-c-000010/style/felix_vallotton_stroke/out_dist_prompts,2.224609375,2.5888517,0.4998842179775238
+exp-1102-sd15-nt-Prodigy-c-000010/style/ghibi_alter/in_dist_prompts,3.361328125,2.6815186,0.3537535965442657
+exp-1102-sd15-nt-Prodigy-c-000010/style/ghibi_alter/out_dist_prompts,3.04296875,2.4926417,0.3490344583988189
+exp-1102-sd15-nt-Prodigy-c-000010/style/ukiyo_e/in_dist_prompts,2.53125,2.817952,0.4203262627124786
+exp-1102-sd15-nt-Prodigy-c-000010/style/ukiyo_e/out_dist_prompts,2.431640625,2.7324593,0.433406263589859
+exp-1102-sd15-nt-Prodigy-c-000010/style/impressionism/in_dist_prompts,2.787109375,2.6702588,0.3219915330410003
+exp-1102-sd15-nt-Prodigy-c-000010/style/impressionism/out_dist_prompts,2.9375,2.719509,0.364008218050003
+exp-1102-sd15-nt-Prodigy-c-000010/style/vladimir_borovikovsky/in_dist_prompts,3.076171875,2.8190012,0.3649504780769348
+exp-1102-sd15-nt-Prodigy-c-000010/style/vladimir_borovikovsky/out_dist_prompts,2.9375,2.687861,0.3584634661674499
+exp-1102-sd15-nt-Prodigy-c-000010/style/pencil_drawing/in_dist_prompts,3.40234375,2.9222858,0.5585784912109375
+exp-1102-sd15-nt-Prodigy-c-000010/style/pencil_drawing/out_dist_prompts,3.0703125,2.9002912,0.5695670247077942
+exp-1102-sd15-nt-Prodigy-c-000010/style/ghibi/in_dist_prompts,3.365234375,3.0409186,0.5473318696022034
+exp-1102-sd15-nt-Prodigy-c-000010/style/ghibi/out_dist_prompts,3.2421875,2.8694263,0.5116627812385559
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_bunny/in_dist_prompts,2.9375,2.6098886,0.3835321068763733
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_bunny/out_dist_prompts,2.75,2.5821056,0.3687231540679931
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_teddybear/in_dist_prompts,2.296875,2.6763437,0.3830589652061462
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_teddybear/out_dist_prompts,2.1015625,2.6097765,0.4147761166095733
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_pink/in_dist_prompts,2.861328125,2.6329603,0.4813886880874634
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_pink/out_dist_prompts,2.599609375,2.7268457,0.537048876285553
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_panda/in_dist_prompts,2.701171875,2.7532728,0.5275856256484985
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_panda/out_dist_prompts,2.3828125,2.8042722,0.5268771052360535
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_lobster/in_dist_prompts,3.875,2.6084435,0.4608143270015716
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_lobster/out_dist_prompts,3.615234375,2.6332376,0.4506908655166626
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_tortoise/in_dist_prompts,2.419921875,3.0503352,0.582013726234436
+exp-1102-sd15-nt-Prodigy-c-000010/stuffed_toy/plushie_tortoise/out_dist_prompts,2.220703125,3.0575836,0.6041353344917297
+exp-1102-sd15-nt-Prodigy-c-000010/anime/yuuki_makoto/in_dist_prompts,3.193359375,2.946681,0.400038331747055
+exp-1102-sd15-nt-Prodigy-c-000010/anime/yuuki_makoto/out_dist_prompts,3.294921875,2.9499853,0.4100466668605804
+exp-1102-sd15-nt-Prodigy-c-000010/anime/yuuki_makoto/out_dist_prompts_tags,3.2265625,2.9496448,0.3962827324867248
+exp-1102-sd15-nt-Prodigy-c-000010/anime/tsushima_yoshiko/in_dist_prompts,3.578125,2.9063306,0.3884593844413757
+exp-1102-sd15-nt-Prodigy-c-000010/anime/tsushima_yoshiko/out_dist_prompts,3.46484375,2.9387789,0.3730942904949188
+exp-1102-sd15-nt-Prodigy-c-000010/anime/tsushima_yoshiko/out_dist_prompts_tags,3.482421875,2.9327786,0.3743407130241394
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/toid outfit/in_dist_prompts,3.611328125,2.8907175,0.4528131186962127
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/toid outfit/out_dist_prompts,3.505859375,2.9070787,0.4542954266071319
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/toid outfit/out_dist_prompts_tags,3.53125,2.870368,0.4491349756717682
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/none/in_dist_prompts,3.603515625,2.8925974,0.4392721056938171
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/none/out_dist_prompts,3.484375,2.916395,0.4500249922275543
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/none/out_dist_prompts_tags,3.412109375,2.8765604,0.4398951232433319
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/onex outfit/in_dist_prompts,3.455078125,2.8867974,0.4497952163219452
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/onex outfit/out_dist_prompts,3.369140625,2.898561,0.4398364722728729
+exp-1102-sd15-nt-Prodigy-c-000010/anime/abukuma/onex outfit/out_dist_prompts_tags,3.40625,2.8608975,0.4272204935550689
+exp-1102-sd15-nt-Prodigy-c-000010/anime/kotomine_kirei/in_dist_prompts,3.451171875,2.9888117,0.3792756199836731
+exp-1102-sd15-nt-Prodigy-c-000010/anime/kotomine_kirei/out_dist_prompts,3.58984375,2.9866602,0.3876810371875763
+exp-1102-sd15-nt-Prodigy-c-000010/anime/kotomine_kirei/out_dist_prompts_tags,3.56640625,2.9714613,0.3523424565792084
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/dca outfit/in_dist_prompts,3.15625,2.9338546,0.4508131146430969
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/dca outfit/out_dist_prompts,3.11328125,2.9192033,0.4489667117595672
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.087890625,2.9062939,0.4416358172893524
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/none/in_dist_prompts,3.23828125,2.9256058,0.4404005408287048
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/none/out_dist_prompts,3.232421875,2.905526,0.4333329498767853
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/none/out_dist_prompts_tags,3.142578125,2.8870118,0.4457065463066101
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/wafc outfit/in_dist_prompts,3.24609375,2.8998077,0.432008147239685
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/wafc outfit/out_dist_prompts,3.208984375,2.9032052,0.4355611503124237
+exp-1102-sd15-nt-Prodigy-c-000010/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.169921875,2.8968213,0.4280076920986175
+exp-1102-sd15-nt-Prodigy-c-000010/people/K-2SO/in_dist_prompts,2.423828125,3.0342672,0.5755681395530701
+exp-1102-sd15-nt-Prodigy-c-000010/people/K-2SO/out_dist_prompts,2.595703125,3.0592344,0.571732223033905
+exp-1102-sd15-nt-Prodigy-c-000010/people/Bodhi_Rook/illustration/in_dist_prompts,2.775390625,2.8704903,0.4731636047363281
+exp-1102-sd15-nt-Prodigy-c-000010/people/Bodhi_Rook/illustration/out_dist_prompts,3.228515625,2.8589926,0.4383337795734405
+exp-1102-sd15-nt-Prodigy-c-000010/people/Bodhi_Rook/realistic/in_dist_prompts,2.8671875,2.9614425,0.4835374355316162
+exp-1102-sd15-nt-Prodigy-c-000010/people/Bodhi_Rook/realistic/out_dist_prompts,2.83984375,2.9618018,0.4382140040397644
+exp-1102-sd15-nt-Prodigy-c-000010/people/Bodhi_Rook/figurine/in_dist_prompts,3.4296875,2.6388924,0.5168565511703491
+exp-1102-sd15-nt-Prodigy-c-000010/people/Bodhi_Rook/figurine/out_dist_prompts,3.33203125,2.6786904,0.4671516716480255
+exp-1102-sd15-nt-Prodigy-c-000010/people/Rose_Tico/illustration/in_dist_prompts,3.044921875,3.031811,0.503617525100708
+exp-1102-sd15-nt-Prodigy-c-000010/people/Rose_Tico/illustration/out_dist_prompts,3.087890625,2.9891067,0.5279930233955383
+exp-1102-sd15-nt-Prodigy-c-000010/people/Rose_Tico/realistic/in_dist_prompts,2.78515625,3.20824,0.53392094373703
+exp-1102-sd15-nt-Prodigy-c-000010/people/Rose_Tico/realistic/out_dist_prompts,2.765625,3.1686256,0.5098558664321899
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.841796875,2.9325864,0.4336066544055938
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.16015625,2.9059198,0.419620007276535
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.255859375,2.861834,0.401811420917511
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.318359375,2.90967,0.401910126209259
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.43359375,2.8076055,0.419822096824646
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.57421875,2.731685,0.4298034608364105
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.71484375,2.8194878,0.4348198771476745
+"exp-1102-sd15-nt-Prodigy-c-000010/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.55859375,2.880066,0.4529732465744018
+exp-1102-sd15-nt-Prodigy-c-000010/people/Admiral_Piett/reaslitic/in_dist_prompts,2.84375,2.8324902,0.3695328831672668
+exp-1102-sd15-nt-Prodigy-c-000010/people/Admiral_Piett/reaslitic/out_dist_prompts,2.83203125,2.817845,0.3507387638092041
+exp-1102-sd15-nt-Prodigy-c-000010/people/Admiral_Piett/figurine/in_dist_prompts,2.716796875,2.886237,0.4777984321117401
+exp-1102-sd15-nt-Prodigy-c-000010/people/Admiral_Piett/figurine/out_dist_prompts,2.84375,2.8531806,0.4866351783275604
+exp-1101-sd15-nt-c-000010/scene/scene_canal/in_dist_prompts,2.357421875,2.8292353,0.6640850901603699
+exp-1101-sd15-nt-c-000010/scene/scene_canal/out_dist_prompts,2.169921875,2.980812,0.6518394947052002
+exp-1101-sd15-nt-c-000010/scene/scene_garden/in_dist_prompts,2.046875,2.8645144,0.6798974871635437
+exp-1101-sd15-nt-c-000010/scene/scene_garden/out_dist_prompts,2.2109375,2.979212,0.6247382164001465
+exp-1101-sd15-nt-c-000010/scene/scene_waterfall/in_dist_prompts,1.392578125,3.1658816,0.4775770306587219
+exp-1101-sd15-nt-c-000010/scene/scene_waterfall/out_dist_prompts,2.126953125,2.9310234,0.5339382290840149
+exp-1101-sd15-nt-c-000010/scene/scene_castle/in_dist_prompts,2.33203125,2.9031217,0.6657862663269043
+exp-1101-sd15-nt-c-000010/scene/scene_castle/out_dist_prompts,1.76171875,3.026501,0.6435506939888
+exp-1101-sd15-nt-c-000010/scene/scene_sculpture1/in_dist_prompts,3.294921875,2.6206887,0.5345149636268616
+exp-1101-sd15-nt-c-000010/scene/scene_sculpture1/out_dist_prompts,2.810546875,2.8988068,0.5597333312034607
+exp-1101-sd15-nt-c-000010/style/felix_vallotton_stroke/in_dist_captions,1.76953125,2.764465,0.5573833584785461
+exp-1101-sd15-nt-c-000010/style/felix_vallotton_stroke/out_dist_prompts,1.9775390625,2.7822921,0.6155031323432922
+exp-1101-sd15-nt-c-000010/style/ghibi_alter/in_dist_prompts,3.189453125,2.920156,0.5547301769256592
+exp-1101-sd15-nt-c-000010/style/ghibi_alter/out_dist_prompts,2.5,2.7611291,0.5673059225082397
+exp-1101-sd15-nt-c-000010/style/ukiyo_e/in_dist_prompts,2.58203125,2.9749265,0.5875656008720398
+exp-1101-sd15-nt-c-000010/style/ukiyo_e/out_dist_prompts,2.3203125,2.893186,0.6160722970962524
+exp-1101-sd15-nt-c-000010/style/impressionism/in_dist_prompts,1.6142578125,2.7729266,0.3969978392124176
+exp-1101-sd15-nt-c-000010/style/impressionism/out_dist_prompts,2.02734375,2.757755,0.4216455817222595
+exp-1101-sd15-nt-c-000010/style/vladimir_borovikovsky/in_dist_prompts,2.412109375,2.9122858,0.4800651669502258
+exp-1101-sd15-nt-c-000010/style/vladimir_borovikovsky/out_dist_prompts,2.013671875,2.8280857,0.512657105922699
+exp-1101-sd15-nt-c-000010/style/pencil_drawing/in_dist_prompts,2.37890625,2.8140109,0.5275101661682129
+exp-1101-sd15-nt-c-000010/style/pencil_drawing/out_dist_prompts,2.13671875,2.7887528,0.5109441876411438
+exp-1101-sd15-nt-c-000010/style/ghibi/in_dist_prompts,3.396484375,3.1224194,0.5758498311042786
+exp-1101-sd15-nt-c-000010/style/ghibi/out_dist_prompts,2.564453125,2.9071274,0.5984702110290527
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_bunny/in_dist_prompts,2.40625,2.723512,0.6351088881492615
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_bunny/out_dist_prompts,2.181640625,2.7466931,0.6330984234809875
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_teddybear/in_dist_prompts,2.1875,2.7557242,0.5898781418800354
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_teddybear/out_dist_prompts,2.60546875,2.7881463,0.6185814142227173
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_pink/in_dist_prompts,2.67578125,2.6301935,0.5295130014419556
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_pink/out_dist_prompts,2.7578125,2.5898414,0.5471460819244385
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_panda/in_dist_prompts,2.578125,2.9414103,0.5932122468948364
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_panda/out_dist_prompts,2.533203125,2.8955271,0.5849616527557373
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_lobster/in_dist_prompts,3.46484375,2.8369217,0.6030219197273254
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_lobster/out_dist_prompts,3.076171875,2.8358352,0.6575448513031006
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_tortoise/in_dist_prompts,2.572265625,2.9335492,0.6581411957740784
+exp-1101-sd15-nt-c-000010/stuffed_toy/plushie_tortoise/out_dist_prompts,2.708984375,2.9526005,0.6286846995353699
+exp-1101-sd15-nt-c-000010/anime/yuuki_makoto/in_dist_prompts,2.759765625,3.0079877,0.4394105076789856
+exp-1101-sd15-nt-c-000010/anime/yuuki_makoto/out_dist_prompts,2.8125,3.0732553,0.4934009909629822
+exp-1101-sd15-nt-c-000010/anime/yuuki_makoto/out_dist_prompts_tags,2.908203125,3.1319766,0.4904848039150238
+exp-1101-sd15-nt-c-000010/anime/tsushima_yoshiko/in_dist_prompts,3.224609375,2.9734075,0.4572634100914001
+exp-1101-sd15-nt-c-000010/anime/tsushima_yoshiko/out_dist_prompts,3.2734375,3.0266232,0.4943786561489105
+exp-1101-sd15-nt-c-000010/anime/tsushima_yoshiko/out_dist_prompts_tags,3.201171875,3.1306558,0.5167430639266968
+exp-1101-sd15-nt-c-000010/anime/abukuma/toid outfit/in_dist_prompts,3.140625,2.9352024,0.4516387283802032
+exp-1101-sd15-nt-c-000010/anime/abukuma/toid outfit/out_dist_prompts,3.18359375,2.979062,0.441039115190506
+exp-1101-sd15-nt-c-000010/anime/abukuma/toid outfit/out_dist_prompts_tags,3.275390625,3.0103137,0.4543925523757934
+exp-1101-sd15-nt-c-000010/anime/abukuma/none/in_dist_prompts,3.302734375,2.9748774,0.4551597535610199
+exp-1101-sd15-nt-c-000010/anime/abukuma/none/out_dist_prompts,3.24609375,2.9910936,0.4468914866447449
+exp-1101-sd15-nt-c-000010/anime/abukuma/none/out_dist_prompts_tags,3.25,3.065421,0.4757294058799743
+exp-1101-sd15-nt-c-000010/anime/abukuma/onex outfit/in_dist_prompts,2.9765625,2.88969,0.459747165441513
+exp-1101-sd15-nt-c-000010/anime/abukuma/onex outfit/out_dist_prompts,3.197265625,2.9735684,0.4450113773345947
+exp-1101-sd15-nt-c-000010/anime/abukuma/onex outfit/out_dist_prompts_tags,3.283203125,2.995537,0.4692963063716888
+exp-1101-sd15-nt-c-000010/anime/kotomine_kirei/in_dist_prompts,3.06640625,3.1011038,0.4636823236942291
+exp-1101-sd15-nt-c-000010/anime/kotomine_kirei/out_dist_prompts,3.2734375,3.0869555,0.4819087088108063
+exp-1101-sd15-nt-c-000010/anime/kotomine_kirei/out_dist_prompts_tags,3.23828125,3.1282701,0.4756156802177429
+exp-1101-sd15-nt-c-000010/anime/ikamusume/dca outfit/in_dist_prompts,2.990234375,2.9860654,0.4614488482475281
+exp-1101-sd15-nt-c-000010/anime/ikamusume/dca outfit/out_dist_prompts,3.03515625,2.9557183,0.4621099531650543
+exp-1101-sd15-nt-c-000010/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.146484375,3.0193205,0.4665443003177643
+exp-1101-sd15-nt-c-000010/anime/ikamusume/none/in_dist_prompts,3.212890625,3.003749,0.4492718577384949
+exp-1101-sd15-nt-c-000010/anime/ikamusume/none/out_dist_prompts,3.193359375,2.944854,0.4561257660388946
+exp-1101-sd15-nt-c-000010/anime/ikamusume/none/out_dist_prompts_tags,3.18359375,2.9954329,0.4683313071727752
+exp-1101-sd15-nt-c-000010/anime/ikamusume/wafc outfit/in_dist_prompts,3.2109375,2.9838815,0.4764632284641266
+exp-1101-sd15-nt-c-000010/anime/ikamusume/wafc outfit/out_dist_prompts,3.1796875,2.968609,0.4753824472427368
+exp-1101-sd15-nt-c-000010/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.240234375,2.9941971,0.4772723913192749
+exp-1101-sd15-nt-c-000010/people/K-2SO/in_dist_prompts,1.8720703125,3.088453,0.5840721130371094
+exp-1101-sd15-nt-c-000010/people/K-2SO/out_dist_prompts,2.30859375,3.0447128,0.5628067255020142
+exp-1101-sd15-nt-c-000010/people/Bodhi_Rook/illustration/in_dist_prompts,2.287109375,3.1158242,0.6562085151672363
+exp-1101-sd15-nt-c-000010/people/Bodhi_Rook/illustration/out_dist_prompts,2.619140625,2.9337354,0.613718569278717
+exp-1101-sd15-nt-c-000010/people/Bodhi_Rook/realistic/in_dist_prompts,2.662109375,3.0753508,0.5838538408279419
+exp-1101-sd15-nt-c-000010/people/Bodhi_Rook/realistic/out_dist_prompts,2.908203125,3.0031118,0.5558063983917236
+exp-1101-sd15-nt-c-000010/people/Bodhi_Rook/figurine/in_dist_prompts,2.64453125,2.7916687,0.6197416186332703
+exp-1101-sd15-nt-c-000010/people/Bodhi_Rook/figurine/out_dist_prompts,2.685546875,2.8614488,0.6166790127754211
+exp-1101-sd15-nt-c-000010/people/Rose_Tico/illustration/in_dist_prompts,2.5234375,3.081544,0.6216867566108704
+exp-1101-sd15-nt-c-000010/people/Rose_Tico/illustration/out_dist_prompts,2.7265625,3.0094147,0.62529456615448
+exp-1101-sd15-nt-c-000010/people/Rose_Tico/realistic/in_dist_prompts,2.685546875,3.2074668,0.5649856925010681
+exp-1101-sd15-nt-c-000010/people/Rose_Tico/realistic/out_dist_prompts,3.12109375,3.074339,0.5676332712173462
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.6865234375,2.9981275,0.5210539698600769
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.53125,2.9980783,0.5772218704223633
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/afro, realistic/in_dist_prompts",1.6455078125,3.2578957,0.6441556811332703
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.255859375,3.1393619,0.6340808272361755
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.263671875,2.7687418,0.5842229127883911
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.84765625,2.820271,0.5533199310302734
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.173828125,3.1328747,0.6557070016860962
+"exp-1101-sd15-nt-c-000010/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.26953125,2.9800272,0.6315386295318604
+exp-1101-sd15-nt-c-000010/people/Admiral_Piett/reaslitic/in_dist_prompts,2.587890625,3.030725,0.5077028870582581
+exp-1101-sd15-nt-c-000010/people/Admiral_Piett/reaslitic/out_dist_prompts,2.75,2.9051964,0.4306196570396423
+exp-1101-sd15-nt-c-000010/people/Admiral_Piett/figurine/in_dist_prompts,2.6171875,2.914731,0.6413819789886475
+exp-1101-sd15-nt-c-000010/people/Admiral_Piett/figurine/out_dist_prompts,2.650390625,2.8814437,0.5924451947212219
+exp-1101-sd15-nt-c-000030/scene/scene_canal/in_dist_prompts,2.6640625,2.8527954,0.3585630655288696
+exp-1101-sd15-nt-c-000030/scene/scene_canal/out_dist_prompts,2.470703125,2.9081545,0.5097615718841553
+exp-1101-sd15-nt-c-000030/scene/scene_garden/in_dist_prompts,2.28515625,2.8766487,0.5923917293548584
+exp-1101-sd15-nt-c-000030/scene/scene_garden/out_dist_prompts,2.58984375,2.89027,0.5379289984703064
+exp-1101-sd15-nt-c-000030/scene/scene_waterfall/in_dist_prompts,1.521484375,3.1125424,0.3977974951267242
+exp-1101-sd15-nt-c-000030/scene/scene_waterfall/out_dist_prompts,2.392578125,2.8451087,0.4332916140556335
+exp-1101-sd15-nt-c-000030/scene/scene_castle/in_dist_prompts,2.8203125,2.6656811,0.3486638963222503
+exp-1101-sd15-nt-c-000030/scene/scene_castle/out_dist_prompts,2.494140625,2.5449865,0.4218285381793976
+exp-1101-sd15-nt-c-000030/scene/scene_sculpture1/in_dist_prompts,3.755859375,2.7414804,0.2925894558429718
+exp-1101-sd15-nt-c-000030/scene/scene_sculpture1/out_dist_prompts,3.7421875,2.7489138,0.3173584043979645
+exp-1101-sd15-nt-c-000030/style/felix_vallotton_stroke/in_dist_captions,1.873046875,2.6409376,0.4820939004421234
+exp-1101-sd15-nt-c-000030/style/felix_vallotton_stroke/out_dist_prompts,2.078125,2.686126,0.5613988041877747
+exp-1101-sd15-nt-c-000030/style/ghibi_alter/in_dist_prompts,3.244140625,2.8520195,0.5055595636367798
+exp-1101-sd15-nt-c-000030/style/ghibi_alter/out_dist_prompts,2.548828125,2.738664,0.5255981683731079
+exp-1101-sd15-nt-c-000030/style/ukiyo_e/in_dist_prompts,2.66015625,2.973822,0.5751931667327881
+exp-1101-sd15-nt-c-000030/style/ukiyo_e/out_dist_prompts,2.349609375,2.853545,0.5759866237640381
+exp-1101-sd15-nt-c-000030/style/impressionism/in_dist_prompts,1.8662109375,2.6947873,0.3119400441646576
+exp-1101-sd15-nt-c-000030/style/impressionism/out_dist_prompts,2.05859375,2.6377447,0.334436297416687
+exp-1101-sd15-nt-c-000030/style/vladimir_borovikovsky/in_dist_prompts,2.546875,2.8822782,0.4254674613475799
+exp-1101-sd15-nt-c-000030/style/vladimir_borovikovsky/out_dist_prompts,2.048828125,2.7193975,0.4959838092327118
+exp-1101-sd15-nt-c-000030/style/pencil_drawing/in_dist_prompts,2.6484375,2.8101854,0.5508987307548523
+exp-1101-sd15-nt-c-000030/style/pencil_drawing/out_dist_prompts,2.18359375,2.7999518,0.534909725189209
+exp-1101-sd15-nt-c-000030/style/ghibi/in_dist_prompts,3.2578125,3.1553698,0.6253147721290588
+exp-1101-sd15-nt-c-000030/style/ghibi/out_dist_prompts,2.728515625,2.923836,0.5954557657241821
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_bunny/in_dist_prompts,3.017578125,2.5746925,0.3994027078151703
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_bunny/out_dist_prompts,2.748046875,2.6044354,0.462413340806961
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_teddybear/in_dist_prompts,2.6171875,2.71939,0.3804660439491272
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_teddybear/out_dist_prompts,2.662109375,2.6833014,0.4527395665645599
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_pink/in_dist_prompts,2.796875,2.6560123,0.5279248356819153
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_pink/out_dist_prompts,2.93359375,2.6842728,0.5743261575698853
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_panda/in_dist_prompts,2.76953125,2.8428414,0.5544943809509277
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_panda/out_dist_prompts,2.537109375,2.8201292,0.544455885887146
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_lobster/in_dist_prompts,3.919921875,2.7921472,0.5404238104820251
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_lobster/out_dist_prompts,3.40234375,2.7762961,0.5878986716270447
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_tortoise/in_dist_prompts,2.580078125,3.0227609,0.5895029902458191
+exp-1101-sd15-nt-c-000030/stuffed_toy/plushie_tortoise/out_dist_prompts,2.625,2.9726367,0.5768441557884216
+exp-1101-sd15-nt-c-000030/anime/yuuki_makoto/in_dist_prompts,2.73046875,2.954687,0.386997640132904
+exp-1101-sd15-nt-c-000030/anime/yuuki_makoto/out_dist_prompts,2.888671875,2.9807923,0.4085678458213806
+exp-1101-sd15-nt-c-000030/anime/yuuki_makoto/out_dist_prompts_tags,2.873046875,3.0532477,0.3922977149486542
+exp-1101-sd15-nt-c-000030/anime/tsushima_yoshiko/in_dist_prompts,3.416015625,2.9834368,0.4420410096645355
+exp-1101-sd15-nt-c-000030/anime/tsushima_yoshiko/out_dist_prompts,3.388671875,2.9796963,0.4482604563236236
+exp-1101-sd15-nt-c-000030/anime/tsushima_yoshiko/out_dist_prompts_tags,3.2890625,3.0460901,0.4360754787921905
+exp-1101-sd15-nt-c-000030/anime/abukuma/toid outfit/in_dist_prompts,3.24609375,2.9263434,0.4521589577198028
+exp-1101-sd15-nt-c-000030/anime/abukuma/toid outfit/out_dist_prompts,3.271484375,2.91644,0.418648213148117
+exp-1101-sd15-nt-c-000030/anime/abukuma/toid outfit/out_dist_prompts_tags,3.412109375,2.9182365,0.4048746228218078
+exp-1101-sd15-nt-c-000030/anime/abukuma/none/in_dist_prompts,3.314453125,2.953084,0.4463510811328888
+exp-1101-sd15-nt-c-000030/anime/abukuma/none/out_dist_prompts,3.2578125,2.9161944,0.4144390225410461
+exp-1101-sd15-nt-c-000030/anime/abukuma/none/out_dist_prompts_tags,3.2578125,2.950787,0.4181270897388458
+exp-1101-sd15-nt-c-000030/anime/abukuma/onex outfit/in_dist_prompts,3.095703125,2.8985076,0.4527764916419983
+exp-1101-sd15-nt-c-000030/anime/abukuma/onex outfit/out_dist_prompts,3.1875,2.9252825,0.4306055009365082
+exp-1101-sd15-nt-c-000030/anime/abukuma/onex outfit/out_dist_prompts_tags,3.32421875,2.9140708,0.4284033477306366
+exp-1101-sd15-nt-c-000030/anime/kotomine_kirei/in_dist_prompts,3.05078125,3.0605712,0.4307663440704345
+exp-1101-sd15-nt-c-000030/anime/kotomine_kirei/out_dist_prompts,3.3671875,3.0155857,0.4279661178588867
+exp-1101-sd15-nt-c-000030/anime/kotomine_kirei/out_dist_prompts_tags,3.2421875,3.0059028,0.42195525765419
+exp-1101-sd15-nt-c-000030/anime/ikamusume/dca outfit/in_dist_prompts,3.001953125,2.8994033,0.4158134162425995
+exp-1101-sd15-nt-c-000030/anime/ikamusume/dca outfit/out_dist_prompts,2.9609375,2.8549252,0.3940176665782928
+exp-1101-sd15-nt-c-000030/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.16015625,2.9407666,0.3897989690303802
+exp-1101-sd15-nt-c-000030/anime/ikamusume/none/in_dist_prompts,3.134765625,2.9571562,0.4233477711677551
+exp-1101-sd15-nt-c-000030/anime/ikamusume/none/out_dist_prompts,3.150390625,2.8676443,0.4041949808597564
+exp-1101-sd15-nt-c-000030/anime/ikamusume/none/out_dist_prompts_tags,3.1640625,2.926915,0.4056897759437561
+exp-1101-sd15-nt-c-000030/anime/ikamusume/wafc outfit/in_dist_prompts,3.212890625,2.9404519,0.4344387948513031
+exp-1101-sd15-nt-c-000030/anime/ikamusume/wafc outfit/out_dist_prompts,3.109375,2.8721457,0.4190914928913116
+exp-1101-sd15-nt-c-000030/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.224609375,2.942335,0.4175239205360412
+exp-1101-sd15-nt-c-000030/people/K-2SO/in_dist_prompts,2.0,3.0486321,0.6019511818885803
+exp-1101-sd15-nt-c-000030/people/K-2SO/out_dist_prompts,2.451171875,3.0092733,0.5496566891670227
+exp-1101-sd15-nt-c-000030/people/Bodhi_Rook/illustration/in_dist_prompts,2.341796875,3.043061,0.6106387972831726
+exp-1101-sd15-nt-c-000030/people/Bodhi_Rook/illustration/out_dist_prompts,2.7578125,2.861226,0.6005960702896118
+exp-1101-sd15-nt-c-000030/people/Bodhi_Rook/realistic/in_dist_prompts,2.734375,2.9279203,0.4647964239120483
+exp-1101-sd15-nt-c-000030/people/Bodhi_Rook/realistic/out_dist_prompts,2.880859375,2.872171,0.4621237516403198
+exp-1101-sd15-nt-c-000030/people/Bodhi_Rook/figurine/in_dist_prompts,2.9453125,2.7527869,0.5722193121910095
+exp-1101-sd15-nt-c-000030/people/Bodhi_Rook/figurine/out_dist_prompts,2.802734375,2.784133,0.5639407634735107
+exp-1101-sd15-nt-c-000030/people/Rose_Tico/illustration/in_dist_prompts,2.625,3.062709,0.5810621380805969
+exp-1101-sd15-nt-c-000030/people/Rose_Tico/illustration/out_dist_prompts,2.736328125,2.9692144,0.5914750695228577
+exp-1101-sd15-nt-c-000030/people/Rose_Tico/realistic/in_dist_prompts,2.66015625,3.1240003,0.4847370386123657
+exp-1101-sd15-nt-c-000030/people/Rose_Tico/realistic/out_dist_prompts,2.99609375,2.98048,0.4628731906414032
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.919921875,2.770918,0.4191190302371979
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.49609375,2.8090048,0.4181410074234009
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/afro, realistic/in_dist_prompts",1.955078125,3.1296735,0.5406790375709534
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.39453125,3.065493,0.5377098321914673
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.4296875,2.77491,0.5369458794593811
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.814453125,2.6980822,0.4670756459236145
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.3828125,3.1121626,0.5925962328910828
+"exp-1101-sd15-nt-c-000030/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.19921875,2.963138,0.6256333589553833
+exp-1101-sd15-nt-c-000030/people/Admiral_Piett/reaslitic/in_dist_prompts,2.85546875,2.850754,0.4044632613658905
+exp-1101-sd15-nt-c-000030/people/Admiral_Piett/reaslitic/out_dist_prompts,2.849609375,2.7511532,0.3382841944694519
+exp-1101-sd15-nt-c-000030/people/Admiral_Piett/figurine/in_dist_prompts,2.76171875,2.8610773,0.4997404515743255
+exp-1101-sd15-nt-c-000030/people/Admiral_Piett/figurine/out_dist_prompts,2.873046875,2.7443936,0.4668697416782379
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_canal/in_dist_prompts,2.57421875,2.7000625,0.6244589686393738
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_canal/out_dist_prompts,2.701171875,2.767028,0.6300475001335144
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_garden/in_dist_prompts,2.1796875,2.8738818,0.6351756453514099
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_garden/out_dist_prompts,2.36328125,2.7369006,0.6108415722846985
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_waterfall/in_dist_prompts,1.712890625,2.937692,0.3615094423294067
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_waterfall/out_dist_prompts,2.203125,2.6882606,0.4255348443984985
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_castle/in_dist_prompts,2.34765625,2.672803,0.4709309041500091
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_castle/out_dist_prompts,2.248046875,2.6451516,0.4805519580841064
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_sculpture1/in_dist_prompts,3.3125,2.5980344,0.6165077090263367
+exp-1102-sd15-nt-Prodigy-c-000030/scene/scene_sculpture1/out_dist_prompts,3.06640625,2.6040144,0.5944830775260925
+exp-1102-sd15-nt-Prodigy-c-000030/style/felix_vallotton_stroke/in_dist_captions,2.091796875,2.609639,0.4081279039382934
+exp-1102-sd15-nt-Prodigy-c-000030/style/felix_vallotton_stroke/out_dist_prompts,2.166015625,2.588805,0.4691533148288727
+exp-1102-sd15-nt-Prodigy-c-000030/style/ghibi_alter/in_dist_prompts,3.513671875,2.7750201,0.4114470779895782
+exp-1102-sd15-nt-Prodigy-c-000030/style/ghibi_alter/out_dist_prompts,3.16015625,2.4658546,0.405513733625412
+exp-1102-sd15-nt-Prodigy-c-000030/style/ukiyo_e/in_dist_prompts,2.626953125,2.8187475,0.4697197675704956
+exp-1102-sd15-nt-Prodigy-c-000030/style/ukiyo_e/out_dist_prompts,2.162109375,2.5395865,0.3743626773357391
+exp-1102-sd15-nt-Prodigy-c-000030/style/impressionism/in_dist_prompts,2.166015625,2.6350832,0.2611238956451416
+exp-1102-sd15-nt-Prodigy-c-000030/style/impressionism/out_dist_prompts,2.013671875,2.5394146,0.2594926655292511
+exp-1102-sd15-nt-Prodigy-c-000030/style/vladimir_borovikovsky/in_dist_prompts,2.8671875,2.8467407,0.3772934675216675
+exp-1102-sd15-nt-Prodigy-c-000030/style/vladimir_borovikovsky/out_dist_prompts,2.6875,2.568757,0.3164653480052948
+exp-1102-sd15-nt-Prodigy-c-000030/style/pencil_drawing/in_dist_prompts,2.748046875,2.7092483,0.5009534955024719
+exp-1102-sd15-nt-Prodigy-c-000030/style/pencil_drawing/out_dist_prompts,2.498046875,2.5964403,0.5101650953292847
+exp-1102-sd15-nt-Prodigy-c-000030/style/ghibi/in_dist_prompts,3.193359375,3.0286574,0.6172575354576111
+exp-1102-sd15-nt-Prodigy-c-000030/style/ghibi/out_dist_prompts,3.087890625,2.7942889,0.5620044469833374
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_bunny/in_dist_prompts,2.923828125,2.5975373,0.4258742928504944
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_bunny/out_dist_prompts,3.6171875,2.519253,0.2764507532119751
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_teddybear/in_dist_prompts,2.142578125,2.6627133,0.4174205064773559
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_teddybear/out_dist_prompts,2.390625,2.6356874,0.358343243598938
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_pink/in_dist_prompts,2.9609375,2.5454197,0.4617937803268432
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_pink/out_dist_prompts,3.57421875,2.6483839,0.3859950304031372
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_panda/in_dist_prompts,2.857421875,2.668156,0.4946700930595398
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_panda/out_dist_prompts,2.86328125,2.6640952,0.4373052716255188
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_lobster/in_dist_prompts,3.83203125,2.6198654,0.4754570126533508
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_lobster/out_dist_prompts,4.0078125,2.611206,0.4900273382663727
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_tortoise/in_dist_prompts,2.564453125,2.8940868,0.5175708532333374
+exp-1102-sd15-nt-Prodigy-c-000030/stuffed_toy/plushie_tortoise/out_dist_prompts,2.5078125,2.9551296,0.5259034037590027
+exp-1102-sd15-nt-Prodigy-c-000030/anime/yuuki_makoto/in_dist_prompts,2.859375,3.056611,0.3978942632675171
+exp-1102-sd15-nt-Prodigy-c-000030/anime/yuuki_makoto/out_dist_prompts,2.984375,3.018839,0.4042242765426636
+exp-1102-sd15-nt-Prodigy-c-000030/anime/yuuki_makoto/out_dist_prompts_tags,3.01953125,3.004671,0.3683235645294189
+exp-1102-sd15-nt-Prodigy-c-000030/anime/tsushima_yoshiko/in_dist_prompts,3.298828125,3.0182376,0.4245724380016327
+exp-1102-sd15-nt-Prodigy-c-000030/anime/tsushima_yoshiko/out_dist_prompts,3.255859375,2.9815032,0.3855136930942535
+exp-1102-sd15-nt-Prodigy-c-000030/anime/tsushima_yoshiko/out_dist_prompts_tags,3.25390625,2.9882298,0.3529844582080841
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/toid outfit/in_dist_prompts,3.42578125,2.9062164,0.4393056631088257
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/toid outfit/out_dist_prompts,3.576171875,2.8823981,0.4453305006027221
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/toid outfit/out_dist_prompts_tags,3.595703125,2.8600833,0.419956624507904
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/none/in_dist_prompts,3.453125,2.9314127,0.4625122845172882
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/none/out_dist_prompts,3.462890625,2.9063842,0.437743216753006
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/none/out_dist_prompts_tags,3.45703125,2.9181607,0.4249491989612579
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/onex outfit/in_dist_prompts,3.34765625,2.9641123,0.4473802149295807
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/onex outfit/out_dist_prompts,3.455078125,2.9157937,0.4406430125236511
+exp-1102-sd15-nt-Prodigy-c-000030/anime/abukuma/onex outfit/out_dist_prompts_tags,3.431640625,2.8962052,0.4313918352127075
+exp-1102-sd15-nt-Prodigy-c-000030/anime/kotomine_kirei/in_dist_prompts,3.37109375,3.0303795,0.3763428926467895
+exp-1102-sd15-nt-Prodigy-c-000030/anime/kotomine_kirei/out_dist_prompts,3.46875,3.0359566,0.3996004462242126
+exp-1102-sd15-nt-Prodigy-c-000030/anime/kotomine_kirei/out_dist_prompts_tags,3.515625,3.0280352,0.3783780038356781
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/dca outfit/in_dist_prompts,3.05078125,2.9173846,0.4578624963760376
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/dca outfit/out_dist_prompts,3.103515625,2.9232035,0.4780656397342682
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/dca outfit/out_dist_prompts_tags,3.236328125,2.9482636,0.4711552560329437
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/none/in_dist_prompts,3.302734375,2.9599082,0.4699302911758423
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/none/out_dist_prompts,3.16796875,2.9180377,0.4755423367023468
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/none/out_dist_prompts_tags,3.333984375,2.9339705,0.4564125835895538
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/wafc outfit/in_dist_prompts,3.408203125,2.8813279,0.4658367037773132
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/wafc outfit/out_dist_prompts,3.275390625,2.9284186,0.4723500907421112
+exp-1102-sd15-nt-Prodigy-c-000030/anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.39453125,2.9298816,0.4654170274734497
+exp-1102-sd15-nt-Prodigy-c-000030/people/K-2SO/in_dist_prompts,2.3125,3.0226989,0.5543022751808167
+exp-1102-sd15-nt-Prodigy-c-000030/people/K-2SO/out_dist_prompts,2.53125,3.0231977,0.5792055130004883
+exp-1102-sd15-nt-Prodigy-c-000030/people/Bodhi_Rook/illustration/in_dist_prompts,2.43359375,3.071204,0.5894964933395386
+exp-1102-sd15-nt-Prodigy-c-000030/people/Bodhi_Rook/illustration/out_dist_prompts,2.654296875,3.053895,0.6188809871673584
+exp-1102-sd15-nt-Prodigy-c-000030/people/Bodhi_Rook/realistic/in_dist_prompts,2.80078125,2.876774,0.4237257242202759
+exp-1102-sd15-nt-Prodigy-c-000030/people/Bodhi_Rook/realistic/out_dist_prompts,2.685546875,2.8576133,0.3971247971057892
+exp-1102-sd15-nt-Prodigy-c-000030/people/Bodhi_Rook/figurine/in_dist_prompts,3.2265625,2.6828833,0.5223603248596191
+exp-1102-sd15-nt-Prodigy-c-000030/people/Bodhi_Rook/figurine/out_dist_prompts,3.115234375,2.713971,0.5679911375045776
+exp-1102-sd15-nt-Prodigy-c-000030/people/Rose_Tico/illustration/in_dist_prompts,2.712890625,3.137537,0.5366030335426331
+exp-1102-sd15-nt-Prodigy-c-000030/people/Rose_Tico/illustration/out_dist_prompts,2.740234375,3.125369,0.5864273309707642
+exp-1102-sd15-nt-Prodigy-c-000030/people/Rose_Tico/realistic/in_dist_prompts,2.65625,3.0328252,0.3857284188270569
+exp-1102-sd15-nt-Prodigy-c-000030/people/Rose_Tico/realistic/out_dist_prompts,2.77734375,3.0325785,0.384151428937912
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/bald, realistic/in_dist_prompts",2.115234375,2.5295534,0.2180159240961074
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.263671875,2.6525476,0.2750802338123321
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/afro, realistic/in_dist_prompts",2.37109375,2.7726808,0.3478498160839081
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.4140625,2.8397741,0.3694078922271728
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.779296875,2.57844,0.3017251491546631
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.962890625,2.4769769,0.3454959988594055
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.908203125,2.9813876,0.4412717819213867
+"exp-1102-sd15-nt-Prodigy-c-000030/people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.5859375,3.0434268,0.4791282415390014
+exp-1102-sd15-nt-Prodigy-c-000030/people/Admiral_Piett/reaslitic/in_dist_prompts,2.826171875,2.682878,0.281806468963623
+exp-1102-sd15-nt-Prodigy-c-000030/people/Admiral_Piett/reaslitic/out_dist_prompts,2.619140625,2.6660192,0.2454405426979065
+exp-1102-sd15-nt-Prodigy-c-000030/people/Admiral_Piett/figurine/in_dist_prompts,2.833984375,2.8234124,0.4232407510280609
+exp-1102-sd15-nt-Prodigy-c-000030/people/Admiral_Piett/figurine/out_dist_prompts,2.880859375,2.7305558,0.3795825541019439
+scene/scene_canal/in_dist_prompts,2.4921875,2.6966958045959477,0.6651188135147095
+scene/scene_canal/out_dist_prompts,2.23828125,2.8129913806915283,0.6074967980384827
+scene/scene_garden/in_dist_prompts,2.05859375,2.891200065612793,0.7545827627182007
+scene/scene_garden/out_dist_prompts,2.3125,2.884042739868164,0.6861942410469055
+scene/scene_waterfall/in_dist_prompts,1.3515625,3.246220350265503,0.5734392404556274
+scene/scene_waterfall/out_dist_prompts,1.9384765625,2.908400774002075,0.5528637170791626
+scene/scene_castle/in_dist_prompts,2.4296875,2.895253896713257,0.6891800761222839
+scene/scene_castle/out_dist_prompts,2.021484375,2.9629018306732178,0.6767420768737793
+scene/scene_sculpture1/in_dist_prompts,3.080078125,2.681210517883301,0.6395036578178406
+scene/scene_sculpture1/out_dist_prompts,2.638671875,2.8677008152008057,0.6068064570426941
+style/felix_vallotton_stroke/in_dist_captions,1.7724609375,2.8321971893310547,0.549557626247406
+style/felix_vallotton_stroke/out_dist_prompts,2.001953125,2.748948574066162,0.6356431841850281
+style/ghibi_alter/in_dist_prompts,2.939453125,2.880444288253784,0.5698668956756592
+style/ghibi_alter/out_dist_prompts,2.4765625,2.7033135890960693,0.6024564504623413
+style/ukiyo_e/in_dist_prompts,2.546875,2.8766512870788574,0.5683215856552124
+style/ukiyo_e/out_dist_prompts,2.322265625,2.7679386138916016,0.5776805281639099
+style/impressionism/in_dist_prompts,1.5126953125,2.6539807319641118,0.3661713898181915
+style/impressionism/out_dist_prompts,1.720703125,2.612483263015747,0.3540800511837005
+style/vladimir_borovikovsky/in_dist_prompts,2.5859375,2.8688931465148926,0.5480121374130249
+style/vladimir_borovikovsky/out_dist_prompts,2.302734375,2.7382733821868896,0.5132122039794922
+style/pencil_drawing/in_dist_prompts,2.380859375,2.822076797485352,0.5715256333351135
+style/pencil_drawing/out_dist_prompts,2.279296875,2.778501272201538,0.5945023894309998
+style/ghibi/in_dist_prompts,3.087890625,2.9294638633728027,0.5567514300346375
+style/ghibi/out_dist_prompts,2.435546875,2.7240731716156006,0.5675404071807861
+stuffed_toy/plushie_bunny/in_dist_prompts,2.580078125,2.6448895931243896,0.602872908115387
+stuffed_toy/plushie_bunny/out_dist_prompts,2.3203125,2.814664363861084,0.6416872143745422
+stuffed_toy/plushie_teddybear/in_dist_prompts,2.150390625,2.7653379440307617,0.6470695734024048
+stuffed_toy/plushie_teddybear/out_dist_prompts,2.52734375,2.722660541534424,0.6811186075210571
+stuffed_toy/plushie_pink/in_dist_prompts,3.171875,2.8496947288513184,0.5226501226425171
+stuffed_toy/plushie_pink/out_dist_prompts,3.228515625,2.7690093517303467,0.5156140923500061
+stuffed_toy/plushie_panda/in_dist_prompts,2.470703125,3.064058303833008,0.6256265044212341
+stuffed_toy/plushie_panda/out_dist_prompts,2.51953125,2.9574573040008545,0.6048492789268494
+stuffed_toy/plushie_lobster/in_dist_prompts,3.638671875,2.80918025970459,0.5928369760513306
+stuffed_toy/plushie_lobster/out_dist_prompts,3.359375,2.827857255935669,0.6066963076591492
+stuffed_toy/plushie_tortoise/in_dist_prompts,2.51171875,2.84093713760376,0.6507740020751953
+stuffed_toy/plushie_tortoise/out_dist_prompts,2.560546875,2.932194232940674,0.6513712406158447
+anime/yuuki_makoto/in_dist_prompts,2.8359375,2.9401583671569824,0.4284595251083374
+anime/yuuki_makoto/out_dist_prompts,2.96484375,3.010226249694824,0.4620775580406189
+anime/yuuki_makoto/out_dist_prompts_tags,2.888671875,3.019026517868042,0.3973197937011719
+anime/tsushima_yoshiko/in_dist_prompts,3.345703125,2.9693615436553955,0.4799597859382629
+anime/tsushima_yoshiko/out_dist_prompts,3.3125,3.0292346477508545,0.4940581023693084
+anime/tsushima_yoshiko/out_dist_prompts_tags,3.23046875,3.067189931869507,0.4357783496379852
+anime/abukuma/toid outfit/in_dist_prompts,3.224609375,3.0155246257781982,0.5100539922714233
+anime/abukuma/toid outfit/out_dist_prompts,3.228515625,3.0197370052337646,0.5110393166542053
+anime/abukuma/toid outfit/out_dist_prompts_tags,3.29296875,3.0125932693481445,0.4631480872631073
+anime/abukuma/none/in_dist_prompts,3.486328125,2.9837722778320312,0.4878838658332824
+anime/abukuma/none/out_dist_prompts,3.265625,2.995318651199341,0.5052796006202698
+anime/abukuma/none/out_dist_prompts_tags,3.322265625,3.002769470214844,0.4455374479293823
+anime/abukuma/onex outfit/in_dist_prompts,3.1328125,2.8958539962768555,0.4503475427627563
+anime/abukuma/onex outfit/out_dist_prompts,3.279296875,2.9344191551208496,0.4711695909500122
+anime/abukuma/onex outfit/out_dist_prompts_tags,3.345703125,2.957998991012573,0.412668764591217
+anime/kotomine_kirei/in_dist_prompts,2.810546875,3.095571517944336,0.5214472413063049
+anime/kotomine_kirei/out_dist_prompts,3.20703125,3.046150922775269,0.507334291934967
+anime/kotomine_kirei/out_dist_prompts_tags,3.1484375,3.035529851913452,0.4731206893920898
+anime/ikamusume/dca outfit/in_dist_prompts,3.037109375,3.0044214725494385,0.4685274362564087
+anime/ikamusume/dca outfit/out_dist_prompts,3.134765625,2.96237850189209,0.4488995671272278
+anime/ikamusume/dca outfit/out_dist_prompts_tags,3.18359375,2.980059862136841,0.4240365922451019
+anime/ikamusume/none/in_dist_prompts,3.18359375,2.9986488819122314,0.4697560369968414
+anime/ikamusume/none/out_dist_prompts,3.18359375,2.9356560707092285,0.4525589048862457
+anime/ikamusume/none/out_dist_prompts_tags,3.228515625,2.964132785797119,0.4332781136035919
+anime/ikamusume/wafc outfit/in_dist_prompts,3.126953125,3.029581308364868,0.5022426247596741
+anime/ikamusume/wafc outfit/out_dist_prompts,3.220703125,2.989927291870117,0.4826536476612091
+anime/ikamusume/wafc outfit/out_dist_prompts_tags,3.267578125,2.998802423477173,0.4798061847686767
+people/K-2SO/in_dist_prompts,1.888671875,3.082651376724243,0.6623415946960449
+people/K-2SO/out_dist_prompts,2.357421875,3.005314350128174,0.614642858505249
+people/Bodhi_Rook/illustration/in_dist_prompts,2.43359375,2.9551470279693604,0.6348477602005005
+people/Bodhi_Rook/illustration/out_dist_prompts,2.740234375,2.882946491241455,0.6370247602462769
+people/Bodhi_Rook/realistic/in_dist_prompts,2.875,3.0665316581726074,0.6495400071144104
+people/Bodhi_Rook/realistic/out_dist_prompts,2.9453125,2.9869818687438965,0.6111106276512146
+people/Bodhi_Rook/figurine/in_dist_prompts,2.63671875,2.8803646564483643,0.6929365396499634
+people/Bodhi_Rook/figurine/out_dist_prompts,2.873046875,2.950026512145996,0.6748412251472473
+people/Rose_Tico/illustration/in_dist_prompts,2.646484375,2.976607084274292,0.6161180734634399
+people/Rose_Tico/illustration/out_dist_prompts,2.837890625,2.8890981674194336,0.6268797516822815
+people/Rose_Tico/realistic/in_dist_prompts,2.5703125,3.0531020164489746,0.5478391051292419
+people/Rose_Tico/realistic/out_dist_prompts,3.171875,2.9700632095336914,0.5716155171394348
+"people/Saw_Gerrera/bald, realistic/in_dist_prompts",1.8837890625,3.2840676307678223,0.686858594417572
+"people/Saw_Gerrera/bald, realistic/out_dist_prompts",2.58984375,2.944737911224365,0.5887729525566101
+"people/Saw_Gerrera/afro, realistic/in_dist_prompts",1.9833984375,3.349240779876709,0.6964681148529053
+"people/Saw_Gerrera/afro, realistic/out_dist_prompts",2.578125,3.0531201362609863,0.6290442943572998
+"people/Saw_Gerrera/bald, 3d/in_dist_prompts",2.181640625,2.903407096862793,0.6537733674049377
+"people/Saw_Gerrera/bald, 3d/out_dist_prompts",2.962890625,2.9129562377929688,0.603470504283905
+"people/Saw_Gerrera/afro, illustration/in_dist_prompts",2.22265625,3.216886520385742,0.711293637752533
+"people/Saw_Gerrera/afro, illustration/out_dist_prompts",2.328125,2.9814140796661377,0.6643174886703491
+people/Admiral_Piett/reaslitic/in_dist_prompts,2.326171875,2.9581241607666016,0.439325600862503
+people/Admiral_Piett/reaslitic/out_dist_prompts,2.9609375,2.813145160675049,0.4624916017055511
+people/Admiral_Piett/figurine/in_dist_prompts,2.275390625,2.9902422428131104,0.6876744627952576
+people/Admiral_Piett/figurine/out_dist_prompts,2.607421875,2.876887798309326,0.5972424745559692
