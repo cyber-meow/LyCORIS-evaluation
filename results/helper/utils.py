@@ -18,6 +18,31 @@ def display_all_columns():
     pd.set_option("display.max_columns", prev_option)
 
 
+def get_metric_list(metric_types,
+                    encoders,
+                    modes,
+                    prompt_types,
+                    style_with_base_model):
+    metric_list = []
+    for metric_type, encoder_list in zip(metric_types, encoders):
+        if not isinstance(encoder_list, list):
+            encoder_list = [encoder_list]
+        for prompt_type in prompt_types:
+            for encoder in encoder_list:
+                if metric_type in [
+                        'Image Similarity', 'Squared Centroid Distance']:
+                    for mode in modes:
+                        metric = (
+                            metric_type, f'{encoder}-{mode}', prompt_type)
+                        metric_list.append(metric)
+                else:
+                    metric = (metric_type, encoder, prompt_type)
+                    metric_list.append(metric)
+        if metric_type == 'Style Loss' and style_with_base_model:
+            metric_list.append(('Style Loss', 'Vgg19', 'base model'))
+    return metric_list
+
+
 def detect_systematically_worse(df, metric_triplets, threshold):
     """
     Returns the subframe containing rows for which all specified metric means
