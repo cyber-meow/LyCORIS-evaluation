@@ -130,8 +130,9 @@ def main(args):
                                                        args.batch_size,
                                                        (not args.no_autocast),
                                                        device=device)
-                npz = np.load(save_path)
-                image_features_all = dict(npz.items())
+                if os.path.exists(save_path):
+                    npz = np.load(save_path)
+                    image_features_all = dict(npz.items())
                 image_features_all[feature_key] = image_features.numpy()
 
                 # Ensure the directory exists
