@@ -1,5 +1,6 @@
 import pandas as pd
 from contextlib import contextmanager
+from scipy.stats import hmean
 
 
 @contextmanager
@@ -82,3 +83,27 @@ def detect_systematically_worse(df, metric_triplets, threshold):
     subframe = df[combined_condition]
 
     return subframe
+
+
+def select_best_step(data_frame, metrics_of_interest, avg_mode='harmonic'):
+    # Create a new column with the names of the columns to
+    # look for the mean metrics
+    metric_mean_cols = [metric + ('mean',) for metric in metrics_of_interest]
+
+    # Compute the average based on avg_mode
+    if avg_mode == 'harmonic':
+        data_frame['Average'] = data_frame[metric_mean_cols].apply(
+            lambda row: hmean(row.dropna()), axis=1)
+    elif avg_mode == 'arithmetic':
+        data_frame['Average'] = data_frame[metric_mean_cols].mean(axis=1)
+    else:
+        raise ValueError(
+            "avg_mode should be either 'harmonic' or 'arithmetic'")
+
+    # For each unique Config, select the one with the highest average
+    idx_best_steps = data_frame.groupby('Config')['Average'].idxmax()
+
+    # Create a DataFrame containing only the best steps
+    best_steps_df = data_frame.loc[idx_best_steps]
+
+    return best_steps_df

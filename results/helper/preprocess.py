@@ -200,6 +200,7 @@ def load_and_preprocess_metrics(
     if distances_metrics is None:
         distance_metrics = DISTANCE_METRICS
     df_metrics = pd.read_csv(metric_file)
+    df_metrics = df_metrics[df_metrics['Folder'].apply(lambda x: 'exp' in x)]
     existing_columns = list(df_metrics.columns)
     df_metrics = df_metrics[
         existing_columns[:1] + sorted(existing_columns[1:])]
@@ -219,3 +220,70 @@ def load_and_preprocess_metrics(
     for target in category_configs:
         config_mapping[target] = config_mapping[target].astype('category')
     return join_with_config(df_ranked, config_mapping)
+
+
+def compute_additional_attributes(row, multiindex=False):
+    algo = row['Algo']
+    dim = row['Dim']
+    alpha = row['Alpha']
+    factor = row['Factor']
+    lr = row['Lr']
+    if multiindex:
+        algo = algo.item()
+        dim = dim.item()
+        alpha = alpha.item()
+        factor = factor.item()
+        lr = factor.item()
+    if algo == 'full':
+        size = 4
+        scale = 1
+        lrs = [5e-7, 1e-6, 5e-6]
+    elif algo == 'lokr':
+        size = [12, 8, 4].index(factor) + 1
+        scale = 1
+        lrs = [5e-4, 1e-3, 5e-3]
+    elif algo == 'loha':
+        if dim == 4:
+            size = 2
+        elif dim == 16:
+            size = 3
+        scale = alpha / dim
+        lrs = [5e-4, 1e-3, 5e-3]
+    elif algo == 'lora':
+        if dim == 8:
+            size = 2
+        elif dim == 32:
+            size = 3
+        scale = alpha / dim
+        lrs = [5e-5, 1e-4, 5e-4]
+    lr_scale = lrs.index(lr) + 1
+    column_names = ['Capacity', 'Scale', 'Lr Level']
+    result = pd.Series({
+        column_names[0]: size,
+        column_names[1]: scale,
+        column_names[2]: lr_scale})
+    return result
+
+
+def transform_attributes(df, drop=True,
+                         drop_scale=False, multiindex=False):
+    new_columns = df.apply(compute_additional_attributes, axis=1)
+    if multiindex:
+        existing_levels = df.columns.nlevels
+        multi_index = [(col, *[''] * (existing_levels-1))
+                       for col in new_columns.columns]
+        multi_index = pd.MultiIndex.from_tuples(
+            multi_index, names=[None] * existing_levels)
+        new_columns.columns = multi_index
+    X = pd.concat([df, new_columns], axis=1)
+    if drop:
+        if multiindex:
+            X = X.drop(columns=['Lr', 'Dim', 'Alpha', 'Factor'], level=0)
+        else:
+            X = X.drop(columns=['Lr', 'Dim', 'Alpha', 'Factor'])
+    if drop_scale:
+        if multiindex:
+            X = X.drop(columns=['Scale'], level=0)
+        else:
+            X = X.drop(columns=['Scale'])
+    return X
