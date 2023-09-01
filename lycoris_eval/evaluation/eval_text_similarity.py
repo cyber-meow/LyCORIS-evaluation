@@ -16,7 +16,8 @@ def compute_cosine_similarity(arr_a, arr_b):
     """Compute average cosine similarity between two tensors.
     The pairs are in 1-1 correspondance.
     """
-    tensor_a, tensor_b = torch.tensor(arr_a), torch.tensor(arr_b)
+    tensor_a = torch.tensor(arr_a).to(torch.float32)
+    tensor_b = torch.tensor(arr_b).to(torch.float32)
     similarities = cosine_similarity(tensor_a, tensor_b)
     return similarities.mean().item()
 
