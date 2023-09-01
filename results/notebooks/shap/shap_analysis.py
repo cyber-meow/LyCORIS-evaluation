@@ -120,3 +120,24 @@ class FeatureAnalysis(object):
                 save_name = os.path.join(
                     f"figures/{title}.png")
             plt.savefig(save_name)
+
+    def transform_nt(self):
+        # Transforming the contribution of capacity 4 to algo
+        # Find all rows where 'Capacity' is 4
+        condition = self.X_for_plot['Capacity'] == 4
+
+        # Indices where condition is True
+        indices = np.where(condition)[0]
+
+        index_algo = list(self.X_for_plot.columns).index('Algo')
+        index_cap = list(self.X_for_plot.columns).index('Capacity')
+
+        # Perform the specified operations
+        for index in indices:
+            for model_name in self.models:
+                shap_value = self.models[model_name]['shap_values']
+                shap_value[index, index_algo] += shap_value[index, index_cap]
+                shap_value[index, index_cap] = 0
+
+        # Set 'Capacity' to NaN where condition is True
+        self.X_for_plot.loc[condition, 'Capacity'] = np.nan

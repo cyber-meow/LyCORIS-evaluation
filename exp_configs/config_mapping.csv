@@ -23,8 +23,11 @@ exp-1025-sd15-lokrf8-attnonly,lokr,attn-only,0.0005,10000,1,8
 exp-1026-sd15-lokrf8-lr1e-3,lokr,attn-mlp,0.001,10000,1,8
 exp-1027-sd15-lokrf8-lr5e-3,lokr,attn-mlp,0.005,10000,1,8
 exp-1028-sd15-lokrf8-lr1e-4,lokr,attn-mlp,0.0001,10000,1,8
-exp-1031-sd15-nt,full,full,1e-06,N/A,N/A,N/A
+exp-1031-sd15-nt,full,attn-mlp,1e-06,N/A,N/A,N/A
 exp-1032-sd15-nt-full,full,full,1e-06,N/A,N/A,N/A
-exp-1033-sd15-nt-attnonly,full,full,1e-06,N/A,N/A,N/A
-exp-1034-sd15-nt-lr5e-6,full,full,5e-06,N/A,N/A,N/A
-exp-1035-sd15-nt-lr5e-7,full,full,5e-07,N/A,N/A,N/A
+exp-1033-sd15-nt-attnonly,full,attn-only,1e-06,N/A,N/A,N/A
+exp-1034-sd15-nt-lr5e-6,full,attn-mlp,5e-06,N/A,N/A,N/A
+exp-1035-sd15-nt-lr5e-7,full,attn-mlp,5e-07,N/A,N/A,N/A
+exp-1036-sd15-nt-attnonly-lr5e-6,full,attn-only,5e-06,N/A,N/A,N/A
+exp-1037-sd15-nt-full-lr5e-6,full,full,5e-06,N/A,N/A,N/A
+exp-1038-sd15-nt-lr1e-5,full,attn-mlp,1e-05,N/A,N/A,N/A
