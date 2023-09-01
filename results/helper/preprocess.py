@@ -1,4 +1,5 @@
 import pandas as pd
+from functools import partial
 
 
 SCORE_METRICS = ['Text Similarity', 'Image Similarity', 'Vendi', 'vendi']
@@ -228,12 +229,13 @@ def compute_additional_attributes(row, multiindex=False):
     alpha = row['Alpha']
     factor = row['Factor']
     lr = row['Lr']
+    lrs = [1e-4, 5e-4, 1e-3]
     if multiindex:
         algo = algo.item()
         dim = dim.item()
         alpha = alpha.item()
         factor = factor.item()
-        lr = factor.item()
+        lr = lr.item()
     if algo == 'full':
         size = 4
         scale = 1
@@ -241,21 +243,21 @@ def compute_additional_attributes(row, multiindex=False):
     elif algo == 'lokr':
         size = [12, 8, 4].index(factor) + 1
         scale = 1
-        lrs = [5e-4, 1e-3, 5e-3]
+        # lrs = [5e-4, 1e-3, 5e-3]
     elif algo == 'loha':
         if dim == 4:
             size = 2
         elif dim == 16:
             size = 3
         scale = alpha / dim
-        lrs = [5e-4, 1e-3, 5e-3]
+        # lrs = [5e-4, 1e-3, 5e-3]
     elif algo == 'lora':
         if dim == 8:
             size = 2
         elif dim == 32:
             size = 3
         scale = alpha / dim
-        lrs = [5e-5, 1e-4, 5e-4]
+        # lrs = [5e-5, 1e-4, 5e-4]
     lr_scale = lrs.index(lr) + 1
     column_names = ['Capacity', 'Scale', 'Lr Level']
     result = pd.Series({
@@ -267,7 +269,9 @@ def compute_additional_attributes(row, multiindex=False):
 
 def transform_attributes(df, drop=True,
                          drop_scale=False, multiindex=False):
-    new_columns = df.apply(compute_additional_attributes, axis=1)
+    compute_add = partial(
+        compute_additional_attributes, multiindex=multiindex)
+    new_columns = df.apply(compute_add, axis=1)
     if multiindex:
         existing_levels = df.columns.nlevels
         multi_index = [(col, *[''] * (existing_levels-1))

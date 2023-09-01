@@ -1,3 +1,4 @@
+import os
 import sys
 
 import pandas as pd
@@ -40,7 +41,7 @@ class FeatureAnalysis(object):
 
     def transform_X_for_plot(self, X):
         plot_orders = {
-            'Algo': ['lora', 'loha', 'lokr'],
+            'Algo': ['lora', 'loha', 'lokr', 'full'],
             'Preset': ['attn-only', 'attn-mlp', 'full'],
         }
         df = X.copy()

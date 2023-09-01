@@ -123,7 +123,7 @@ def filter_config_and_aggregate(data_frame,
         for key in extra_condition:
             data_frame = data_frame[data_frame[key] == extra_condition[key]]
     if algos is None:
-        algos = ['lora', 'loha', 'lokr']
+        algos = ['lora', 'loha', 'lokr', 'full']
     if default_keywords is None:
         default_keywords = ["1001", "1011", "1021", "1031"]
     keyword_condition = data_frame['Config'].apply(
