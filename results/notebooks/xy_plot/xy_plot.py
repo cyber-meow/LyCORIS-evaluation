@@ -10,6 +10,7 @@ def plot_metrics_xy(data_frame,
                     shape_mapping=None,
                     legend=True,
                     step=None,
+                    use_full=True,
                     save_name=None):
 
     # Ensure 'steps' is a list
@@ -66,11 +67,17 @@ def plot_metrics_xy(data_frame,
 
     # Plot legend for color
     for color_val, color in color_map.items():
+        if color_val == 'full':
+            if not use_full:
+                continue
+            color_val = 'full matrix'
         handle, = plt.plot([], [], 'o', color=color, label=color_val)
         handles.append(handle)
 
     # Plot legend for shape
     for shape_val, marker in shape_map.items():
+        if shape_val == 'full':
+            shape_val = 'full network'
         if shape_mapping is not None:
             shape_val = shape_mapping[shape_val]
         handle, = plt.plot([], [], marker, color='gray', label=shape_val)
@@ -80,9 +87,28 @@ def plot_metrics_xy(data_frame,
         plt.legend(title=f'{color_by} / {shape_by}', loc="best")
 
     if metric_2[0] == 'Squared Centroid Distance':
-        metric_2 = ('Centroid Distance', '', metric_2[2])
-    plt.xlabel(f'{metric_1[0]}-{metric_1[2]}')
-    plt.ylabel(f'{metric_2[0]}-{metric_2[2]}')
+        # metric_2 = (r'$\mathrm{dist}_{\mathrm{cent}}^2$', '', metric_2[2])
+        metric_2 = ('Image Similarity-SQD', '', metric_2[2])
+
+    if metric_1[0] == 'Vendi':
+        metric_1 = ('Diversity', '', metric_1[2])
+
+    if metric_1[0] == 'Style Loss':
+        metric_1 = ('Model Preservation', '', metric_1[2])
+    if metric_2[0] == 'Style Loss':
+        metric_2 = ('Style Similarity', '', metric_2[2])
+
+    prompt_types = {
+        'in': 'train',
+        'trigger': 'trigger',
+        'out': 'alter',
+        'base model': 'style',
+    }
+    x_label = f'{metric_1[0]} ({prompt_types[metric_1[2]]})'
+    y_label = f'{metric_2[0]} ({prompt_types[metric_2[2]]})'
+
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
     plt.grid(True)
     if save_name is not None:
         plt.savefig(save_name)
