@@ -88,7 +88,7 @@ def plot_metrics_xy(data_frame,
 
     if metric_2[0] == 'Squared Centroid Distance':
         # metric_2 = (r'$\mathrm{dist}_{\mathrm{cent}}^2$', '', metric_2[2])
-        metric_2 = ('Image Similarity-SQD', '', metric_2[2])
+        metric_2 = ('Image Similarity-SCD', '', metric_2[2])
 
     if metric_1[0] == 'Vendi':
         metric_1 = ('Diversity', '', metric_1[2])
