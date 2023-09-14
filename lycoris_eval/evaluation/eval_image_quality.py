@@ -69,7 +69,7 @@ def compute_image_scores(image_paths,
     with torch.no_grad(), torch.autocast(device_type=device, enabled=autocast):
         for keys, images in dataloader:
             images = images.to(device)
-            scores = scorer(images)
+            scores = scorer(images, n_patches=n_patches)
             if not torch.all(torch.isfinite(scores)):
                 raise ValueError('Invalid scores detected')
             all_keys.extend(keys)
