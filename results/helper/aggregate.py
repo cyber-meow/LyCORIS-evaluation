@@ -71,8 +71,8 @@ def aggregate_subclass(df, metric_fields=None):
     if len(df_with_subclass) == 0:
         return df
     group_fields = [
-        'Config', 'Algo', 'Preset', 'Lr', 'Dim', 'Alpha', 'Factor', 'Seed',
-        'Step', 'Category', 'Class'
+        'Config', 'Algo', 'Preset', 'Lr', 'Dim', 'Alpha', 'Factor',
+        'Caption', 'Seed', 'Step', 'Category', 'Class'
     ]
     aggregated_df = aggregate_metrics_aux(df_with_subclass,
                                           group_fields,
@@ -99,8 +99,8 @@ def aggregate_metrics(df,
     if level == 'Class' and not group_seeds:
         return df_agg_subclass
     group_fields = [
-        'Config', 'Algo', 'Preset', 'Lr', 'Dim', 'Alpha', 'Factor', 'Seed',
-        'Step', 'Category', 'Class'
+        'Config', 'Algo', 'Preset', 'Lr', 'Dim', 'Alpha', 'Factor',
+        'Caption', 'Seed', 'Step', 'Category', 'Class'
     ]
     if group_seeds:
         group_fields.remove('Seed')
