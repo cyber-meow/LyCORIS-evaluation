@@ -45,9 +45,6 @@ def plot_metrics_xy(data_frame,
         linestyle = linestyle_map[shape_val]
         filter_conditions = (data_frame[color_by] == color_val) & (
             data_frame[shape_by] == shape_val)
-        print(color_val)
-        print(shape_val)
-        print(filter_conditions)
 
         x = data_frame.loc[filter_conditions, metric_1 + ('mean', )]
         y = data_frame.loc[filter_conditions, metric_2 + ('mean', )]

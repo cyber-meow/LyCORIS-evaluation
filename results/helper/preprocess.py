@@ -91,6 +91,13 @@ def extract_config_step(folder_name):
 
 def get_folder_element(folder_str, target):
     components = folder_str.split('/')
+    if components[0].isdigit():
+        if target == 'Weight':
+            return float('0.' + components[0])
+        else:
+            del components[0]
+    if target == 'Weight':
+        return 1
     if target == 'Config':
         return extract_config_step(components[0])[0]
     elif target == 'Seed':
@@ -111,7 +118,8 @@ def get_folder_element(folder_str, target):
 
 
 def process_folder_path(df, keywords_to_exclude=None):
-    targets = ['Config', 'Seed', 'Step', 'Category', 'Class', 'Subclass']
+    targets = ['Config', 'Seed', 'Step', 'Weight',
+               'Category', 'Class', 'Subclass']
     for idx, target in enumerate(targets):
         df.insert(idx+1, target,
                   df["Folder"].apply(get_folder_element, target=target))
