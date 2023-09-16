@@ -1,0 +1,5 @@
+adl scene, outdoors, sky, cloud, tree, no humans, grass, building, nature, scenery, landscape
+adl scene, multiple girls, black hair, 2girls, outdoors, multiple boys, sky, day, cloud, 2boys, blue sky, building, scenery
+adl scene, 1girl, outdoors, sky, day, blue sky, window, building, scenery
+adl scene, multiple girls, outdoors, multiple boys, sky, day, cloud, grass, scenery, 6+boys, field, church
+adl scene, multiple girls, outdoors, sky, building, scenery

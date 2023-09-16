@@ -1,0 +1,10 @@
+hta stuffed toy, solo, indoors, no humans, bed, stuffed toy, table, stuffed animal, lamp, bedroom, panda
+hta stuffed toy, lying, indoors, no humans, animal, on side, realistic, photo background
+hta stuffed toy, lying, indoors, no humans, bed, animal, on bed, animal focus, penguin
+hta stuffed toy, lying, indoors, no humans, animal, panda
+hta stuffed toy, lying, signature, no humans, animal, on side, animal focus, panda
+hta stuffed toy, solo, lying, indoors, no humans, animal, on side, animal focus
+hta stuffed toy, solo, monochrome, greyscale, lying, indoors, pillow, no humans, bed, animal, on bed, on side, sleeping, under covers, animal focus, panda
+hta stuffed toy, indoors, no humans, animal, bottle, desk, computer, animal focus, monitor, laptop, keyboard (computer), panda, mouse (computer), drawing tablet
+hta stuffed toy, solo, outdoors, lying, no humans, on side, sleeping, grass, animal focus
+hta stuffed toy, solo, full body, indoors, no humans, window, animal, realistic, animal focus, panda

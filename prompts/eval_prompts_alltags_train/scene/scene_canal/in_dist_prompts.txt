@@ -1,0 +1,5 @@
+shld scene, outdoors, sky, day, water, blue sky, no humans, window, building, scenery, reflection, city, railing, cityscape, bridge, real world location
+shld scene, outdoors, sky, day, water, tree, blue sky, no humans, building, scenery, reflection, city, bare tree, real world location
+shld scene, outdoors, sky, day, water, tree, blue sky, no humans, building, scenery, reflection, city, bare tree, real world location
+shld scene, outdoors, sky, day, water, blue sky, no humans, building, scenery, reflection, city, cityscape, bridge, real world location
+shld scene, outdoors, sky, day, water, tree, blue sky, no humans, building, scenery, reflection, watercraft, bridge, bare tree, boat, reflective water, real world location
